@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Swiss Star</title>
+    <link rel="shortcut icon" type="image/png" href="img/17_SwissStar.png" alt="logo" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="js/wickedpicker/dist/wickedpicker.min.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+   
+</head>
+
+
+
+<body id="index_page">
+    <section id="section_first">
+        <div class="content">
+            <img src="img/01_Swiss-Star-Background-Home.png" alt="">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid mt-4">
+                        <a class="navbar-brand" href="index.html">
+                            <h3>SWISS STAR</h3>
+                            <p>WELCOME HOME</p>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav w-100">
+                                <li class="nav-item ms-lg-auto">
+                                    <a class="nav-link" href="apartments.html">Apartments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Über uns</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Kontakt</a>
+                                </li>
+                                <li class="nav-item ms-lg-auto">
+                                    <a id="btn-login" data-bs-toggle="modal" href="#tab-login"
+                                        data-bs-target="#modal-login-register" class="nav-link">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="btn-register" data-bs-toggle="modal" href="#tab-registrieren"
+                                        data-bs-target="#modal-login-register" class="nav-link">Registrieren</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div
+                    class="position-absolute section_content w-100 container h-100 d-flex flex-column justify-content-end">
+                    <h2 class="h2">Welcome Home</h2>
+                    <h1 class="h1">Apartments, Hotels & Co-Living</h1>
+                    <h1 class="fw-bold h1">in der ganzen Schweiz</h1>
+                    <h2 class="h2">Entdecken Sie jetzt über 1'000 Apartments</h2>
+                    <h2 class="h2">für Ihren nächsten Aufenthalt in der schönen Schweiz!</h2>
+                    <ul class="list-group list-group-horizontal px-60-768 mt-35">
+                        <li class="list-group-item" role="button" id="zurich" onClick="selectLocation(this.id)">Zürich
+                        </li>
+                        <li class="list-group-item" role="button" id="stGallen" onClick="selectLocation(this.id)">
+                            St.Gallen
+                        </li>
+                        <li class="list-group-item" role="button" id="geneve" onClick="selectLocation(this.id)">Genève
+                        </li>
+                        <li class="list-group-item" role="button" id="lausanne" onClick="selectLocation(this.id)">
+                            Lausanne
+                        </li>
+                        <li class="list-group-item" role="button" id="ticino" onClick="selectLocation(this.id)">Ticino
+                        </li>
+                    </ul>
+                    <form class="w-100" action="apartments.html">
+                        <div class="d-flex d-block-1023">
+                            <div class="location d-flex flex-column">
+                                <label class="">Lokation</label>
+                                <div class="form-group w-100">
+                                    <input class="form-control" id="location" type="text" autocomplete="off"
+                                        name="location" placeholder="Wo möchtest du hin?">
+                                </div>
+                            </div>
+                            <div class="check-in d-flex flex-column">
+                                <label class="">Check-in</label>
+                                <input class="form-control" name="date" id="check_inn" aria-describedby="telephoneHelpId"
+                                    placeholder="Wann?" autocomplete="off">
+                            </div>
+                            <div class="check-out d-flex flex-column">
+                                <label class="">Check-out</label>
+                                <input class="form-control" name="date" id="check_outt"
+                                    aria-describedby="telephoneHelpId" placeholder="Wann?" autocomplete="off">
+                            </div>
+                            <div class="gaste d-flex flex-column">
+                                <label class="">Gäste</label>
+                                <input class="form-control text-decoration-none table-hover" autocomplete="off"
+                                    data-bs-toggle="collapse" href="#anzahl_personen" role="button"
+                                    id="txt_anzahl_personen" aria-expanded="false" aria-controls="anzahl_personen"
+                                    placeholder="Anzahl Personen?" readonly />
+                                <div class="collapse" id="anzahl_personen">
+                                    <div class="card card-body position-absolute" id="card_test">
+                                        <div class="d-flex">
+                                            <input type="number" readonly id="spinner-1" value="0">
+                                            <div class="d-flex bbtn ms-4" style="padding-top: 10px;">
+                                                <a id="stepDown-1" role="button" class="py-0 my-0 px-3">-</a>
+                                                <a id="stepUp-1" role="button" class="py-0 my-0 px-3">+</a>
+                                            </div>
+                                        </div>
+                                        <p>Wie viele Erwachsene?</p>
+                                        <div class="hr mb-4"></div>
+                                        <div class="d-flex">
+                                            <input type="text" readonly id="spinner-2" value="0">
+                                            <div class="d-flex bbtn ms-4" style="padding-top: 10px;">
+                                                <a id="stepDown-2" role="button" class="py-0 my-0 px-3">-</a>
+                                                <a id="stepUp-2" role="button" class="py-0 my-0 px-3">+</a>
+                                            </div>
+                                        </div>
+                                        <p>Wie viele Kinder?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <button><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bg_gradient">
+            <div>
+            </div>
+        </div>
+    </section>
+    <section id="apartments_hotel" class="pt-150">
+        <div class="container pt-150">
+            <h3 class="h3">Apartments, Hotel & Co-Living</h3>
+            <p style="font-size: 20px;" class="p">Alle unsere Apartments, Hotels & Co-Livng Spaces sind möbliert und
+                werden wöchentlich
+                gesäubert.</p>
+            <div class="responsive px-20-576 mt-5 pt-5">
+                <div>
+                    <div class="img-1">
+                        <div class="col-md-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="responsive1 index_slider" >
+                                    <div>
+                                        <div class="img-15 card-img-top">
+                                            <img class="card-img-top" src="img/02_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="img-115">
+                                            <img class="card-img-top" src="img/03_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="img-5111">
+                                            <img class="card-img-top" src="img/04_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="star">
+                                    <div>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="p1">5.0</p>
+                                    <p class="p2">(15)</p>
+                                </div>
+                                <div class="card-body pb-0 px-0">
+                                    <div class="px-3">
+                                        <h5 class="card-title">Swiss Star Airport</h5>
+                                        <p class="card-text">Obstgartenstrasse 24, 8302 Kloten</p>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex  py-2"><img class="card-feature me-2"
+                                                        src="img/Pfad 9.png" alt=""> Fläche: 130m<sup
+                                                        style="top: 0%;">2</sup></span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/08_Guest.png" alt=""> Gäste: 2</span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/07_Bed.png" alt=""> Betten: 2</span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/Pfad 111.png" alt=""> WLAN: NEIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid gap-2  pt-3">
+                                        <a href="single_apartment.html" class="text-decoration-none text-white"> <button
+                                                class="btn w-100" type="button"><sub>ab</sub>119
+                                                <sup>CHF</sup></button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-2">
+                        <div class="col-md-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="test1">
+                                    <div class="responsive1 index_slider">
+                                        <div>
+                                            <div class="img-15 card-img-top">
+                                                <img class="card-img-top" src="img/04_Bild.png" alt="Card image cap">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="img-115">
+                                                <img class="card-img-top" src="img/02_Bild.png" alt="Card image cap">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="img-5111">
+                                                <img class="card-img-top" src="img/03_Bild.png" alt="Card image cap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="p1">5.0</p>
+                                        <p class="p2">(15)</p>
+                                    </div>
+                                </div>
+                                <div class="test2">
+                                    <div class="card-body pb-0 px-0">
+                                        <div class="px-3">
+                                            <h5 class="card-title">Swiss Star Airport</h5>
+                                            <p class="card-text">Obstgartenstrasse 24, 8302 Kloten</p>
+                                            <hr>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <span class="d-flex  py-2"><img class="card-feature me-2"
+                                                            src="img/Pfad 9.png" alt=""> Fläche: 130m<sup
+                                                            style="top: 0%;">2</sup></span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex py-2"><img class="card-feature me-2"
+                                                            src="img/08_Guest.png" alt=""> Gäste: 2</span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex py-2"><img class="card-feature me-2"
+                                                            src="img/07_Bed.png" alt=""> Betten: 2</span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex py-2"><img class="card-feature me-2"
+                                                            src="img/Pfad 111.png" alt=""> WLAN: NEIN</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-grid gap-2 pt-3">
+                                            <a href="single_apartment.html" class="text-decoration-none text-white">
+                                                <button class="btn w-100" type="button"><sub>ab</sub>119
+                                                    <sup>CHF</sup></button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-3">
+                        <div class="col-md-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="responsive1 index_slider">
+                                    <div>
+                                        <div class="img-15 card-img-top">
+                                            <img class="card-img-top" src="img/05_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="img-115">
+                                            <img class="card-img-top" src="img/03_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="img-5111">
+                                            <img class="card-img-top" src="img/02_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="star">
+                                    <div>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="p1">5.0</p>
+                                    <p class="p2">(15)</p>
+                                </div>
+                                <div class="card-body pb-0 px-0">
+                                    <div class="px-3">
+                                        <h5 class="card-title">Swiss Star ZH Oerlikon</h5>
+                                        <p class="card-text">Gubelstrasse 64, 8050 Zürich</p>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex  py-2"><img class="card-feature me-2"
+                                                        src="img/Pfad 9.png" alt=""> Fläche: 130m<sup
+                                                        style="top: 0%;">2</sup></span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/08_Guest.png" alt=""> Gäste: 2</span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/07_Bed.png" alt=""> Betten: 2</span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/Pfad 111.png" alt=""> WLAN: NEIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid gap-2 pt-3">
+                                        <a href="single_apartment.html" class="text-decoration-none text-white"> <button
+                                                class="btn w-100" type="button"><sub>ab</sub>119
+                                                <sup>CHF</sup></button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-4">
+                        <div class="col-md-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="responsive1 index_slider">
+                                    <div>
+                                        <div class="img-15 card-img-top">
+                                            <img class="card-img-top" src="img/02_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="img-115">
+                                            <img class="card-img-top" src="img/03_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="img-5111">
+                                            <img class="card-img-top" src="img/04_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="star">
+                                    <div>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="p1">5.0</p>
+                                    <p class="p2">(15)</p>
+                                </div>
+                                <div class="card-body pb-0 px-0">
+                                    <div class="px-3">
+                                        <h5 class="card-title">Swiss Star Sihlfeld</h5>
+                                        <p class="card-text">Dubsstrasse 30, 8003 Zürich</p>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex  py-2"><img class="card-feature me-2"
+                                                        src="img/Pfad 9.png" alt=""> Fläche: 130m<sup
+                                                        style="top: 0%;">2</sup></span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/08_Guest.png" alt=""> Gäste: 2</span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/07_Bed.png" alt=""> Betten: 2</span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/Pfad 111.png" alt=""> WLAN: NEIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid gap-2 pt-3">
+                                        <a href="single_apartment.html" class="text-decoration-none text-white"> <button
+                                                class="btn w-100" type="button"><sub>ab</sub>119
+                                                <sup>CHF</sup></button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-5">
+                        <div class="col-md-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="responsive1 index_slider">
+                                    <div>
+                                        <div class="img-15 card-img-top">
+                                            <img class="card-img-top" src="img/02_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="img-115">
+                                            <img class="card-img-top" src="img/03_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="img-5111">
+                                            <img class="card-img-top" src="img/04_Bild.png" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="star">
+                                    <div>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="p1">5.0</p>
+                                    <p class="p2">(15)</p>
+                                </div>
+                                <div class="card-body pb-0 px-0">
+                                    <div class="px-3">
+                                        <h5 class="card-title">Swiss Star Sihlfeld</h5>
+                                        <p class="card-text">Dubsstrasse 30, 8003 Zürich</p>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex  py-2"><img class="card-feature me-2"
+                                                        src="img/Pfad 9.png" alt=""> Fläche: 130m<sup
+                                                        style="top: 0%;">2</sup></span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/08_Guest.png" alt=""> Gäste: 2</span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/07_Bed.png" alt=""> Betten: 2</span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex py-2"><img class="card-feature me-2"
+                                                        src="img/Pfad 111.png" alt=""> WLAN: NEIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid gap-2 pt-3">
+                                        <a href="single_apartment.html" class="text-decoration-none text-white"> <button
+                                                class="btn w-100" type="button"><sub>ab</sub>119
+                                                <sup>CHF</sup></button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Apartment_buchen" class="pt-150">
+        <div class="container">
+            <h3 class="h3">Apartment buchen ganz einfach</h3>
+            <p class="p">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                ut
+                labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et.</p>
+            <div class="row pt-5 mt-5">
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <img src="img/10_Component1.png" alt="">
+                    <h4 class="h4 mt-5">Finden</h4>
+                    <p class="p mt-3">Finde ein passendes Apartment für dich</p>
+                </div>
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <img src="img/11_Component2.png" alt="">
+                    <h4 class="h4 mt-5">Checken</h4>
+                    <p class="p mt-3">Überprüfe die Verfügbarkeit</p>
+                </div>
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <img src="img/12_Component3.png" alt="">
+
+                    <h4 class="h4 mt-5">Reservieren</h4>
+                    <p class="p mt-3">Reserviere dein Apartment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Apartments_Hotel_Co-Living" class="pt-150">
+        <div class="container">
+            <a href="apartments.html">
+                <div class="apartments position-relative pb-5">
+                    <img class="w-100" src="img/13_Apartments.png" alt="">
+                    <h4 class="h4 t-position position-absolute">Apartments</h4>
+                </div>
+            </a>
+            <div class="d-block-768 d-flex justify-content-between pt-5">
+                <a href="apartments.html">
+                    <div class="hotel position-relative pe-3 p-0-768">
+                        <img src="img/14_Hotel.png" alt="">
+                        <h4 class="h4 t-position1 position-absolute">Hotel</h4>
+                    </div>
+                </a>
+                <a href="apartments.html">
+                    <div class="co-living position-relative ps-3 p-0-768 pt-90-768">
+                        <img src="img/15_Co-Living.png" alt="">
+                        <h4 class="h4 t-position1 position-absolute">Co-Living</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="Moderne_Apartment" class="mt-150">
+        <div class="container d-flex align-items-center h-100">
+            <div class="moderne-content p-5">
+                <h4>Moderne Apartment</h4>
+                <h5>ab 49CHF pro Nacht</h5>
+                <p class="p">Lorem ipsum dolor sit amet, consetetur sadipscingelitr, sed diam nonumy eirmod tempor
+                    invidunt
+                    ut labore et dolore </p>
+                <a class="text-decoration-none" href="apartments.html"><button>Jetzt Apartment buchen</button></a>
+            </div>
+        </div>
+    </section>
+    <section id="Unser_Service" class="pt-150">
+        <div class="container">
+            <h3 class="h3">Unser Service für Sie</h3>
+            <p style="font-size: 20px;" class="p">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                nonumy eirmod tempor invidunt
+                ut
+                labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <div class="row py-5 mb-3 pl-10-575">
+
+                <div class="br-5 my-5 col-md-6">
+                    <h5>Langzeitaufenthalt</h5>
+                    <p>Ob für eine Woche, mehrere Monate oder auf unbestimmte Zeit:
+                        Wir sind davon überzeugt, dass Sie unsere Wohnmöglichkeiten
+                        mögen. Geniessen Sie Ihre Bewegungsfreiheit, Privatsphäre,
+                        Freizeit und lassen Sie uns den Rest erledigen.</p>
+                </div>
+                <div class=" br-5 my-5 col-md-6">
+                    <h5>Reinigung</h5>
+                    <p>Unser wöchentlicher Reinigungsservice mit Wäschewechsel (Handtücher
+                        und Bettwäsche) ist im Mietpreis für alle Wohnungen, einschließlich der
+                        Entsorgung und Endreinigung im Preis inbegriffen.</p>
+                </div>
+                <div class="br-5 my-5 col-md-6">
+                    <h5>Gratis WiFi</h5>
+                    <p>Alle unsere Wohnungen haben eine kostenlose
+                        Business-WiFi-Verbindung mit 24-Stunden-Internetzugang.</p>
+                </div>
+                <div class="br-5 my-5 col-md-6">
+                    <h5>Kinderfreundlich</h5>
+                    <p>Auf Wunsch können wir jederzeit ein zusätzliches Bett für eine
+                        zusätzliche Gebühr zur Verfügung stellen.</p>
+                </div>
+                <div class="br-5 my-5 col-md-6">
+                    <h5>Tierfreundlich</h5>
+                    <p>Natürlich können Sie Ihren Hund oder Ihre Katze mitbringen.
+                        Durch einen zusätzlichen Reinigungsaufwand, müssen wir einen
+                        kleinen Aufschlag auf den Preis machen.</p>
+                </div>
+                <div class="br-5 my-5 col-md-6">
+                    <h5>Parking</h5>
+                    <p>Wenn ein Parkplatz erforderlich ist, sind wir jederzeit in der Lage, einen gegen
+                        Bezahlung zur Verfügung zu stellen. Dies ist immer abhängig von der Verfügbarkeit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-150">
+        <div class="footer-content">
+            <div class="d-flex justify-content-between d-block-768">
+                <div class="w-30 W-100-768">
+                    <h4 class="pb-5">Swiss Star</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut
+                        labore et
+                        dolore magna aliquyam erat, sed diam voluptua. At vero </p>
+                </div>
+                <div class="w-30 W-100-768  p-0-768" style="padding-left: 9%;">
+
+                    <h4 class="pb-5">Endecke</h4>
+                    <ul>
+                        <li>Apartment</li>
+                        <li>Hotel</li>
+                        <li>Co-Living</li>
+                    </ul>
+                </div>
+                <div class="w-30 W-100-768 p-0-768" style="padding-left: 3%;">
+
+                    <h4 class="pb-5">Kontakt</h4>
+                    <ul>
+                        <li>Maxstrasse 2 <br>
+                            1234 Beispielstadt
+                        </li>
+                        <li>+41 71 111 22 33</li>
+                        <li>info@swiss-star.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex d-block-768 justify-content-between align-items-center pt-150">
+                <p>© 2022 Swiss Star / Alle Rechte vorbehalten</p>
+
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="modal-login-register" tabindex="-1" aria-labelledby="register" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen px-10-768">
+            <div class="modal-content bg-transparent">
+                <div class="container">
+                    <div class="py-4">
+                        <div id="login-register" class="bg-transparent border-0">
+                            <div class="d-flex justify-content-between align-items-center px-4">
+                                <ul class="">
+                                    <li><a href="#tab-login">Login</a></li>
+                                    <li><a href="#tab-registrieren">Registrieren</a></li>
+                                </ul>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div id="tab-login">
+                                <div class="row border-radius-80 bg_secondary">
+                                    <div class="col-lg-6 mt-5 px-4">
+                                        <div class="container">
+                                            <h3 style="font-size:30px; font-family: Montserrat;">Login</h3>
+                                            <p style="font-size:25px; color:#292929; font-family: Montserrat;">Log dich
+                                                jetzt ein</p>
+                                            <a href="#" class="btn px-0 w-100">
+                                                <div
+                                                    class="d-flex border border-dark border-radius-30 justify-content-center align-items-center py-3">
+                                                    <img class="h-75 pe-3" src="img/34_GoogleLogo.png" alt="">
+                                                    <p class="mb-0" style="font-family:Montserrat">mit Google anmelden
+                                                    </p>
+                                                </div>
+                                            </a>
+                                            <div
+                                                class="d-flex justify-content-center align-items-center pt-3 pb-3">
+                                                <div class="w-75 ms-0" style="height: 0">
+                                                    <div class="border-dark border-0 border-bottom" style="width: 75%">
+                                                    </div>
+                                                </div>
+                                                <div class="w-100">
+                                                    <p class="mb-0 text-center w-100"
+                                                        style="font-size:20px; font-family: Montserrat;">Anmelden mit
+                                                        E-Mail</p>
+                                                </div>
+                                                <div class="w-75 ms-auto" style="height: 0">
+                                                    <div class="border-dark border-0 border-bottom ms-auto"
+                                                        style="width: 75%"></div>
+                                                </div>
+                                            </div>
+                                            <form action="">
+                                                <div class="mb-3">
+                                                    <label for="email" class="form-label"
+                                                        style="font-size:25px; font-family: Montserrat;">Email:</label>
+                                                    <input type="email"
+                                                        class="form-control border border-dark border-radius-30 justify-content-center align-items-center px-4 py-3"
+                                                        id="email1" aria-describedby="emailHelp">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="password" class="form-label"
+                                                        style="font-size:25px; font-family: Montserrat;">Password:</label>
+                                                    <input type="password"
+                                                        class="form-control border border-dark border-radius-30 justify-content-center align-items-center px-4 py-3  "
+                                                        id="password1" aria-describedby="emailHelp">
+                                                </div>
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="mb-3 form-check w-100">
+                                                        <input type="checkbox" class="form-check-input"
+                                                            style="border-radius: 0" id="check1">
+                                                        <label class="form-check-label" for="check1"
+                                                            style="font-size:15px; font-family: Montserrat;">Check me
+                                                            out</label>
+                                                    </div>
+                                                    <a href="#" class="text-end w-100 text-decoration-none"
+                                                        style="font-size:15px;font-family: Montserrat;">Passwort
+                                                        vergessen</a>
+                                                </div>
+                                                <button type="submit"
+                                                    class="btn bg_primary w-100 color_secondary border-radius-30 my-3 py-3"
+                                                    style="font-size:20px">
+                                                    Submit
+                                                </button>
+                                                <div class="d-flex">
+                                                    <p class="mb-0 pe-2"
+                                                        style="font-size:15px;font-family: Montserrat;">Noch keinen
+                                                        Account? </p>
+                                                    <a href="#tab-registrieren"
+                                                        style=" font-size:15px; font-family: Montserrat;"> Erstelle
+                                                        jetzt deinen Account</a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 pe-0 px-0-1199 d-none-992">
+                                        <img class="ps-5 px-0-1199" src="img/33_LoginRegisrierten.png" alt="">
+                                        <div class="img_text">
+                                            <p style="margin-bottom:0"> Geniessen Sie Ihren Urlaub</p>
+                                            <p><span style="font-weight: 700;"> mit Swiss Star</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-registrieren">
+                                <div class="row border-radius-80 bg_secondary" style="font-family:Montserrat">
+                                    <div class="col-lg-6 mt-5 px-4">
+                                        <div class="container">
+                                            <h3 style="font-size:30px; font-family: Montserrat;">Jetzt Registrieren</h3>
+                                            <p style="font-size:25px; color:#292929; font-family: Montserrat;">Entdecke
+                                                jetzt Swiss Star</p>
+                                            <form action="" class="pt-4">
+
+                                                <div class="mb-3">
+                                                    <label for="username" class="form-label"
+                                                        style="font-size:25px; color:#292929; font-family: Montserrat;">Username:</label>
+                                                    <input type="text"
+                                                        class="form-control border border-dark border-radius-30 justify-content-center align-items-center px-4 py-3"
+                                                        id="username" aria-describedby="emailHelp">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="email" class="form-label"
+                                                        style="font-size:25px; color:#292929; font-family: Montserrat;">Email:</label>
+                                                    <input type="email"
+                                                        class="form-control border border-dark border-radius-30 justify-content-center align-items-center px-4 py-3"
+                                                        id="email" aria-describedby="emailHelp">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="password" class="form-label"
+                                                        style="font-size:25px; color:#292929; font-family: Montserrat;">Password:</label>
+                                                    <input type="password"
+                                                        class="form-control border border-dark border-radius-30 justify-content-center align-items-center px-4 py-3  "
+                                                        id="password" aria-describedby="emailHelp">
+                                                </div>
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="mb-3 form-check w-100">
+                                                        <input type="checkbox" class="form-check-input"
+                                                            style="border-radius: 0" id="exampleCheck1">
+                                                        <label class="form-check-label" for="exampleCheck1"
+                                                            style="font-size:15px; font-family:Montserrat">Ich
+                                                            akzeptiere
+                                                            die
+                                                            AGB's</label>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="btn px-0 w-100 mb-2">
+                                                    <div
+                                                        class="d-flex border border-dark border-radius-30 justify-content-center align-items-center py-3">
+                                                        <img class="h-75 pe-3" src="img/34_GoogleLogo.png" alt="">
+                                                        <p class="mb-0" style="font-family:Montserrat; font-size:18px">
+                                                            mit Google anmelden</p>
+                                                    </div>
+                                                </a>
+                                                <button type="submit"
+                                                    class="btn bg_primary w-100 color_secondary border-radius-30 mt-3 mb-3 py-3"
+                                                    style="font-size:20px;font-family:Montserrat">
+                                                    Submit
+                                                </button>
+                                                <div class="d-flex">
+                                                    <p class="mb-0 pe-2" style="font-size:15px;font-family:Montserrat">
+                                                        Noch keinen Account? </p>
+                                                    <a href="#tab-login"
+                                                        style="font-size:15px;font-family:Montserrat">Login</a>
+                                                </div>
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 pe-0 px-0-1199 d-none-992">
+                                        <img class="ps-5 px-0-1199" src="img/33_LoginRegisrierten.png" alt="">
+                                        <div class="img_text">
+                                            <p style="margin-bottom:0"> Geniessen Sie Ihren Urlaub</p>
+                                            <p><span style="font-weight: 700;"> mit Swiss Star</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--======================-->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="js/wickedpicker/dist/wickedpicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="js/nice.select/js/jquery.nice-select.min.js"></script>
+    <script lang="Javascript" src="js/main.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
