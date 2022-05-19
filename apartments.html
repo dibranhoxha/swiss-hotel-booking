@@ -91,8 +91,102 @@
                                         <input type="text" class="app_input" id="location_apa" name="name" required
                                             placeholder="Lokation" autocomplete="off">
 
-                                        <input type="text" class="app_input" id="name" name="name" required
-                                            style="margin-bottom: 10px" placeholder="Anzahl Betten">
+                                        <!-- <input type="text" class="app_input" id="name" name="name" required
+                                            style="margin-bottom: 10px" placeholder="Anzahl Betten"> -->
+                                        <!-- <div class="form">
+                                            <form action="">
+                                            <input class="form-control text-decoration-none table-hover" autocomplete="off"
+                                            data-bs-toggle="collapse" href="#anzahl_personen" role="button"
+                                            id="txt_anzahl_personen" aria-expanded="false" aria-controls="anzahl_personen"
+                                            readonly />
+                                            <div class="collapse" id="anzahl_personen">
+                                                <div class="card card-body position-absolute" id="card_test">
+                                                    <div class="d-flex">
+                                                        <input type="text" readonly id="spinner-1" value="0">
+                                                        <div class="d-flex bbtn ms-4"
+                                                            style="padding-top: 5px; height: 40px; padding-bottom: 5px; background-color: #FFFFFF;">
+                                                            <a role="button"
+                                                                class="py-0 my-0 px-3 d-flex align-items-center py-0"><img
+                                                                    id="stepDown-1" src="img/Pfad 82.png " style="padding-right: 0;"
+                                                                    alt="remove"></a>
+                                                            <a role="button"
+                                                                class="py-0 my-0 px-3 d-flex align-items-center py-0"><img
+                                                                    id="stepUp-1" src="img/Pfad 81.png " style="padding-right: 0;"
+                                                                    alt="add"></a>
+                                                        </div>
+                                                    </div>
+                                                    <p>Wie viele Erwachsene?</p>
+            
+                                                    <div class="hr mb-4"></div>
+            
+                                                    <div class="d-flex">
+                                                        <input type="text" readonly id="spinner-2" value="0">
+                                                        <div class="d-flex bbtn ms-4"
+                                                            style="padding-top: 5px; height: 40px; padding-bottom: 5px; background-color: #FFFFFF;">
+                                                            <a role="button"
+                                                                class="py-0 my-0 px-3 d-flex align-items-center py-0"><img
+                                                                    id="stepDown-2" src="img/Pfad 82.png " style="padding-right: 0;"
+                                                                    alt="remove"></a>
+                                                            <a role="button"
+                                                                class="py-0 my-0 px-3 d-flex align-items-center py-0"><img
+                                                                    id="stepUp-2" src="img/Pfad 81.png " style="padding-right: 0;"
+                                                                    alt="add"></a>
+                                                        </div>
+                                                    </div>
+                                                    <p>Wie viele Kinder?</p>
+            
+                                                </div>
+                                            </div></form>
+                                        </div> -->
+
+                                        <div class="form mb-2">
+                                            <form action="">
+                                                <div class="calendar d-flex">
+                                                    <input class="text-decoration-none table-hover app_input w-100 pl-3" autocomplete="off"
+                                                    data-bs-toggle="collapse" href="#anzahl_personen" role="button"
+                                                    id="txt_anzahl_personen" aria-expanded="false" aria-controls="anzahl_personen"
+                                                    readonly placeholder="Anzahl Gäste" />
+                                                    <div class="collapse" id="anzahl_personen">
+                                                        <div class="card card-body position-absolute" id="card_test">
+                                                            <div class="d-flex">
+                                                                <input type="text" readonly id="spinner-1" value="0">
+                                                                <div class="d-flex bbtn ms-4"
+                                                                    style="padding-top: 5px; height: 40px; padding-bottom: 5px; background-color: #FFFFFF;">
+                                                                    <a role="button"
+                                                                        class="py-0 my-0 px-3 d-flex align-items-center py-0"><img
+                                                                            id="stepDown-1" src="img/Pfad 82.png " style="padding-right: 0;"
+                                                                            alt="remove"></a>
+                                                                    <a role="button"
+                                                                        class="py-0 my-0 px-3 d-flex align-items-center py-0"><img
+                                                                            id="stepUp-1" src="img/Pfad 81.png " style="padding-right: 0;"
+                                                                            alt="add"></a>
+                                                                </div>
+                                                            </div>
+                                                            <p>Wie viele Erwachsene?</p>
+                    
+                                                            <div class="hr mb-4"></div>
+                    
+                                                            <div class="d-flex">
+                                                                <input type="text" readonly id="spinner-2" value="0">
+                                                                <div class="d-flex bbtn ms-4"
+                                                                    style="padding-top: 5px; height: 40px; padding-bottom: 5px; background-color: #FFFFFF;">
+                                                                    <a role="button"
+                                                                        class="py-0 my-0 px-3 d-flex align-items-center py-0"><img
+                                                                            id="stepDown-2" src="img/Pfad 82.png " style="padding-right: 0;"
+                                                                            alt="remove"></a>
+                                                                    <a role="button"
+                                                                        class="py-0 my-0 px-3 d-flex align-items-center py-0"><img
+                                                                            id="stepUp-2" src="img/Pfad 81.png " style="padding-right: 0;"
+                                                                            alt="add"></a>
+                                                                </div>
+                                                            </div>
+                                                            <p>Wie viele Kinder?</p>
+                    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
 
                                         <select name="unterkunft" class="form-select wide" style="border:1px solid; "
                                             id="mySelect">
@@ -949,8 +1043,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/nice.select/js/jquery.nice-select.min.js"></script>
     <script src="js/main.js" ></script>
-    <script src="js/apartment.js"></script>
-
+    <!-- <script src="js/apartment.js"></script> -->
 </body>
 
 </html>

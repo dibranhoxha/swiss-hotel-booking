@@ -388,12 +388,17 @@ body {
 
 #section_first {
     background-color: #023E8A;
+
     /* height: calc(1200px - 150px); */
     height: 100vh;
     min-height: 800px;
+    /* background-image: url("../img/01_Swiss-Star-Background-Home.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
 }
 
 #section_first .content {
+    /* background-color: #023E8A; */
     width: 100%;
     height: 100%;
     position: relative;
@@ -430,6 +435,23 @@ body {
     font-size: 9px;
     color: #FFFFFF;
     margin-top: 0;
+}
+
+#section_first .navbar-expand-lg .dropdown-menu {
+    position: absolute;
+    right: -10px;
+    left: 900px;
+    top: 75px;
+    background-color: #023E8A;
+    border-radius: 20px;
+}
+
+#section_first .navbar-expand-lg .dropdown-menu.show li a {
+    font-size: 28px;
+}
+
+#section_first .navbar-expand-lg .dropdown-toggle::after {
+    display: none;
 }
 
 #section_first ul li {
@@ -508,6 +530,12 @@ sup {
     border-bottom: 1px solid #023E8A;
     border-radius: 0;
 }
+
+/* #section_first .section_content_hero {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+} */
 
 #right_div {
     z-index: 100;
@@ -702,7 +730,8 @@ sup {
 }
 
 #section_first .section_content form .gaste .card-body,
-#swiss_star_tower .form .calendar .card-body {
+#swiss_star_tower .form .calendar .card-body,
+    #apartments .form .calendar .card-body {
     background-color: #f9f9f9;
     padding: 20px 55px;
     border-bottom-right-radius: 25px;
@@ -710,6 +739,10 @@ sup {
     border: none;
     font-size: 14px !important;
     min-width: 163px !important;
+}
+
+#apartments .form .calendar .card-body {
+    transform: scale(0.9);
 }
 
 #swiss_star_tower .form .calendar .card-body img {
@@ -722,10 +755,28 @@ sup {
     padding: 20px 20px;
     margin-left: -227px;
     margin-top: 45px;
+    /* width: 90%; */
+}
+
+#apartments .form .calendar .card-body {
+    background-color: #023E8A;
+    padding: 20px 20px;
+    margin-left: -227px;
+    margin-top: 45px;
+    width: 90%;
+}
+
+#apartments .form .calendar .card-body {
+    z-index: 999;
+}
+
+#apartments .form .calendar .card-body p {
+    color: #fff;
 }
 
 #section_first .section_content form .gaste .ui-widget-content,
 #swiss_star_tower .form .calendar .ui-widget-content,
+#apartments .form .calendar .ui-widget-content,
 #section_first .section_content form .gaste form-control {
     font-weight: 500;
     font-size: 20px;
@@ -736,7 +787,8 @@ sup {
     text-align: center;
 }
 
-#swiss_star_tower .form .calendar .ui-widget-content {
+#swiss_star_tower .form .calendar .ui-widget-content,
+    #apartments .form .calendar .ui-widget-content {
     background-color: #023E8A;
     color: #fff;
     width: 70px;
@@ -747,18 +799,21 @@ sup {
 }
 
 #section_first .section_content form .gaste .bbtn,
-#swiss_star_tower .form .calendar .bbtn {
+#swiss_star_tower .form .calendar .bbtn,
+    #apartments .form .calendar .bbtn {
     border: 2px solid #023E8A;
     border-radius: 5px;
     margin-left: 10px;
 }
 
-#swiss_star_tower .form .calendar .bbtn {
+#swiss_star_tower .form .calendar .bbtn,
+    #swiss_star_tower .form .calendar .bbtn {
     border-radius: 10px;
 }
 
 #section_first .section_content form .gaste .bbtn a,
-#swiss_star_tower .form .calendar .bbtn a {
+#swiss_star_tower .form .calendar .bbtn a,
+    #apartments .form .calendar .bbtn a {
     font-weight: 400;
     font-size: 35px;
     text-decoration: none;
@@ -774,7 +829,8 @@ sup {
 }
 
 #section_first .section_content form .gaste .bbtn a:last-child,
-#swiss_star_tower .form .calendar .bbtn a:last-child {
+#swiss_star_tower .form .calendar .bbtn a:last-child,
+    #apartments .form .calendar .bbtn a:last-child {
     border-left: 2px solid #023E8A;
 }
 
@@ -1051,6 +1107,11 @@ footer a {
 #header ul li {
     padding: 1px 5px;
 }
+
+/* #header .navbar.page-navbar {
+    width: 82%;
+    margin: 0 auto;
+} */
 
 #header .navbar-brand h3 {
     font-weight: 400;
@@ -1719,13 +1780,12 @@ footer a {
 #login-register .ui-state-default {
     border: 0;
     background: none;
-    background-color: #f9f9f9bb;
     border-radius: 30px;
 
 }
 
 #login-register .ui-state-default a {
-    color: #023E8A;
+    color: #fff;
 }
 
 #login-register {
@@ -2273,9 +2333,9 @@ text-align: left;
         margin-left: -238px;
     }
 
-    .img_text {
-        right: 32px;
-    }
+    /* .img_text {
+        right: 150px;
+    } */
 }
 
 /*TODO: 1199*/
@@ -3529,3 +3589,136 @@ button:focus #cal_apartments button:focus,
 }
 
 /************End Check In-Check Out************/
+
+#section_first > .content > .container #header #navbarNav ul .nav-item p.user-name {
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .modal-content.bg-transparent {
+        transform: scale(0.7);
+        margin-top: -80px;
+    }
+
+    #header > .container {
+        transform: scale(0.8);
+    }
+
+    #section_first .section_content {
+        transform: scale(0.75);
+        padding-bottom: 110px;
+    }
+
+    #section_first .content {
+        height: 82%;
+    }
+
+    .autocomplete-items {
+        position: absolute;
+        z-index: 99;
+        top: calc(100% - 116px);
+        left: 12px;
+        width: calc(25% + 63px);
+        padding-top: 15px;
+        padding-bottom: 25px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background-color: #f9f9f9;
+    }
+
+    #right_div {
+        z-index: 100;
+        height: 50px;
+        width: 40px;
+        position: absolute;
+        top: calc(100% - 164px);
+        left: 12px;
+        background-color: #f9f9f9;
+    }
+
+    #ui-datepicker-div {
+        transform: scale(0.75);
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+
+    #login-register {
+        width: 100%;
+    }
+
+    #login-register img.ps-5 {
+        padding-left: 0 !important;
+    }
+
+    #login-register .container {
+        transform: scale(0.9)
+    }
+
+    section {
+        transform: scale(0.8)
+    }
+
+    section#swiss_star_tower {
+        transform: scale(1);
+        margin-top: 70px;
+    }
+
+    section#swiss_star_tower .container {
+        transform: scale(0.8);
+    }
+
+    section#section_first {
+        transform: scale(1);
+    }
+
+    section#apartments {
+        margin-top: -150px;
+    }
+
+    .footer-content {
+        transform: scale(0.8)
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    #section_first .section_content {
+        padding-bottom: 600px !important;
+    }
+
+    #section_first .section_content form > div {
+        position: relative;
+        top: 250px;
+    }
+}
+
+
+
+@media (min-device-width: 768px) and (max-device-width: 991px) {
+    #section_first .section_content {
+        padding-bottom: 600px !important;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #section_first .section_content {
+        padding-bottom: 450px !important;
+    }
+
+    #section_first .section_content form > div {
+        position: relative;
+        top: 250px;
+    }
+
+    #section_first .section_content form .d-flex {
+        margin-top: 150px;
+    }
+
+    #section_first .section_content .list-group {
+        display: block;
+        margin-top: 25px;
+        width: 100%;
+    }
+}

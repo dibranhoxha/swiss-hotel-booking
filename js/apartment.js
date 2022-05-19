@@ -84,3 +84,20 @@ function autocomplete(inp, arr) {
 
 var countries = ["Zürich (Kanton)", "Bern (Kanton)", "Luzern (Kanton)", "Uri (Kanton)"];
 autocomplete(document.getElementById("location_apa"), countries);
+console.log("Test");
+
+// document.addEventListener("DOMContentLoaded", function(){
+//     window.addEventListener('scroll', function() {
+//         if (window.scrollY > 50) {
+//           document.querySelector('.container-fluid').classList.remove('mt-4');
+//           document.querySelector('#header').classList.add('fixed-top');
+//           document.querySelector('#header').classList.add('w-100');
+//           document.querySelector('#header').classList.add('bg-white');
+//         } else {
+//           document.querySelector('.container-fluid').classList.remove('mt-4');
+//           document.querySelector('#header').classList.remove('fixed-top');
+//           document.querySelector('#header').classList.remove('w-100');
+//           document.querySelector('#header').classList.remove('bg-white');
+//         } 
+//     });
+//   }); 
