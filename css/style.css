@@ -376,9 +376,8 @@ body {
 
 .favourite {
     position: absolute;
-    padding-left: 245px;
-    padding-top: 23px;
-
+    right: 8%;
+    top: 6%;
 }
 
 .row {
@@ -405,8 +404,9 @@ body {
 }
 
 #section_first img {
-    width: 100%;
-    height: 100%;
+    /* display: none; */
+    width: 100vw;
+    height: 100vh;
     position: absolute;
     object-fit: cover;
     opacity: 0.6;
@@ -418,6 +418,7 @@ body {
 }
 
 #section_first .bg_gradient div {
+    /* margin-top: 174.7px; */
     height: 150px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) -150px, #FAFAFA 150px);
     /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FAFAFA 90.2%); */
@@ -905,9 +906,9 @@ sup {
 
 #apartments_hotel .card-img-top {
     height: auto;
-    width: 101%;
+    width: 100.01%;
     object-fit: cover;
-   border-radius: 20px; 
+    border-radius: 24.1px; 
 }
 
 #apartments_hotel .card-title {
@@ -1145,6 +1146,19 @@ footer a {
 
 #header ul li:last-child a {
     color: #F9F9F9;
+}
+
+.top-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.top-fixed.home-header.no-shadow {
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
 }
 
 /*============End Header===================*/
@@ -2249,8 +2263,8 @@ text-align: left;
 
     .favourite {
         position: absolute;
-        padding-left: 200px;
-        padding-top: 23px;
+        right: 8%;
+        top: 7%;
     }
 
     #apartments_hotel .responsive {
@@ -2597,8 +2611,8 @@ text-align: left;
 
     .favourite {
         position: absolute;
-        padding-left: 300px;
-        padding-top: 23px;
+        right: 8%;
+        top: 0;
     }
 
     #apartments .card {
@@ -2607,7 +2621,7 @@ text-align: left;
     }
 
     #apartments_hotel .card-img-top {
-        width: 100%;
+        width: 100.01%;
     }
     #deine_favoriten #apartments_hotel .card .star{
         top: 29%;
@@ -3366,7 +3380,7 @@ text-align: left;
 }
 
 .my-30 {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -3594,6 +3608,10 @@ button:focus #cal_apartments button:focus,
     color: #fff;
 }
 
+#section h3 {
+    font-weight: 800 !important;
+}
+
 
 @media only screen and (max-width: 1500px) {
     .modal-content.bg-transparent {
@@ -3607,7 +3625,9 @@ button:focus #cal_apartments button:focus,
 
     #section_first .section_content {
         transform: scale(0.75);
-        padding-bottom: 110px;
+        /* padding-bottom: 35px; */
+        top: 80px;
+        padding-bottom: 0 !important;
     }
 
     #section_first .content {
@@ -3617,7 +3637,7 @@ button:focus #cal_apartments button:focus,
     .autocomplete-items {
         position: absolute;
         z-index: 99;
-        top: calc(100% - 116px);
+        top: calc(100% - 10px);
         left: 12px;
         width: calc(25% + 63px);
         padding-top: 15px;
@@ -3632,7 +3652,7 @@ button:focus #cal_apartments button:focus,
         height: 50px;
         width: 40px;
         position: absolute;
-        top: calc(100% - 164px);
+        top: calc(100% - 60px);
         left: 12px;
         background-color: #f9f9f9;
     }
@@ -3655,11 +3675,12 @@ button:focus #cal_apartments button:focus,
         transform: scale(0.9)
     }
 
-    section {
+    section:not(#section_first) {
         transform: scale(0.8)
     }
 
-    section#swiss_star_tower {
+    section#swiss_star_tower,
+    section#Moderne_Apartment {
         transform: scale(1);
         margin-top: 70px;
     }
@@ -3668,16 +3689,47 @@ button:focus #cal_apartments button:focus,
         transform: scale(0.8);
     }
 
-    section#section_first {
-        transform: scale(1);
-    }
-
-    section#apartments {
-        margin-top: -150px;
-    }
+    /* section#apartments {
+        margin-top: -100px;
+    } */
 
     .footer-content {
         transform: scale(0.8)
+    }
+
+    .pt-150 {
+        padding-top: 0 !important;
+    }
+
+    section:not(#section_first) {
+        padding-top: 0 !important;
+    }
+
+    section#apartments_hotel {
+        padding-top: 230px !important;
+    }
+
+    #section_first .bg_gradient div {
+        margin-top: 174.7px;
+        /* height: 150px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) -150px, #FAFAFA 150px);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FAFAFA 90.2%); */
+    }
+
+    section#apartments {
+        margin-top: -60px;
+    }
+
+    section#bewertungen {
+        margin-top: -100px !important;    
+    }
+
+    section#in_der_nahe {
+        margin-top: -80px;
+    }
+
+    section#buchungsbestätigung1 {
+        margin-top: 160px;
     }
 
 }
@@ -3690,6 +3742,13 @@ button:focus #cal_apartments button:focus,
     #section_first .section_content form > div {
         position: relative;
         top: 250px;
+    }
+
+    #section_first .bg_gradient div {
+        margin-top: 108px;
+        /* height: 150px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) -150px, #FAFAFA 150px);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FAFAFA 90.2%); */
     }
 }
 
@@ -3721,4 +3780,39 @@ button:focus #cal_apartments button:focus,
         margin-top: 25px;
         width: 100%;
     }
+
+    #section_first .section_content ul.list-group {
+        display: none;
+    }
+    
 }
+
+@media only screen and (min-width: 1500px) {
+    section#apartments {
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #apartments .form .calendar .card-body {
+        background-color: #023E8A;
+        padding: 20px 20px;
+        margin-left: -270px;
+        margin-top: 45px;
+        width: 90%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    #apartments .form .calendar .card-body {
+        background-color: #023E8A;
+        padding: 20px 20px;
+        margin-left: -192px !important;
+        margin-top: 45px;
+        width: 90%;
+    }
+}
+
+
