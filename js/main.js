@@ -402,6 +402,13 @@ $(function () {
     });
 });
 
+const header = document.querySelector('#section_first > .content > .container #header');
+const togglerButton = document.querySelector('#section_first > .content > .container #header .navbar-toggler');
+
+togglerButton.addEventListener("click", () => {
+    header.classList.toggle('blue-back')
+})
+
 document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener('scroll', function () {
         if (window.scrollY > 50) {
@@ -412,9 +419,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.querySelector('#section_first > .content > .container #header a h3').style.color = '#023E8A';
                 document.querySelector('#section_first > .content > .container #header a p').style.color = '#023E8A';
                 const btnLogin = document.querySelector('#section_first > .content > .container #header #navbarNav ul .nav-item #btn-login');
+                const btnRegister = document.querySelector('#section_first > .content > .container #header #navbarNav ul .nav-item.register-button');
+                const btnRegisterText = document.querySelector('#section_first > .content > .container #header #navbarNav ul .nav-item #btn-register');
                 const userName = document.querySelector('#section_first > .content > .container #header #navbarNav ul .nav-item p.user-name');
+                const togglerIcons = document.querySelectorAll('#section_first > .content > .container #header .toggler-icon')
                 if (btnLogin) { btnLogin.style.color = '#023E8A'; }
+                if (btnRegister) { 
+                    btnRegister.classList.add('scroll-theme')
+                 }
                 if (userName) { userName.style.color = '#023E8A'; }
+                if(togglerIcons.length) {
+                    togglerIcons.forEach(icon => {
+                        icon.classList.add('icon-on-scroll')
+                    });
+                }
                 document.querySelectorAll('#section_first > .content > .container #header #navbarNav ul .nav-item .nav-link').forEach(element => {
                     if (element.id !== 'btn-register')
                         element.style.color = '#023E8A'
@@ -435,9 +453,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.querySelector('#section_first > .content > .container #header a h3').style.color = '#fff';
                 document.querySelector('#section_first > .content > .container #header a p').style.color = '#fff';
                 const btnLogin = document.querySelector('#section_first > .content > .container #header #navbarNav ul .nav-item #btn-login');
+                const btnRegister = document.querySelector('#section_first > .content > .container #header #navbarNav ul .nav-item.register-button');
+                const btnRegisterText = document.querySelector('#section_first > .content > .container #header #navbarNav ul .nav-item #btn-register');
                 const userName = document.querySelector('#section_first > .content > .container #header #navbarNav ul .nav-item p.user-name');
+                const togglerIcons = document.querySelectorAll('#section_first > .content > .container #header .toggler-icon')
                 if (btnLogin) { btnLogin.style.color = '#fff'; }
                 if (userName) { userName.style.color = '#fff'; }
+                if (btnRegister) { 
+                   btnRegister.classList.remove('scroll-theme')
+                }
+                if(togglerIcons.length) {
+                    togglerIcons.forEach(icon => {
+                        icon.classList.remove('icon-on-scroll')
+                    });
+                }
                 document.querySelectorAll('#section_first > .content > .container #header #navbarNav ul .nav-item .nav-link').forEach(element => {
                     element.style.color = '#fff'
                 });

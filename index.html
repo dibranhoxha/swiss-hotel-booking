@@ -15,12 +15,14 @@
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/aa8d66b26d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="js/wickedpicker/dist/wickedpicker.min.css">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/cards.css" rel="stylesheet"> -->
 
-   
+
 </head>
 
 
@@ -38,37 +40,38 @@
                                     <h3>SWISS STAR</h3>
                                     <p>WELCOME HOME</p>
                                 </a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
+                                <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-round" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="toggler-icon top-bar"></span>
+                                    <span class="toggler-icon middle-bar"></span>
+                                    <span class="toggler-icon bottom-bar"></span>
+                                    <!-- <i class="fa fa-solid fa-bars-staggered" aria-hidden="true"></i> -->
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                     <ul class="navbar-nav w-100">
-                
+
                                         <li class="nav-item ms-lg-auto">
                                             <a class="nav-link" href="apartments.html">Apartments</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Services</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a class="nav-link" href="#">Über uns</a>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item">
                                             <a class="nav-link">Kontakt</a>
                                         </li>
                                         <li class="nav-item ms-lg-auto">
                                             <a id="btn-login" data-bs-toggle="modal" href="#tab-login"
-                                               data-bs-target="#modal-login-register"
-                                               class="nav-link">Login</a>
+                                                data-bs-target="#modal-login-register" class="nav-link">Login</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a id="btn-register" data-bs-toggle="modal"
-                                               href="#tab-registrieren"
-                                               data-bs-target="#modal-login-register"
-                                               class="nav-link">Registrieren</a>
+                                        <li class="nav-item register-button">
+                                            <a id="btn-register" data-bs-toggle="modal" href="#tab-registrieren"
+                                                data-bs-target="#modal-login-register" class="nav-link">Registrieren</a>
                                         </li>
-                                        
+
                                         <!-- <div class="nav-item"> 
                                             <div class="nav-link">   
                                                 <img src="img/42_user.png" class="rounded-circle" style="width: 30px; height: 30px; object-fit: cover;" alt="Avatar" />
@@ -115,7 +118,7 @@
                     </div>
                 </header>
                 <div
-                class="position-absolute section_content w-100 container h-100 d-flex flex-column justify-content-end">
+                    class="position-absolute section_content w-100 container h-100 d-flex flex-column justify-content-end">
                     <div class="section_content_hero">
                         <h2 class="h2">Welcome Home</h2>
                         <h1 class="h1">Apartments, Hotels & Co-Living</h1>
@@ -123,21 +126,24 @@
                         <h2 class="h2">Entdecken Sie jetzt über 1'000 Apartments</h2>
                         <h2 class="h2">für Ihren nächsten Aufenthalt in der schönen Schweiz!</h2>
                         <ul class="list-group list-group-horizontal px-60-768 mt-35">
-                            <li class="list-group-item" role="button" id="zurich" onClick="selectLocation(this.id)">Zürich
+                            <li class="list-group-item" role="button" id="zurich" onClick="selectLocation(this.id)">
+                                Zürich
                             </li>
                             <li class="list-group-item" role="button" id="stGallen" onClick="selectLocation(this.id)">
                                 St.Gallen
                             </li>
-                            <li class="list-group-item" role="button" id="geneve" onClick="selectLocation(this.id)">Genève
+                            <li class="list-group-item" role="button" id="geneve" onClick="selectLocation(this.id)">
+                                Genève
                             </li>
                             <li class="list-group-item" role="button" id="lausanne" onClick="selectLocation(this.id)">
                                 Lausanne
                             </li>
-                            <li class="list-group-item" role="button" id="ticino" onClick="selectLocation(this.id)">Ticino
+                            <li class="list-group-item" role="button" id="ticino" onClick="selectLocation(this.id)">
+                                Ticino
                             </li>
                         </ul>
                     </div>
-                    
+
                     <form action="apartments.html">
                         <div class="d-flex d-block-1023">
                             <div class="location d-flex flex-column">
@@ -149,8 +155,8 @@
                             </div>
                             <div class="check-in d-flex flex-column">
                                 <label class="">Check-in</label>
-                                <input class="form-control" name="date" id="check_inn" aria-describedby="telephoneHelpId"
-                                    placeholder="Wann?" autocomplete="off">
+                                <input class="form-control" name="date" id="check_inn"
+                                    aria-describedby="telephoneHelpId" placeholder="Wann?" autocomplete="off">
                             </div>
                             <div class="check-out d-flex flex-column">
                                 <label class="">Check-out</label>
@@ -204,6 +210,56 @@
             <p style="font-size: 20px;" class="p">Alle unsere Apartments, Hotels & Co-Livng Spaces sind möbliert und
                 werden wöchentlich
                 gesäubert.</p>
+
+            <!-- <div class="card rounded-4 ">
+                <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button> <button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button> </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"> <img src="img/03_Bild.png" class="d-block w-100 h-100"
+                                alt="..."> </div>
+                        <div class="carousel-item"> <img src="img/05_Bild.png" class="d-block w-100" alt="..."> </div>
+                    </div> <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span
+                            class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+                            class="visually-hidden">Previous</span> </button> <button class="carousel-control-next"
+                        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span
+                            class="carousel-control-next-icon" aria-hidden="true"></span> <span
+                            class="visually-hidden">Next</span> </button>
+                </div>
+                <div class="card2 p-3 w-100">
+                    <h5 class="card-title">Swiss Star Airport</h5>
+                    <p class="card-text">Obstgartenstrasse 24, 8302 Kloten</p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6">
+                            <span class="d-flex  py-2"><img class="card-feature me-2 img-fluid" src="img/Pfad 9.png" alt="">
+                                Fläche: 130m<sup style="top: 0%;">2</sup></span>
+                        </div>
+                        <div class="col-6">
+                            <span class="d-flex py-2"><img class="card-feature me-2 img-fluid" src="img/08_Guest.png" alt="">
+                                Gäste: 2</span>
+                        </div>
+                        <div class="col-6">
+                            <span class="d-flex py-2"><img class="card-feature me-2 img-fluid" src="img/07_Bed.png" alt="">
+                                Betten: 2</span>
+                        </div>
+                        <div class="col-6">
+                            <span class="d-flex py-2"><img class="card-feature me-2 img-fluid" src="img/Pfad 111.png" alt="">
+                                WLAN: NEIN</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2  pt-3">
+                    <a href="single_apartment.html" class="text-decoration-none text-white"> <button
+                            class="btn w-100" type="button"><sub>ab</sub>119
+                            <sup>CHF</sup></button></a>
+                </div>
+            </div> -->
             <div class="responsive px-20-576 mt-5 pt-5">
                 <div>
                     <div class="img-1">
@@ -687,7 +743,7 @@
                                             <h3 style="font-size:30px; font-family: Montserrat;">Login</h3>
                                             <p style="font-size:25px; color:#292929; font-family: Montserrat;">Log dich
                                                 jetzt ein</p>
-                                            <div class="d-flex justify-content-between align-items-center">    
+                                            <div class="d-flex justify-content-between align-items-center">
                                                 <a href="#" class="btn px-0 mx-2 w-100">
                                                     <div
                                                         class="d-flex border border-dark border-radius-30 justify-content-center align-items-center py-3">
@@ -705,8 +761,7 @@
                                                     </div>
                                                 </a>
                                             </div>
-                                            <div
-                                                class="d-flex justify-content-center align-items-center pt-3 pb-3">
+                                            <div class="d-flex justify-content-center align-items-center pt-3 pb-3">
                                                 <div class="w-75 ms-0" style="height: 0">
                                                     <div class="border-dark border-0 border-bottom" style="width: 75%">
                                                     </div>
@@ -814,7 +869,7 @@
                                                             AGB's</label>
                                                     </div>
                                                 </div>
-                                                <div class="d-flex justify-content-between align-items-center">    
+                                                <div class="d-flex justify-content-between align-items-center">
                                                     <a href="#" class="btn px-0 mx-2 w-100">
                                                         <div
                                                             class="d-flex border border-dark border-radius-30 justify-content-center align-items-center py-3">
@@ -873,7 +928,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <script src="js/nice.select/js/jquery.nice-select.min.js"></script>
     <script lang="Javascript" src="js/main.js"></script>
