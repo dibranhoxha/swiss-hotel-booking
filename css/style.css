@@ -2701,7 +2701,7 @@ button:focus #cal_apartments button:focus,
 
 @media only screen and (max-width: 992px) {
     #section_first .section_content {
-        padding-bottom: 600px !important;
+        padding-bottom: 500px !important;
     }
 
     #section_first .section_content form>div {
@@ -2798,8 +2798,9 @@ button:focus #cal_apartments button:focus,
     section#apartments {
         padding-top: 60px;
     }
+    
     #section_first .section_content {
-        top: 20vh;
+        top: 15vh;
     }
 }
 
@@ -3594,7 +3595,7 @@ button:focus #cal_apartments button:focus,
     }
 
     #section_first .section_content {
-        top: 20vh !important;
+        top: 15vh !important;
     }
 }
 
@@ -3639,7 +3640,7 @@ button:focus #cal_apartments button:focus,
     }
 
     #section_first .section_content {
-        top: 20vh !important;
+        top: 15vh !important;
         padding-bottom: 500px;
     }
 
