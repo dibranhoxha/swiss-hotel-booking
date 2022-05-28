@@ -3621,6 +3621,11 @@ button:focus #cal_apartments button:focus,
     #section_first .section_content {
         top: 15vh !important;
     }
+
+    #section_first .section_content form .gaste .card-body {
+        flex-direction: row-reverse !important;
+        margin-left: -650px !important;
+    }
 }
 
 /*TODO: 768*/
@@ -4192,6 +4197,42 @@ button:focus #cal_apartments button:focus,
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    #apartments .form .calendar .card-body {
+        flex-direction: row-reverse !important;
+        justify-content: space-between;
+        margin-left: -670px !important;
+        width: 96%;
+    }
+
+    #apartments .form .calendar .card-body .d-flex.bbtn {
+        margin-right: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+
+    #apartments .form .calendar .ui-widget-content {
+        background-color: #023E8A;
+        color: #fff;
+        width: 20px;
+    }
+
+    #apartments .form .calendar .card-body {
+        flex-direction: row-reverse !important;
+        justify-content: flex-end;
+        margin-left: -500px !important;
+        width: 100% !important;
+    }
+
+    #apartments .form .calendar .card-body .d-flex.bbtn {
+        margin-right: 40px;
+    }
+}
+
+
 @media only screen and (max-width: 575px) {
     
     #apartments {
@@ -4210,4 +4251,23 @@ button:focus #cal_apartments button:focus,
     #section_first .section_content {
         top: -10vh !important;
     }
+
+    #section_first .section_content form .gaste .card-body {
+        height: 260px;
+    }
+
+    #section_first .section_content form .gaste .card-body .d-flex {
+        margin-top: 10px !important;
+    }
+
+    #apartments .form .calendar .card-body {
+        flex-direction: column !important;
+        justify-content: center;
+        margin-left: -93% !important;
+        width: 95% !important;
+    }
+
+    /* #apartments .form .calendar .card-body .d-flex.bbtn {
+        margin-right: 40px;
+    }  */
 }
