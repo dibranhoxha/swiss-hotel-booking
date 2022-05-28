@@ -405,9 +405,15 @@ $(function () {
 const header = document.querySelector('#section_first > .content > .container #header');
 const togglerButton = document.querySelector('#section_first > .content > .container #header .navbar-toggler');
 
-togglerButton.addEventListener("click", () => {
-    header.classList.toggle('blue-back')
-})
+if(togglerButton) {
+    togglerButton.addEventListener("click", () => {
+        if(!document.querySelector('.toggler-icon').classList.contains('icon-on-scroll')) {
+            header.classList.toggle('blue-back')
+        } else {
+            header.classList.toggle('white-back')
+        }
+    })
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener('scroll', function () {
@@ -480,4 +486,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         }
     });
-}); 
+});
+
+const apartments_section = document.querySelector('#apartments');
+const apartments_toggle_button = document.querySelector('#apartments .container-fluid>.navbar-toggler.btn')
+if(apartments_toggle_button) {
+    apartments_toggle_button.addEventListener('click', () => {
+        if(!apartments_toggle_button.classList.contains('collapsed')) {
+            apartments_section.classList.add('small-margin-top');
+        } else {
+            apartments_section.classList.remove('small-margin-top');
+        }
+    })
+}
