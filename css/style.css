@@ -421,7 +421,7 @@ body {
 
 #section_first .bg_gradient div {
     /* margin-top: 174.7px; */
-    height: 150px;
+    height: 152px !important;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) -150px, #FAFAFA 150px);
     /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FAFAFA 90.2%); */
 }
@@ -2536,10 +2536,14 @@ button:focus #cal_apartments button:focus,
         transform: scale(0.8);
     }
 
+    #section_first img {
+        height: 800px;
+    }
+
     #section_first .section_content {
         transform: scale(0.75);
         /* padding-bottom: 35px; */
-        top: 80px;
+        /* top: 80px; */
         padding-bottom: 0 !important;
     }
 
@@ -2590,11 +2594,6 @@ button:focus #cal_apartments button:focus,
 
     section:not(#section_first):not(#apartments_hotel):not(#Moderne_Apartment):not(#swiss_star_tower) {
         transform: scale(0.8)
-    }
-
-    section#swiss_star_tower,
-    section#Moderne_Apartment {
-        /* margin-top: 70px; */
     }
 
     section#Moderne_Apartment {
@@ -2694,6 +2693,10 @@ button:focus #cal_apartments button:focus,
         /* margin: 0 auto; */
     }
 
+    #section_first .bg_gradient div {
+        margin-top: 159.7px;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -2707,14 +2710,14 @@ button:focus #cal_apartments button:focus,
     }
 
     #section_first .bg_gradient div {
-        margin-top: 108px;
+        margin-top: 55px;
         /* height: 150px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) -150px, #FAFAFA 150px);
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FAFAFA 90.2%); */
     }
 
     #section_first .bg_gradient {
-        margin-top: 159px !important;
+        /* margin-top: 159px !important; */
         background-color: #023E8A;
     }
 
@@ -2722,14 +2725,31 @@ button:focus #cal_apartments button:focus,
         background-color: #fff;
     }
 
-    section#apartments {
+    /* section#apartments {
         margin-top: -180px;
+    } */
+
+    #section_first img {
+        height: 900px;
     }
+
+    #apartments_hotel .container.pt-150 {
+        padding-top: 0 !important;
+    }
+
+    section#apartments_hotel {
+        padding-top: 90px !important;
+    }
+
+    #section_first .section_content ul.list-group {
+        display: none;
+    }
+
 }
 
 
 
-@media (min-device-width: 768px) and (max-device-width: 991px) {
+/* @media (min-device-width: 768px) and (max-device-width: 991px) {
     #section_first .section_content {
         padding-bottom: 600px !important;
     }
@@ -2737,7 +2757,7 @@ button:focus #cal_apartments button:focus,
     #section_first img {
         height: 115.6vh
     }
-}
+} */
 
 
 @media only screen and (max-width: 768px) {
@@ -2765,7 +2785,7 @@ button:focus #cal_apartments button:focus,
     }
 
     #section_first img {
-        height: 106.5vh;
+        height: 900px;
     }
 
     #buchungsbestätigung1 .col-sm-12 .card {
@@ -3528,7 +3548,7 @@ button:focus #cal_apartments button:focus,
     }
 }
 
-@media only screen and (max-width:992px) and (min-width:768px) {
+@media only screen and (max-width: 992px) and (min-width: 768px) {
     .favourite {
         position: absolute;
         padding-left: 285px;
@@ -3567,6 +3587,10 @@ button:focus #cal_apartments button:focus,
 
     #buchungen .col-md-8 .buch_title {
         font-size: 44px;
+    }
+
+    #section_first .section_content {
+        top: 20px !important;
     }
 }
 
@@ -4037,6 +4061,10 @@ button:focus #cal_apartments button:focus,
     #buchungsbestätigung1 .col-xs-12 {
         width: 100% !important;
     }
+    
+    #section_first img {
+        height: 900px;
+    }
 }
 
 @media only screen and (max-width: 475px) {
@@ -4059,4 +4087,8 @@ button:focus #cal_apartments button:focus,
     #index_page #ui-datepicker-div {
         left: 26.2656px !important;
     }
+}
+
+#header:not(.home-header) {
+    background-color: #fff;
 }
