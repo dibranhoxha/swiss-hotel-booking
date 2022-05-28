@@ -410,7 +410,11 @@ if(togglerButton) {
         if(!document.querySelector('.toggler-icon').classList.contains('icon-on-scroll')) {
             header.classList.toggle('blue-back')
         } else {
-            header.classList.toggle('white-back')
+            if(togglerButton.classList.contains('collapsed') === false && !document.querySelector('.toggler-icon').classList.contains('icon-on-scroll')) {
+                header.classList.toggle('white-back')
+            } else {
+                header.classList.toggle('blue-back')
+            }
         }
     })
 }
@@ -422,6 +426,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const header = document.querySelector('#header');
             if (header.classList.contains('home-header')) {
                 header.classList.remove('no-shadow');
+                header.classList.add('white-back');
                 document.querySelector('#section_first > .content > .container #header a h3').style.color = '#023E8A';
                 document.querySelector('#section_first > .content > .container #header a p').style.color = '#023E8A';
                 const btnLogin = document.querySelector('#section_first > .content > .container #header #navbarNav ul .nav-item #btn-login');
@@ -456,6 +461,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const header = document.querySelector('#header');
             if (header.classList.contains('home-header')) {
                 header.classList.add('no-shadow');
+                header.classList.remove('white-back');
+                // header.classList.add('blue-back');
                 document.querySelector('#section_first > .content > .container #header a h3').style.color = '#fff';
                 document.querySelector('#section_first > .content > .container #header a p').style.color = '#fff';
                 const btnLogin = document.querySelector('#section_first > .content > .container #header #navbarNav ul .nav-item #btn-login');

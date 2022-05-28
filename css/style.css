@@ -4202,4 +4202,12 @@ button:focus #cal_apartments button:focus,
         margin-top: -500px !important;
         transition: margin-top .3s ease-out;
     }
+
+    #section_first .section_content form {
+        margin-top: -200px;
+    }
+
+    #section_first .section_content {
+        top: -10vh !important;
+    }
 }
