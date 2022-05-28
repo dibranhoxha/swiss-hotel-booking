@@ -4307,6 +4307,11 @@ button:focus #cal_apartments button:focus,
         height: 110rem !important;
         margin-top: -80px;
     }
+
+    #tab-login .d-flex,
+    #tab-registrieren .d-flex {
+        flex-direction: column;
+    }
 }
 
 
