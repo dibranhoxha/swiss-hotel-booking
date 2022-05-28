@@ -2798,6 +2798,9 @@ button:focus #cal_apartments button:focus,
     section#apartments {
         padding-top: 60px;
     }
+    #section_first .section_content {
+        top: 20vh;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
@@ -3591,7 +3594,7 @@ button:focus #cal_apartments button:focus,
     }
 
     #section_first .section_content {
-        top: 20px !important;
+        top: 20vh !important;
     }
 }
 
@@ -3636,6 +3639,7 @@ button:focus #cal_apartments button:focus,
     }
 
     #section_first .section_content {
+        top: 20vh !important;
         padding-bottom: 500px;
     }
 
