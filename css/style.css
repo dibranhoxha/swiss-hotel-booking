@@ -4252,7 +4252,7 @@ button:focus #cal_apartments button:focus,
     }
 
     section#Unser_Service {
-        height: 240vh !important
+        height: 95rem !important
     }
 }
 
@@ -4296,7 +4296,33 @@ button:focus #cal_apartments button:focus,
     }  */
 
     section#Unser_Service {
-        height: 240vh !important;
-        margin-top: -160px;
+        height: 102rem !important;
+        margin-top: -80px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    section#Unser_Service {
+        height: 110rem !important;
+        margin-top: -80px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    
+    section#Unser_Service {
+        height: 117rem !important;
+        margin-top: -80px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    
+    section#Unser_Service {
+        height: 125rem !important;
+        margin-top: -80px;
     }
 }
