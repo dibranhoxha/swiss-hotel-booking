@@ -391,7 +391,7 @@ body {
     background-color: #023E8A;
 
     /* height: calc(1200px - 150px); */
-    height: 100vh;
+    height: 800px;
     min-height: 800px;
     /* background-image: url("../img/01_Swiss-Star-Background-Home.png");
     background-size: cover;
@@ -3324,7 +3324,8 @@ button:focus #cal_apartments button:focus,
     }
 
     #section_first {
-        height: calc(1200px - 150px);
+        /* height: calc(1200px - 150px); */
+        height: 800px !important
     }
 
     #section_first .section_content .list-group-item {
