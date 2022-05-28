@@ -4195,6 +4195,26 @@ button:focus #cal_apartments button:focus,
         transition: margin-top .3s ease-out;
     }
 
+    
+    #swiss_star_tower #details {
+        margin-top: -100px;
+    }
+    
+    section#lokation.container.pt-100 {
+        margin-top: -130px !important;
+    }
+
+    section#buchungsbestätigung1 {
+        margin-top: 40px;
+    }
+
+    footer.pt-150 {
+        padding-top: 0 !important;
+    }
+
+    footer .footer-content {
+        padding-bottom: 0 !important;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -4229,6 +4249,10 @@ button:focus #cal_apartments button:focus,
 
     #apartments .form .calendar .card-body .d-flex.bbtn {
         margin-right: 40px;
+    }
+
+    section#Unser_Service {
+        height: 240vh !important
     }
 }
 
@@ -4270,4 +4294,9 @@ button:focus #cal_apartments button:focus,
     /* #apartments .form .calendar .card-body .d-flex.bbtn {
         margin-right: 40px;
     }  */
+
+    section#Unser_Service {
+        height: 240vh !important;
+        margin-top: -160px;
+    }
 }
