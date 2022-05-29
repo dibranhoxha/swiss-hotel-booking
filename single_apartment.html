@@ -204,10 +204,21 @@
 
                     <div class="form">
                         <form action="">
-                            <label for="exampleFormControlInput1" class="form-label">Check-in</label>
+                            <!-- <div class="d-flex flex-row justify-content-between"> -->
+                                <div class="mt-0">
+                                
+                                <label class="form-check-label pr-2" for="checkin-checkbox" style="font-size:14px; font-family: Montserrat;">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkin-checkbox">
+                                    Buchung auf unbestimmte Zeit.<span style="font-size:14px; font-weight: 200; font-family: Montserrat; color: #fff">(min. 30 Nächte)</span>
+                                </label>
+                            </div>
+                        <!-- </div> -->
+                            <label for="exampleFormControlInput1" class="form-label label-check-in">Check-in</label>
                             <div class="calendar d-flex">
                                 <i class="fa fa-calendar" aria-hidden="true"></i>
-                                <input class="form-control" name="datefilterr" id="check_in"
+                                <input class="form-control" name="datefilterr" id="check_in_out"
+                                aria-describedby="telephoneHelpId" autocomplete="off">
+                                <input class="form-control" name="datefilterrr" id="just_check_in"
                                 aria-describedby="telephoneHelpId" autocomplete="off">
 
                             </div>

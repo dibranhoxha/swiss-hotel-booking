@@ -2606,6 +2606,13 @@ button:focus #cal_apartments button:focus,
 #cal_apartments #ui-datepicker-div {
     background-color: #023E8A;
     color: #fff;
+    
+}
+
+#cal_apartments #ui-datepicker-div select {
+    background-color: #023E8A;
+    color: #fff;
+    border: none !important;
 }
 
 

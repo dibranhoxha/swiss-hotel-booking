@@ -275,8 +275,36 @@ function ndryshoImazhin1() {
     }
 }
 
+
+
 $(function () {
-    $('input[name="datefilterr"]').datepicker({
+    $('input[name="datefilterr"]').daterangepicker({
+        autoUpdateInput: false,
+        autoApply: true,
+        opens: 'left',
+        locale: {
+            cancelLabel: 'Clear'
+        },
+        minDate: new Date(),
+        // minDate: moment().startOf('month'),
+        changeMonth: false,
+        changeYear: false,
+        stepMonths: 0,
+    });
+    $('input[name="datefilterr"]').on('apply.daterangepicker', function (ev, picker) {
+        $(this).val(picker.startDate.format('DD/MM/YYYY') + ' - ' + picker.endDate.format('DD/MM/YYYY'));
+    });
+
+    $('input[name="datefilterr"]').on('cancel.daterangepicker', function (ev, picker) {
+        $(this).val('');
+    });
+
+});
+
+$(function () {
+    $('input[name="datefilterrr"]').datepicker({
+        inline: true,
+        altField: '#just_check_in_z',
         autoUpdateInput: false,
         autoApply: true,
         // opens: 'left',
@@ -499,3 +527,41 @@ if(apartments_toggle_button) {
         }
     })
 }
+
+
+$(document).ready(function () {
+    var checked = $("#checkin-checkbox").is(":checked");
+    var just_check_in = $("#just_check_in")
+    var check_in_out = $("#check_in_out")
+    var label = $(".label-check-in")
+    console.log(just_check_in)
+    console.log(check_in_out)
+    if(checked) {
+        label.text("Check in")
+        just_check_in.show();
+        check_in_out.hide();
+        check_in_out.attr('name', 'datefilterrr');
+    } else {
+        label.text("Check in & out")
+        just_check_in.hide();
+        check_in_out.show();
+        check_in_out.attr('name', 'datefilterr');
+
+    }
+    
+    $("#checkin-checkbox").change(function() {
+        if($(this).is(":checked")) {
+            label.text("Check in");
+        check_in_out.attr('name', 'datefilterrr');
+        just_check_in.show();
+        check_in_out.hide();
+        
+        } else {
+            label.text("Check in & out");
+            just_check_in.hide();
+            check_in_out.show();
+            check_in_out.attr('name', 'datefilterrr');
+
+        }      
+    });
+});
