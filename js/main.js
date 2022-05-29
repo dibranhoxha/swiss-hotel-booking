@@ -276,25 +276,18 @@ function ndryshoImazhin1() {
 }
 
 $(function () {
-    $('input[name="datefilterr"]').daterangepicker({
+    $('input[name="datefilterr"]').datepicker({
         autoUpdateInput: false,
         autoApply: true,
-        opens: 'left',
+        // opens: 'left',
         locale: {
             cancelLabel: 'Clear'
         },
         minDate: new Date(),
         // minDate: moment().startOf('month'),
-        changeMonth: false,
-        changeYear: false,
+        changeMonth: true,
+        changeYear: true,
         stepMonths: 0,
-    });
-    $('input[name="datefilterr"]').on('apply.daterangepicker', function (ev, picker) {
-        $(this).val(picker.startDate.format('DD/MM/YYYY') + ' - ' + picker.endDate.format('DD/MM/YYYY'));
-    });
-
-    $('input[name="datefilterr"]').on('cancel.daterangepicker', function (ev, picker) {
-        $(this).val('');
     });
 
 });

@@ -722,6 +722,45 @@ sup {
     background: #F9F9F9;
 }
 
+#cal_apartments .ui-datepicker-header {
+    background: unset;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    margin-left: auto;
+}
+
+#cal_apartments .ui-datepicker .ui-datepicker-title {
+    text-align: right;
+    margin-right: 10px;
+    color: #fff
+}
+
+#cal_apartments .ui-datepicker th {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+#cal_apartments .ui-datepicker td span,
+#cal_apartments .ui-datepicker td a {
+    font-weight: 400;
+    font-size: 20px;
+    background: unset !important;
+    border: none !important;
+    text-align: center !important;
+    color: unset;
+}
+
+#cal_apartments .ui-datepicker-prev span.ui-icon,
+#cal_apartments .ui-datepicker-next span.ui-icon,
+#cal_apartments .ui-datepicker-next {
+    display: none;
+}
+
+
+
 
 #section_first .section_content form .location {
     width: 25%;
@@ -2513,14 +2552,14 @@ button:focus #cal_apartments button:focus,
     background-color: #023E8A;
 }
 
-#cal_apartments .daterangepicker .calendar-table .prev {
+#cal_apartments .datepicker .calendar-table .prev {
     background-image: url('../img/Arrow\ 2.png');
     background-repeat: no-repeat;
     position: absolute;
     top: 15px;
 }
 
-#cal_apartments .daterangepicker .calendar-table .next {
+#cal_apartments .datepicker .calendar-table .next {
     background-image: url('../img/Arrow\ 1.png');
     background-repeat: no-repeat;
     position: absolute;
@@ -2562,6 +2601,11 @@ button:focus #cal_apartments button:focus,
     /* height: 30px; */
     width: 100%;
     padding: 1rem;
+}
+
+#cal_apartments #ui-datepicker-div {
+    background-color: #023E8A;
+    color: #fff;
 }
 
 
@@ -2724,6 +2768,14 @@ button:focus #cal_apartments button:focus,
         margin-top: 159.7px;
     }
 
+    section#buchungen {
+        margin-top: -2px !important;
+    }
+
+    #section_first .section_content {
+        padding-top: 47rem;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -2770,6 +2822,19 @@ button:focus #cal_apartments button:focus,
 
     #section_first .section_content ul.list-group {
         display: none;
+    }
+
+    #section_first .section_content {
+        padding-top: 10rem;
+    }
+
+    #section_first .bg_gradient {
+        padding-top: 12.8rem;
+
+    }
+
+    #apartments_hotel {
+        margin-top: 10rem;
     }
 
 }
@@ -2840,8 +2905,9 @@ button:focus #cal_apartments button:focus,
     }
 
     #section_first .section_content {
-        top: 10vh;
+        padding-top: 47rem;
     }
+
 }
 
 @media only screen and (min-width: 1400px) {
