@@ -4350,11 +4350,13 @@ button:focus #cal_apartments button:focus,
     }
 }
 
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
-
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button {  
-
-   opacity: 1;
-
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
