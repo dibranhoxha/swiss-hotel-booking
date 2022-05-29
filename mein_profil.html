@@ -25,7 +25,7 @@
 
 <body>
 
-<header id="header" class="top-fixed">
+<header id="header">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid mt-4">
@@ -72,7 +72,7 @@
 </header>
 <section class="container mt-150 mb-5" id="buchungen">
     <div class="row">
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4" >
             <div class="favoriten">
                 <p style="padding-left: 10px;"><img src="img/25vector.png" alt=""><a class="text-decoration-none " style="color: #023E8A;" href="mein profil.html"><b>Mein Profil</b></a> </p>
                 <p><img src="img/37_Vector.png" alt=""><a class="text-decoration-none " style="color: #023E8A;" href="dashboard_user.html"><b>Favoriten</b></a></p>
@@ -121,75 +121,93 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-8" id="einstellungen">
+        <div class="col-sm-12 col-md-8 px-5"  id="mein_profil">
             <div class="row">
-                <div class="col-4">
-                    <h1 style="width: 283px;">Mein Profil</h1>
+                <div class="col-sm-6 col-md-6">
+                    <h1 style="font-weight: 700;">Mein Profil</h1>
                 </div>
-            </div>
-            
+                <div class="col-sm-6 col-md-6">
+                    <button type="button" class="btn" style="float: right; border-radius: 10px; background-color: #023E8A; color: #F9F9F9; padding: 7px 20px;">Bearbeiten</button> 
+                </div>
+            </div> 
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-xs-12  col-md-8">
+                        <p class="name">Vorname <br><span>Max</span></p>
+                    </div>
 
-            <!-- <form>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Vorname</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                    <div class="col-xs-12  col-md-8">
+                        <p class="surname">Nachname <br><span>Mustermann</span></p>
+                    </div>
+
+                    <div class="col-xs-12  col-md-8">
+                        <p class="email">E-Mail Adresse <br><span>max.mustermann@mustermail.ch</span></p>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nachname</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput2">
+               
+            </div>
+           
+            <div class="mb-3">
+               
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <p class="datebirth">Geburtstag <br><span>23.05.1996</span></p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <p class="telnr">Telefonnummer <br><span>+41 71 111 22 33</span></p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <p class="file">Ausweisdokument</p>
+                            <a href="#">Ausweis.pdf</a><br>
+                            <a href="#">Ausweis.pdf</a>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">E-Mail Adresse</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput3">
+               
+            </div>
+            <div class="mb-3">
+               
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <p class="plz">PLZ <br><span>9015</span></p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <p class="addres">Adresse / Strasse <br><span>Letzistrasse 29</span></p>
+                    </div>
+
+            
                 </div>
+               
+            </div>
+            <hr>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Geburtstag</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput4">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Telefonnummer</label>
-                    <input type="number" class="form-control" id="exampleFormControlInput5">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Adresse / Strasse</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput6">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">PLZ</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput7">
-                </div>
-                <div class="mb-3">
-                    <!-- <label for="formFile" class="form-label">Ausweisdokument</label>
-                    <input class="form-control" type="file" id="formFile" value="Hochladen"> -->
-                    <!-- <label for="formFile" class="form-label">Ausweisdokument</label><br>
-                    <input type="file" id="actual-btn" hidden/>
-                    <label id="Hochladen" for="actual-btn"  style="background-color: #F6F6F6;
-                    padding: 14px 45px;cursor: pointer;">Hochladen</label>
-                  </div> -->
-                
-                <div class="mb-3">
-                    <p>Notfall Kontakt</p>
+                    <p style="color: #FF0000; font-size:20px;font-weight:
+                    800">Notfall Kontakt</p>
                    
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Vorname</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                    <div class="row">
+                        <div class="col-xs-12  col-md-8">
+                            <p class="name">Vorname <br><span><b>Kevin</b></span></p>
+                        </div>
+    
+                        <div class="col-xs-12  col-md-8">
+                            <p class="surname">Nachname <br><span>Holzer</span></p>
+                        </div>
+    
+                        <div class="col-xs-12  col-md-8">
+                            <p class="email">E-Mail Adresse <br><span>Kevin.holzer@hotmail.ch</span></p>
+                        </div>
+                        <div class="col-xs-12  col-md-8">
+                            <p class="telnr">Telefonnummer <br><span>+41 71 333 22 11</span></p>
+                        </div>
+                    </div>
+                   
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nachname</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput2">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">E-Mail Adresse</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput3">
-                </div>
-                
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Telefonnummer</label>
-                    <input type="number" class="form-control" id="exampleFormControlInput5">
-                </div>
-                 <button type="button" class="btn" style="float: right; border-radius: 10px; background-color: #023E8A; color: #F9F9F9; padding: 7px 20px;">Speichern</button> 
-            </form>
+
+               
 
         </div>
     </div>
