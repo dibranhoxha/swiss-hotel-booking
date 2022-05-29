@@ -210,12 +210,14 @@
                                     aria-describedby="telephoneHelpId" autocomplete="off">
                             </div>
                             <label for="exampleFormControlInput1" class="form-label">Anzahl der Gäste</label>
-                            <div class="calendar d-flex">
+                            <div class="calendar d-flex form-outline">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <input class="form-control text-decoration-none table-hover" autocomplete="off"
+                                <!-- <input class="form-control text-decoration-none table-hover" autocomplete="off"
                                     data-bs-toggle="collapse" href="#anzahl_personen" role="button"
                                     id="txt_anzahl_personen" aria-expanded="false" aria-controls="anzahl_personen"
-                                    readonly />
+                                    readonly /> -->
+                                        <input type="number" id="typeNumber txt_anzahl_personen" class="form-control text-decoration-none table-hover" value="0" min="0" />
+                                        <!-- <input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="1" type="number"> -->
                                 <div class="collapse" id="anzahl_personen">
                                     <div class="card card-body position-absolute" id="card_test">
                                         <div class="d-flex">

@@ -1252,6 +1252,11 @@ footer a {
     color: #555555;
 }
 
+#apartments .card.card-body .hr {
+    height: 2px !important;
+    background-color: #fff !important;
+}
+
 #apartments_hotel p {
     font-weight: 300;
     font-size: 15px;
@@ -1935,6 +1940,10 @@ footer a {
     font-size: 16px;
     color: #292929;
     padding-bottom: 10px;
+}
+
+#buchungsbestätigung span.toggler-icon {
+    padding-bottom: 0;
 }
 
 #buchungsbestätigung .card-feature {
@@ -2800,8 +2809,12 @@ button:focus #cal_apartments button:focus,
         padding-top: 60px;
     }
 
+    #section_first img {
+        height: 100%;
+    }
+
     #section_first .section_content {
-        top: 15vh;
+        top: 10vh;
     }
 }
 
@@ -4291,6 +4304,11 @@ button:focus #cal_apartments button:focus,
         width: 95% !important;
     }
 
+    #apartments .form .calendar .card-body .hr {
+        height: 2px !important;
+        background-color: #fff !important;
+    }
+
     /* #apartments .form .calendar .card-body .d-flex.bbtn {
         margin-right: 40px;
     }  */
@@ -4330,4 +4348,13 @@ button:focus #cal_apartments button:focus,
         height: 125rem !important;
         margin-top: -80px;
     }
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
 }
