@@ -1250,7 +1250,6 @@ footer a {
     padding: 4px;
     border-radius: 10px;
     font-weight: 300;
-    color: #D8D8D8;
     opacity: 1;
 }
 
@@ -1357,8 +1356,12 @@ footer a {
 
 }
 
+#cal_apar input[type="textarea"]#name {
+    color: #000 !important;
+}
+
 #cal_apar input[type="textarea"]::placeholder {
-    color: black;
+    /* color: black; */
     font-size: 11px;
     font-weight: 500;
 }
@@ -1375,7 +1378,6 @@ footer a {
 
 #cal_apar #apartments_hotel .card {
     border: 1px solid #023E8A;
-
 }
 
 #cal_apar #apartments_hotel .form-select:focus,
@@ -1405,7 +1407,7 @@ footer a {
 }
 
 #cal_apar .select2 .current {
-    color: #999999 !important;
+    /* color: #999999 !important; */
 }
 
 #cal_apar .select2 .current,
@@ -1500,6 +1502,14 @@ footer a {
     margin-bottom: 30px;
 }
 
+#swiss_star_tower .form .calendar:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+#swiss_star_tower .form .form-check-label.als-gast-buchen {
+    margin-bottom: 20px;
+}
+
 #cal_apartments select::-ms-expand {
     display: none;
 }
@@ -1578,6 +1588,10 @@ footer a {
     font-weight: 300;
     font-size: 12px;
     color: #F6FAFF;
+}
+
+#swiss_star_tower .container-fluid button {
+    margin-bottom: 1.1rem !important;
 }
 
 #details .col-6 {
@@ -2186,7 +2200,7 @@ footer a {
 
 /*=====Einstellunngen=========*/
 
-einstellungen# .form-control {
+#einstellungen .form-control {
     border: none;
     border-bottom: 1px solid #B7B7B7;
     background-color: #F6F6F6;
@@ -2421,7 +2435,8 @@ button:focus #cal_apartments button:focus,
 }
 
 .form-check-input:checked {
-    background-color: #023E8A;
+    /* background-color: #023E8A; */
+    border-color: unset !important
 }
 
 .form-check-input:focus {
@@ -2552,14 +2567,14 @@ button:focus #cal_apartments button:focus,
     background-color: #023E8A;
 }
 
-#cal_apartments .datepicker .calendar-table .prev {
+#cal_apartments .daterangepicker .calendar-table .prev {
     background-image: url('../img/Arrow\ 2.png');
     background-repeat: no-repeat;
     position: absolute;
     top: 15px;
 }
 
-#cal_apartments .datepicker .calendar-table .next {
+#cal_apartments .daterangepicker .calendar-table .next {
     background-image: url('../img/Arrow\ 1.png');
     background-repeat: no-repeat;
     position: absolute;
@@ -2606,13 +2621,25 @@ button:focus #cal_apartments button:focus,
 #cal_apartments #ui-datepicker-div {
     background-color: #023E8A;
     color: #fff;
-    
+
 }
 
 #cal_apartments #ui-datepicker-div select {
     background-color: #023E8A;
     color: #fff;
     border: none !important;
+}
+
+#tab-registrieren .form-check label a {
+    color: #023E8A;
+}
+
+.icon-show.fa-filter:before {
+    content: "\f0b0";
+}
+
+.icon-show.fa-filter:before {
+    content: "\f00d";
 }
 
 
@@ -2841,7 +2868,7 @@ button:focus #cal_apartments button:focus,
     }
 
     #apartments_hotel {
-        margin-top: 10rem;
+        margin-top: 2rem;
     }
 
 }
@@ -3369,9 +3396,9 @@ button:focus #cal_apartments button:focus,
     #checkout #zahlungsinformationen .container button {
         border-radius: 1rem !important;
         /* height: 30px; */
-        width: 100%;
-        padding: 1rem;
-    } */
+        /* width: 100%; */
+        /* padding: 1rem; */
+    /* } */ 
 }
 
 /*TODO: 1023*/
@@ -3712,6 +3739,10 @@ button:focus #cal_apartments button:focus,
     #apartments.small-margin-top {
         margin-top: -240px !important;
         transition: margin-top .3s ease-out;
+    }
+
+    #index_page #apartments_hotel {
+        margin-top: 12rem;
     }
 }
 
@@ -4244,10 +4275,6 @@ button:focus #cal_apartments button:focus,
         left: 86px !important;
     }
 
-    #apartments_hotel .card {
-        width: auto !important;
-    }
-
     #index_page #apartments_hotel span, #index_page #apartments_hotel sup {
         font-size: 9px !important;
     }
@@ -4339,7 +4366,7 @@ button:focus #cal_apartments button:focus,
     }
     
     section#lokation.container.pt-100 {
-        margin-top: -130px !important;
+        margin-top: -90px !important;
     }
 
     section#buchungsbestätigung1 {
@@ -4420,13 +4447,14 @@ button:focus #cal_apartments button:focus,
 
     #section_first .section_content form .gaste .card-body .d-flex {
         margin-top: 10px !important;
+        /* justify-content: space-between !important; */
     }
 
     #apartments .form .calendar .card-body {
         flex-direction: column !important;
         justify-content: center;
         margin-left: -93% !important;
-        width: 95% !important;
+        width: 93% !important;
     }
 
     #apartments .form .calendar .card-body .hr {
@@ -4442,6 +4470,15 @@ button:focus #cal_apartments button:focus,
         height: 102rem !important;
         margin-top: -80px;
     }
+
+    #apartments_hotel span, #apartments_hotel sup {
+        font-size: 10px !important;
+    }
+
+    #anzahl_personen #card_test.card div {
+        justify-content: space-between !important;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -4454,6 +4491,25 @@ button:focus #cal_apartments button:focus,
     #tab-login .d-flex,
     #tab-registrieren .d-flex {
         flex-direction: column;
+    }
+
+    #apartments_hotel .card-text {
+        font-size: 13px !important;
+    }
+
+    #apartments_hotel .card {
+        width: 16rem !important;
+    }
+
+    #index_page #apartments_hotel span, #index_page #apartments_hotel sup {
+        font-size: 9px !important;
+    }
+
+    #apartments .form .calendar .card-body {
+        flex-direction: column !important;
+        justify-content: center;
+        margin-left: -91% !important;
+        width: 91% !important;
     }
 }
 
@@ -4473,6 +4529,18 @@ button:focus #cal_apartments button:focus,
         height: 125rem !important;
         margin-top: -80px;
     }
+
+    #apartments_hotel .card-text {
+        font-size: 11px !important;
+    }
+
+    #apartments_hotel .card {
+        width: 270px !important;
+    }
+
+    #index_page #apartments_hotel span, #index_page #apartments_hotel sup {
+        font-size: 9px !important;
+    }
 }
 
 input[type=number]::-webkit-outer-spin-button,
@@ -4485,3 +4553,67 @@ input[type=number]::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+    body#cal_apartments {
+        margin-bottom: 45rem !important;
+    }
+
+    #cal_apartments .form {
+        width: 100% !important;
+    }
+
+    #section_first .section_content form .gaste .card-body {
+        left: 45rem;
+    }
+
+    div.footer-content {
+        padding-bottom: 40rem !important;
+    }
+
+    .py-5 {
+        padding-bottom: 0 !important
+    }
+  }
+
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    body#cal_apartments {
+        margin-bottom: 45rem !important;
+    }
+
+    #cal_apartments .form {
+        width: 100% !important;
+    }
+
+    #section_first .section_content form .gaste .card-body {
+        left: 45.5rem;
+    }
+
+    #apartments_hotel .card-text {
+        font-size: 13px !important;
+    }
+
+    #apartments_hotel .card {
+        width: 16rem !important;
+    }
+
+    #index_page #apartments_hotel span, #index_page #apartments_hotel sup {
+        font-size: 9px !important;
+    }
+    
+    div.footer-content {
+        padding-bottom: 20rem !important;
+    }
+
+    section#Unser_Service {
+        height: 75rem !important;
+    }
+  }
+
+  .ui-icon, .ui-widget-content .ui-icon, .ui-datepicker-prev span.ui-icon, .ui-datepicker-next span.ui-icon, .ui-datepicker-next {
+      display: flex !important;
+  }
+
+  .ui-widget-header .ui-icon {
+
+  }

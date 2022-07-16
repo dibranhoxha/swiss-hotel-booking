@@ -79,15 +79,18 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid" id="">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-round"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="toggler-icon top-bar" style="background-color:#023E8A"></span>
+                        <span class="toggler-icon middle-bar" style="background-color:#023E8A"></span>
+                        <span class="toggler-icon bottom-bar" style="background-color:#023E8A"></span>
+                        <!-- <i class="fa fa-solid fa-bars-staggered" aria-hidden="true"></i> -->
                     </button>
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-0 ms-0">
-                            <li class="nav-item ps-0 ms-0">
-                                <a class="nav-link active ps-2 pe-3" aria-current="page" href="#">Details</a>
-                                <div class="active-details w-100"></div>
+                            <li class="nav-item">
+                                <a class="nav-link active px-3" aria-current="page" href="#">Details</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active px-3" aria-current="page" href="#lokation">Lokation</a>
@@ -220,18 +223,19 @@
                                 aria-describedby="telephoneHelpId" autocomplete="off">
                                 <input class="form-control" name="datefilterrr" id="just_check_in"
                                 aria-describedby="telephoneHelpId" autocomplete="off">
-
                             </div>
                             <label for="exampleFormControlInput1" class="form-label">Anzahl der Gäste</label>
                             <div class="calendar d-flex form-outline">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <!-- <input class="form-control text-decoration-none table-hover" autocomplete="off"
+                                <input class="form-control text-decoration-none table-hover" autocomplete="off"
                                     data-bs-toggle="collapse" href="#anzahl_personen" role="button"
                                     id="txt_anzahl_personen" aria-expanded="false" aria-controls="anzahl_personen"
-                                    readonly /> -->
-                                <input type="number" id="typeNumber txt_anzahl_personen"
-                                    class="form-control text-decoration-none table-hover" value="0" min="0" />
+                                    readonly />
+                                    
+                                <!-- <input type="number" id="typeNumber txt_anzahl_personen"
+                                    class="form-control text-decoration-none table-hover" value="0" min="0" /> -->
                                 <!-- <input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="1" type="number"> -->
+                                
                                 <div class="collapse" id="anzahl_personen">
                                     <div class="card card-body position-absolute" id="card_test">
                                         <div class="d-flex">
@@ -271,6 +275,10 @@
                                     </div>
                                 </div>
                             </div>
+                            <label class="form-check-label als-gast-buchen pr-2" for="checkin-checkbox" style="font-size:14px; font-family: Montserrat;">
+                                <input class="form-check-input" type="checkbox" value="" id="checkin-checkbox">
+                                Als gast buchen<span style="font-size:14px; font-weight: 200; font-family: Montserrat; color: #fff"><br/>(Kein Accoun notig)</span>
+                            </label>
                             <a href="buchungsbestätigung.html" class="text-decoration-none text-white">
                                 <button class="btn btn-primary" type="button">Buche
                                     <i class="fa fa-check" aria-hidden="true"></i>
@@ -761,8 +769,8 @@
                                                         <input type="checkbox" class="form-check-input"
                                                             style="border-radius: 0" id="check1">
                                                         <label class="form-check-label" for="check1"
-                                                            style="font-size:15px; font-family: Montserrat;">Check me
-                                                            out</label>
+                                                            style="font-size:15px; font-family: Montserrat;">Angemeldet bleiben
+                                                        </label>
                                                     </div>
                                                     <a href="#" class="text-end w-100 text-decoration-none"
                                                         style="font-size:15px;font-family: Montserrat;">Passwort
@@ -825,13 +833,8 @@
                                                 </div>
                                                 <div class="d-flex justify-content-center">
                                                     <div class="mb-3 form-check w-100">
-                                                        <input type="checkbox" class="form-check-input"
-                                                            style="border-radius: 0" id="exampleCheck1">
-                                                        <label class="form-check-label" for="exampleCheck1"
-                                                            style="font-size:15px; font-family:Montserrat">Ich
-                                                            akzeptiere
-                                                            die
-                                                            AGB's</label>
+                                                        <label>Mit dem klick auf “Einloggen” akzeptieren Sie unsere <a>AGBs</a> 
+                                                                und die <a>Datenschutzerklärung!</a></label>
                                                     </div>
                                                 </div>
                                                 <div class="d-flex justify-content-between align-items-center">

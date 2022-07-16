@@ -313,8 +313,8 @@ $(function () {
         },
         minDate: new Date(),
         // minDate: moment().startOf('month'),
-        changeMonth: true,
-        changeYear: true,
+        changeMonth: false,
+        changeYear: false,
         stepMonths: 0,
     });
 
@@ -518,12 +518,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const apartments_section = document.querySelector('#apartments');
 const apartments_toggle_button = document.querySelector('#apartments .container-fluid>.navbar-toggler.btn')
+const apartments_toggle_icon_collapsed = document.querySelector('#apartments .navbar-toggler.btn i.fa.fa-filter')
+const apartments_toggle_icon_not_collapsed = document.querySelector('#apartments filter-icon-not-collapsed')
 if(apartments_toggle_button) {
     apartments_toggle_button.addEventListener('click', () => {
         if(!apartments_toggle_button.classList.contains('collapsed')) {
             apartments_section.classList.add('small-margin-top');
+            apartments_toggle_icon_collapsed.classList.add('icon-show');
         } else {
             apartments_section.classList.remove('small-margin-top');
+            apartments_toggle_icon_collapsed.classList.remove('icon-show');
+
         }
     })
 }
