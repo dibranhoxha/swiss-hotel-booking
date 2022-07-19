@@ -1,537 +1,629 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 /* montserrat-100 - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 100;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-200 - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 200;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-300 - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-regular - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-500 - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-600 - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-700 - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-800 - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-900 - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 900;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-100italic - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 100;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-100italic.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-200italic - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 200;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 200;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-200italic.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-300italic - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 300;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-300italic.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-italic - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 400;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-italic.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-500italic - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 500;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-500italic.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-600italic - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 600;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-600italic.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-700italic - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 700;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-700italic.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-800italic - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 800;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-800italic.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* montserrat-900italic - latin */
 @font-face {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 900;
-    src: url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.svg#Montserrat') format('svg');
-    /* Legacy iOS */
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v23-latin/montserrat-v23-latin-900italic.svg#Montserrat")
+      format("svg");
+  /* Legacy iOS */
 }
 
 body {
-    -webkit-font-smoothing: subpixel-antialiased !important;
-    font-family: 'Montserrat';
-    font-size: 20px;
-    color: #292929;
-    font-weight: 300;
-    overflow-x: hidden !important;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: #292929;
+  font-weight: 300;
+  overflow-x: hidden !important;
 }
 
 .favourite {
-    position: absolute;
-    right: 8%;
-    top: 6%;
+  position: absolute;
+  right: 8%;
+  top: 6%;
 }
 
 .row {
-    overflow-x: hidden;
-    overflow-y: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-
-
 #section_first {
-    background-color: #023E8A;
+  background-color: #023e8a;
 
-    /* height: calc(1200px - 150px); */
-    height: 800px;
-    min-height: 800px;
-    /* background-image: url("../img/01_Swiss-Star-Background-Home.png");
+  /* height: calc(1200px - 150px); */
+  height: 800px;
+  min-height: 800px;
+  /* background-image: url("../img/01_Swiss-Star-Background-Home.png");
     background-size: cover;
     background-repeat: no-repeat; */
 }
 
 #section_first .content {
-    /* background-color: #023E8A; */
-    width: 100%;
-    height: 100%;
-    position: relative;
+  /* background-color: #023E8A; */
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 #section_first img {
-    /* display: none; */
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    object-fit: cover;
-    opacity: 0.6;
-    z-index: 0;
+  /* display: none; */
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  object-fit: cover;
+  opacity: 0.6;
+  z-index: 0;
 }
 
 #section_first .bg_gradient {
-    background-color: #023E8A;
+  background-color: #023e8a;
 }
 
 #section_first .bg_gradient div {
-    /* margin-top: 174.7px; */
-    height: 152px !important;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) -150px, #FAFAFA 150px);
-    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FAFAFA 90.2%); */
+  /* margin-top: 174.7px; */
+  height: 152px !important;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) -150px,
+    #fafafa 150px
+  );
+  /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FAFAFA 90.2%); */
 }
 
 #section_first .navbar-brand h3 {
-    font-weight: 400;
-    font-size: 25px;
-    color: #FFFFFF;
-    margin-bottom: 0;
+  font-weight: 400;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 0;
 }
 
 #section_first .navbar-brand p {
-    font-weight: 500;
-    font-size: 9px;
-    color: #FFFFFF;
-    margin-top: 0;
+  font-weight: 500;
+  font-size: 9px;
+  color: #ffffff;
+  margin-top: 0;
 }
 
 #section_first .navbar-expand-lg .dropdown-menu {
-    position: absolute;
-    right: -10px;
-    left: 900px;
-    top: 75px;
-    background-color: #023E8A;
-    border-radius: 20px;
+  position: absolute;
+  right: -10px;
+  left: 900px;
+  top: 75px;
+  background-color: #023e8a;
+  border-radius: 20px;
 }
 
 #section_first .navbar-expand-lg .dropdown-menu.show li a {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 #section_first .navbar-expand-lg .dropdown-toggle::after {
-    display: none;
+  display: none;
 }
 
 #section_first ul li {
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 
 #section_first ul li a {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
 #section_first ul li:last-child {
-    background: #F9F9F9;
-    border-radius: 50px;
+  background: #f9f9f9;
+  border-radius: 50px;
 }
 
 #section_first ul li:last-child a {
-    color: #023E8A;
+  color: #023e8a;
 }
 
 #section_first .section_content {
-    color: #F9F9F9;
-    padding-bottom: 150px;
+  color: #f9f9f9;
+  padding-bottom: 150px;
 }
 
 #section_first .section_content h2 {
-    font-weight: 300;
-    font-size: 40px;
+  font-weight: 300;
+  font-size: 40px;
 }
 
 #section_first .section_content h1 {
-    font-weight: 400;
-    font-size: 75px;
+  font-weight: 400;
+  font-size: 75px;
 }
 
 #section_first .section_content .list-group-item {
-    background-color: #023E8A;
-    border-radius: 10px;
-    opacity: 0.65;
-    color: #F9F9F9;
-    padding: 10px 30px;
-    margin-right: 20px;
+  background-color: #023e8a;
+  border-radius: 10px;
+  opacity: 0.65;
+  color: #f9f9f9;
+  padding: 10px 30px;
+  margin-right: 20px;
 }
 
 #section_first .section_content form {
-    background-color: #F9F9F9;
-    border-radius: 100px;
-    margin-top: 50px;
+  background-color: #f9f9f9;
+  border-radius: 100px;
+  margin-top: 50px;
 }
 
 #section_first .section_content form div {
-    color: #292929;
-    font-weight: 500;
-    font-size: 25px;
+  color: #292929;
+  font-weight: 500;
+  font-size: 25px;
 }
 
 #section_first .section_content form .d-flex {
-    margin-top: auto;
-    padding-bottom: 10px;
+  margin-top: auto;
+  padding-bottom: 10px;
 }
 
 #section_first .section_content form .flex-column {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 sup {
-    font-size: 11px;
+  font-size: 11px;
 }
 
 #section_first .section_content form .form-control,
 #section_first .section_content form .form-select {
-    border: 0;
-    background-color: #F9F9F9;
-    border-bottom: 1px solid #023E8A;
-    border-radius: 0;
+  border: 0;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #023e8a;
+  border-radius: 0;
 }
 
 /* #section_first .section_content_hero {
@@ -541,254 +633,251 @@ sup {
 } */
 
 #header.blue-back {
-    background-color: #023E8A !important;
+  background-color: #023e8a !important;
 }
 
 #header.white-back {
-    background-color: #fff !important;
+  background-color: #fff !important;
 }
 
 #right_div {
-    z-index: 100;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: calc(100% - 220px);
-    left: 12px;
-    background-color: #f9f9f9;
+  z-index: 100;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: calc(100% - 220px);
+  left: 12px;
+  background-color: #f9f9f9;
 }
 
 .autocomplete-items {
-    position: absolute;
-    z-index: 99;
-    top: calc(100% - 170px);
-    left: 12px;
-    width: calc(25% + 63px);
-    padding-top: 15px;
-    padding-bottom: 25px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    background-color: #f9f9f9;
+  position: absolute;
+  z-index: 99;
+  top: calc(100% - 170px);
+  left: 12px;
+  width: calc(25% + 63px);
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #f9f9f9;
 }
 
 .autocomplete-items div {
-    padding: 10px;
-    padding-left: 75px;
-    cursor: pointer;
-    background-color: #f9f9f9;
-    border: none;
-    font-weight: 500;
-    font-size: 18px !important;
-    color: #292929 !important;
+  padding: 10px;
+  padding-left: 75px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border: none;
+  font-weight: 500;
+  font-size: 18px !important;
+  color: #292929 !important;
 }
 
 .autocomplete-items div:hover {
-    background-color: #e9e9e9;
+  background-color: #e9e9e9;
 }
 
 #location_apa {
-    padding: 6px;
-    font-size: 16px !important;
+  padding: 6px;
+  font-size: 16px !important;
 }
 
 .autocomplete-active {
-    background-color: DodgerBlue !important;
-    color: #ffffff;
+  background-color: DodgerBlue !important;
+  color: #ffffff;
 }
 
 .apartment-items {
-    position: absolute;
-    top: calc(8% + 60px);
-    width: calc(58% + 68px);
-    background: #023E8A;
-    border-radius: 0px 0px 8px 8px;
+  position: absolute;
+  top: calc(8% + 60px);
+  width: calc(58% + 68px);
+  background: #023e8a;
+  border-radius: 0px 0px 8px 8px;
 }
 
 .apartment-items div {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 300;
-    padding: 5px 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 5px 10px;
 }
 
 .apartment-items div:hover {
-    background-color: #003274;
-    cursor: pointer;
-    border-radius: 0px 0px 8px 8px;
+  background-color: #003274;
+  cursor: pointer;
+  border-radius: 0px 0px 8px 8px;
 }
 
 #left_div {
-    display: none;
+  display: none;
 }
 
 #index_page hr {
-    margin: 8px 0 !important;
+  margin: 8px 0 !important;
 }
 
 #index_page sub,
 #index_page sup {
-    font-size: 7px;
+  font-size: 7px;
 }
 
 #index_page sup {
-    top: -8px;
-    right: 3px;
+  top: -8px;
+  right: 3px;
 }
 
 #index_page .ui-datepicker .ui-datepicker-prev {
-    display: none;
+  display: none;
 }
 
 #index_page .ui-datepicker select.ui-datepicker-month,
 #index_page .ui-datepicker select.ui-datepicker-year {
-    width: 33%;
-    border: none;
-    background: #f9f9f9;
-    color: #292929;
-    font-weight: 600;
-    cursor: pointer;
-    margin-left: -30px;
+  width: 33%;
+  border: none;
+  background: #f9f9f9;
+  color: #292929;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: -30px;
 }
 
 #index_page .ui-datepicker select.ui-datepicker-month:focus,
 #index_page .ui-datepicker select.ui-datepicker-year:focus {
-    outline: none !important;
-    box-shadow: none;
+  outline: none !important;
+  box-shadow: none;
 }
 
 #index_page .ui-highlight2 .ui-state-default,
 #index_page .ui-highlight3 .ui-state-default {
-    color: #00A553 !important;
+  color: #00a553 !important;
 }
 
 #index_page .ui-highlight3 .ui-state-default {
-    background-color: #C4FFE1 !important;
+  background-color: #c4ffe1 !important;
 }
 
 #index_page .ui-highlight .ui-state-default {
-    color: #C10000 !important;
+  color: #c10000 !important;
 }
 
 #index_page select::-ms-expand {
-    display: none;
+  display: none;
 }
 
 #index_page select {
-    -webkit-appearance: none;
-    appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .ui-datepicker-header {
-    background: #F9F9F9;
-    border: none;
-    font-weight: 500;
-    font-size: 20px;
-    color: #292929;
-    margin-left: auto;
+  background: #f9f9f9;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #292929;
+  margin-left: auto;
 }
 
 .ui-datepicker .ui-datepicker-title {
-    text-align: right;
-    margin-right: 10px;
-    color: #292929
+  text-align: right;
+  margin-right: 10px;
+  color: #292929;
 }
 
 .ui-datepicker th {
-    font-weight: 400;
-    font-size: 20px;
-    color: #292929;
+  font-weight: 400;
+  font-size: 20px;
+  color: #292929;
 }
 
 .ui-datepicker td span,
 .ui-datepicker td a {
-    font-weight: 400;
-    font-size: 20px;
-    background: #F9F9F9 !important;
-    border: none !important;
-    text-align: center !important;
+  font-weight: 400;
+  font-size: 20px;
+  background: #f9f9f9 !important;
+  border: none !important;
+  text-align: center !important;
 }
 
 .ui-datepicker-prev span.ui-icon,
 .ui-datepicker-next span.ui-icon,
 .ui-datepicker-next {
-    display: none;
+  display: none;
 }
 
 #ui-datepicker-div {
-    border: none;
-    padding: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    background: #F9F9F9;
+  border: none;
+  padding: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background: #f9f9f9;
 }
 
 #cal_apartments .ui-datepicker-header {
-    background: unset;
-    border: none;
-    font-weight: 500;
-    font-size: 20px;
-    color: #fff;
-    margin-left: auto;
+  background: unset;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  margin-left: auto;
 }
 
 #cal_apartments .ui-datepicker .ui-datepicker-title {
-    text-align: right;
-    margin-right: 10px;
-    color: #fff
+  text-align: right;
+  margin-right: 10px;
+  color: #fff;
 }
 
 #cal_apartments .ui-datepicker th {
-    font-weight: 400;
-    font-size: 20px;
-    color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
 }
 
 #cal_apartments .ui-datepicker td span,
 #cal_apartments .ui-datepicker td a {
-    font-weight: 400;
-    font-size: 20px;
-    background: unset !important;
-    border: none !important;
-    text-align: center !important;
-    color: unset;
+  font-weight: 400;
+  font-size: 20px;
+  background: unset !important;
+  border: none !important;
+  text-align: center !important;
+  color: unset;
 }
 
 #cal_apartments .ui-datepicker-prev span.ui-icon,
 #cal_apartments .ui-datepicker-next span.ui-icon,
 #cal_apartments .ui-datepicker-next {
-    display: none;
+  display: none;
 }
 
-
-
-
 #section_first .section_content form .location {
-    width: 25%;
-    margin-left: auto;
+  width: 25%;
+  margin-left: auto;
 }
 
 #section_first .section_content form .check-in {
-    width: 19%;
+  width: 19%;
 }
 
 #section_first .section_content form .check-out {
-    width: 19%;
+  width: 19%;
 }
 
 #section_first .section_content form .gaste {
-    width: 14%;
+  width: 14%;
 }
 
 #section_first .section_content form .gaste .card-body,
 #swiss_star_tower .form .calendar .card-body,
 #apartments .form .calendar .card-body {
-    background-color: #f9f9f9;
-    padding: 20px 55px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border: none;
-    font-size: 14px !important;
-    min-width: 163px !important;
+  background-color: #f9f9f9;
+  padding: 20px 55px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: none;
+  font-size: 14px !important;
+  min-width: 163px !important;
 }
 
 /* #apartments .form .calendar .card-body {
@@ -796,369 +885,368 @@ sup {
 } */
 
 #swiss_star_tower .form .calendar .card-body img {
-    width: 20px;
-    padding: 5px;
+  width: 20px;
+  padding: 5px;
 }
 
 #swiss_star_tower .form .calendar .card-body {
-    background-color: #023E8A;
-    padding: 20px 20px;
-    margin-left: -227px;
-    margin-top: 45px;
-    /* width: 90%; */
+  background-color: #023e8a;
+  padding: 20px 20px;
+  margin-left: -227px;
+  margin-top: 45px;
+  /* width: 90%; */
 }
 
 #apartments .form .calendar .card-body {
-    background-color: #023E8A;
-    padding: 20px 20px;
-    margin-left: -227px;
-    margin-top: 45px;
-    width: 90%;
+  background-color: #023e8a;
+  padding: 20px 20px;
+  margin-left: -227px;
+  margin-top: 45px;
+  width: 90%;
 }
 
 #apartments .form .calendar .card-body {
-    z-index: 999;
+  z-index: 999;
 }
 
 #apartments .form .calendar .card-body p {
-    color: #fff;
+  color: #fff;
 }
 
 #section_first .section_content form .gaste .ui-widget-content,
 #swiss_star_tower .form .calendar .ui-widget-content,
 #apartments .form .calendar .ui-widget-content,
 #section_first .section_content form .gaste form-control {
-    font-weight: 500;
-    font-size: 20px;
-    color: #292929;
-    border: none;
-    width: 30px;
-    background-color: #f9f9f9;
-    text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: #292929;
+  border: none;
+  width: 30px;
+  background-color: #f9f9f9;
+  text-align: center;
 }
 
 #swiss_star_tower .form .calendar .ui-widget-content,
 #apartments .form .calendar .ui-widget-content {
-    background-color: #023E8A;
-    color: #fff;
-    width: 70px;
+  background-color: #023e8a;
+  color: #fff;
+  width: 70px;
 }
 
 .ui-widget-content a {
-    color: #023E8A;
+  color: #023e8a;
 }
 
 #section_first .section_content form .gaste .bbtn,
 #swiss_star_tower .form .calendar .bbtn,
 #apartments .form .calendar .bbtn {
-    border: 2px solid #023E8A;
-    border-radius: 5px;
-    margin-left: 10px;
+  border: 2px solid #023e8a;
+  border-radius: 5px;
+  margin-left: 10px;
 }
 
 #swiss_star_tower .form .calendar .bbtn,
 #swiss_star_tower .form .calendar .bbtn {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 #section_first .section_content form .gaste .bbtn a,
 #swiss_star_tower .form .calendar .bbtn a,
 #apartments .form .calendar .bbtn a {
-    font-weight: 400;
-    font-size: 35px;
-    text-decoration: none;
-    color: #292929;
-    text-align: center;
-    line-height: 15px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  font-weight: 400;
+  font-size: 35px;
+  text-decoration: none;
+  color: #292929;
+  text-align: center;
+  line-height: 15px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #section_first .section_content form .gaste .bbtn a:last-child,
 #swiss_star_tower .form .calendar .bbtn a:last-child,
 #apartments .form .calendar .bbtn a:last-child {
-    border-left: 2px solid #023E8A;
+  border-left: 2px solid #023e8a;
 }
 
 #section_first .section_content form .gaste .hr {
-    border-bottom: 2px solid #023E8A;
+  border-bottom: 2px solid #023e8a;
 }
 
 #section_first .section_content form .btn {
-    padding: 20px 20px 10px 10px;
+  padding: 20px 20px 10px 10px;
 }
 
 #section_first .section_content form .btn button {
-    width: 78px;
-    height: 78px;
-    border: 2px solid #001633;
-    border-radius: 100%;
-    background-color: #023E8A;
-    color: #F9F9F9;
-    font-weight: 200;
-    font-size: 40px;
+  width: 78px;
+  height: 78px;
+  border: 2px solid #001633;
+  border-radius: 100%;
+  background-color: #023e8a;
+  color: #f9f9f9;
+  font-weight: 200;
+  font-size: 40px;
 }
 
 #apartments_hotel .draggable {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 #apartments_hotel .card {
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
 #apartments_hotel .card .star {
-    position: absolute;
-    right: 15%;
-    top: 35%;
-    color: #F1BD6C;
+  position: absolute;
+  right: 15%;
+  top: 35%;
+  color: #f1bd6c;
 }
 
 #deine_favoriten #apartments_hotel .card .star {
-    top: 40%;
+  top: 40%;
 }
 
 #apartments_hotel .card .star p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 #apartments_hotel .card .star .p1 {
-    position: absolute;
-    right: -18px;
-    top: -4px;
-    color: #F1BD6C;
-    font-size: 9px;
+  position: absolute;
+  right: -18px;
+  top: -4px;
+  color: #f1bd6c;
+  font-size: 9px;
 }
 
 #apartments_hotel .card .star .p2 {
-    position: absolute;
-    right: -18px;
-    top: 11px;
-    color: #f9f9f9;
-    font-size: 8px;
+  position: absolute;
+  right: -18px;
+  top: 11px;
+  color: #f9f9f9;
+  font-size: 8px;
 }
 
 #apartments_hotel .card .star div {
-    color: #F1BD6C;
-    font-size: 10px;
-    border: 2px solid #F1BD6C;
-    padding: 2px 5px;
-    border-radius: 100%;
+  color: #f1bd6c;
+  font-size: 10px;
+  border: 2px solid #f1bd6c;
+  padding: 2px 5px;
+  border-radius: 100%;
 }
 
 .slick-prev:before,
 .slick-next:before {
-    color: #292929;
+  color: #292929;
 }
 
 #apartments_hotel .card-img-top {
-    height: auto;
-    width: 100.01%;
-    object-fit: cover;
-    border-radius: 24.1px;
+  height: auto;
+  width: 100.01%;
+  object-fit: cover;
+  border-radius: 24.1px;
 }
 
 #apartments_hotel .card-title {
-    font-weight: 400;
-    font-size: 15px;
-    color: #023E8A;
-    margin-bottom: 0px !important;
+  font-weight: 400;
+  font-size: 15px;
+  color: #023e8a;
+  margin-bottom: 0px !important;
 }
 
 #apartments_hotel .card-text {
-    font-weight: 300;
-    font-size: 15px;
-    color: #292929;
+  font-weight: 300;
+  font-size: 15px;
+  color: #292929;
 }
 
 #apartments_hotel span {
-    font-weight: 400;
-    font-size: 11px;
-    color: #292929;
+  font-weight: 400;
+  font-size: 11px;
+  color: #292929;
 }
 
 #apartments_hotel .card-feature {
-    width: 20px;
-    height: auto;
-    margin-right: 10px !important;
-    object-fit: contain;
+  width: 20px;
+  height: auto;
+  margin-right: 10px !important;
+  object-fit: contain;
 }
 
 #apartments_hotel .btn {
-    background: #023E8A;
-    border-end-end-radius: 20px;
-    border-end-start-radius: 20px;
-    font-weight: 400;
-    font-size: 15px;
-    color: #D8E9FF;
+  background: #023e8a;
+  border-end-end-radius: 20px;
+  border-end-start-radius: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #d8e9ff;
 }
 
 #apartments_hotel .slick-dots {
-    bottom: 10px;
+  bottom: 10px;
 }
 
 .slick-dots li {
-    margin: -4px !important;
+  margin: -4px !important;
 }
 
 #apartments_hotel .slick-dots li.slick-active button:before {
-    opacity: .95;
-    color: #fff;
-    font-size: 7px;
+  opacity: 0.95;
+  color: #fff;
+  font-size: 7px;
 }
 
 .slick-prev:before {
-    content: url("../img/39_Pfad.png");
+  content: url("../img/39_Pfad.png");
 }
 
 .slick-next:before {
-    content: url("../img/40_Pfad.png");
+  content: url("../img/40_Pfad.png");
 }
 
 .slick-next {
-    margin-right: -0px !important;
+  margin-right: -0px !important;
 }
 
 .slick-prev {
-    margin-left: -20px !important;
+  margin-left: -20px !important;
 }
 
 #apartments_hotel .slick-dots button:before {
-    opacity: .55;
-    font-size: 7px;
-    color: #fff;
+  opacity: 0.55;
+  font-size: 7px;
+  color: #fff;
 }
 
 .slick-dotted.slick-slider {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #Apartment_buchen img {
-    width: 128px;
+  width: 128px;
 }
 
 #Apartment_buchen .row .p {
-    width: 70%;
-    text-align: center;
+  width: 70%;
+  text-align: center;
 }
 
 #Apartments_Hotel_Co-Living .t-position {
-    bottom: 90px;
-    left: 60px;
-    font-weight: 400;
-    font-size: 35px;
-    color: #023E8A;
+  bottom: 90px;
+  left: 60px;
+  font-weight: 400;
+  font-size: 35px;
+  color: #023e8a;
 }
 
 #Apartments_Hotel_Co-Living .t-position1 {
-    bottom: 30px;
-    left: 60px;
-    font-weight: 400;
-    font-size: 35px;
-    color: #023E8A;
+  bottom: 30px;
+  left: 60px;
+  font-weight: 400;
+  font-size: 35px;
+  color: #023e8a;
 }
 
 #Apartments_Hotel_Co-Living img {
-    height: 430px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 25px;
+  height: 430px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
 }
 
 #Moderne_Apartment {
-    background-image: url("../img/16_Angebot.png");
-    height: 650px;
+  background-image: url("../img/16_Angebot.png");
+  height: 650px;
 }
 
 #Moderne_Apartment .moderne-content {
-    border: 5px solid #023E8A;
-    border-radius: 25px;
-    background: rgba(249, 249, 249, 0.9);
-    width: 740px;
+  border: 5px solid #023e8a;
+  border-radius: 25px;
+  background: rgba(249, 249, 249, 0.9);
+  width: 740px;
 }
 
 #Moderne_Apartment .moderne-content h4 {
-    font-weight: 400;
-    font-size: 35px;
-    color: #023E8A;
+  font-weight: 400;
+  font-size: 35px;
+  color: #023e8a;
 }
 
 #Moderne_Apartment .moderne-content h5 {
-    font-weight: 300;
-    font-size: 30px;
-    color: #023E8A;
+  font-weight: 300;
+  font-size: 30px;
+  color: #023e8a;
 }
 
 #Moderne_Apartment .moderne-content button {
-    background: #023E8A;
-    color: rgba(249, 249, 249);
-    border-radius: 15px;
-    padding: 15px 30px;
+  background: #023e8a;
+  color: rgba(249, 249, 249);
+  border-radius: 15px;
+  padding: 15px 30px;
 }
 
 #Unser_Service .br-5 {
-    border-left: 5px solid #023E8A;
-    padding-left: 30px;
-    padding-right: 100px;
+  border-left: 5px solid #023e8a;
+  padding-left: 30px;
+  padding-right: 100px;
 }
 
 #Unser_Service p {
-    font-weight: 300;
-    font-size: 15px;
-    color: #292929;
+  font-weight: 300;
+  font-size: 15px;
+  color: #292929;
 }
 
 footer {
-    background: #023E8A;
-    color: #FFF;
-
+  background: #023e8a;
+  color: #fff;
 }
 
 .footer-content {
-    width: 85%;
-    margin: auto;
-    padding-bottom: 150px;
+  width: 85%;
+  margin: auto;
+  padding-bottom: 150px;
 }
 
 footer h4 {
-    font-weight: 400;
-    font-size: 40px;
+  font-weight: 400;
+  font-size: 40px;
 }
 
 footer p,
 footer ul {
-    font-weight: 300;
-    font-size: 25px;
-    line-height: 30px;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
 
-    padding-left: 0;
+  padding-left: 0;
 }
 
 footer ul li {
-    padding-bottom: 25px;
-    list-style: none;
+  padding-bottom: 25px;
+  list-style: none;
 }
 
 footer a {
-    color: #FFF;
-    font-size: 45px;
-    padding: 15px;
+  color: #fff;
+  font-size: 45px;
+  padding: 15px;
 }
 
 /*TODO: Header*/
 /*=============Header==================*/
 
 #header {
-    -webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.7);
 }
 
 #header ul li {
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 
 /* #header .navbar.page-navbar {
@@ -1167,203 +1255,199 @@ footer a {
 } */
 
 #header .navbar-brand h3 {
-    font-weight: 400;
-    font-size: 25px;
-    margin-bottom: 0;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 0;
 }
 
 #header .navbar-brand p {
-    font-weight: 500;
-    font-size: 9px;
-    margin-top: 0;
+  font-weight: 500;
+  font-size: 9px;
+  margin-top: 0;
 }
 
 #header h3,
 #header p,
 #header li a {
-    color: #023E8A;
+  color: #023e8a;
 }
 
 #header li a {
-    font-weight: 500;
-    font-size: 16px;
-    color: #023E8A;
-
+  font-weight: 500;
+  font-size: 16px;
+  color: #023e8a;
 }
 
 #header ul li:last-child {
-    background: #023E8A;
-    border-radius: 50px;
+  background: #023e8a;
+  border-radius: 50px;
 }
 
 #header ul li:last-child a {
-    color: #F9F9F9;
+  color: #f9f9f9;
 }
 
 #header .nav-item.register-button {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 #header .nav-item.register-button a {
-    color: #023E8A !important;
+  color: #023e8a !important;
 }
 
 #header .nav-item.register-button.scroll-theme {
-    background-color: #023E8A;
+  background-color: #023e8a;
 }
 
 #header .nav-item.register-button.scroll-theme a {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .top-fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 .top-fixed.home-header.no-shadow {
-    -webkit-box-shadow: none;
-    box-shadow: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none !important;
 }
 
 /*============End Header===================*/
-
 
 /*TODO: Apartments*/
 /*=============Apartments==================*/
 #apartments .right .box,
 #deine_favoriten .right .box {
-    border: 1px solid #D8D8D8;
-    border-radius: 20px;
-    padding: 30px 0 30px 30px;
-    margin-top: 50px;
-    -webkit-box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
-    box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
+  border: 1px solid #d8d8d8;
+  border-radius: 20px;
+  padding: 30px 0 30px 30px;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
+  box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
 }
 
 .app_input {
-    margin-top: 10px;
-    border: 1px solid;
-    padding: 4px;
-    border-radius: 10px;
-    font-weight: 300;
-    opacity: 1;
+  margin-top: 10px;
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 10px;
+  font-weight: 300;
+  opacity: 1;
 }
 
 .favourite {
-    z-index: 1;
+  z-index: 1;
 }
 
 #deine_favoriten .right .box {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 #apartments .right select {
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    font-weight: 300;
-    font-size: 11px;
-    color: #D8D8D8;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 11px;
+  color: #d8d8d8;
 }
 
 #apartments .right input[type="checkbox"] {
-    margin-top: 10px;
-    border: 2px solid #023E8A;
-    border-radius: 0;
+  margin-top: 10px;
+  border: 2px solid #023e8a;
+  border-radius: 0;
 }
 
 #apartments .right p {
-    font-weight: 400;
-    font-size: 13px;
-    color: #023E8A;
+  font-weight: 400;
+  font-size: 13px;
+  color: #023e8a;
 }
 
 #apartments .right label {
-    margin-top: 12px;
-    margin-left: 10px;
-    font-weight: 300;
-    font-size: 13px;
-    color: #555555;
+  margin-top: 12px;
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 13px;
+  color: #555555;
 }
 
 #apartments .card.card-body .hr {
-    height: 2px !important;
-    background-color: #fff !important;
+  height: 2px !important;
+  background-color: #fff !important;
 }
 
 #apartments_hotel p {
-    font-weight: 300;
-    font-size: 15px;
-    color: #C1C1C1;
-    margin-bottom: 0;
+  font-weight: 300;
+  font-size: 15px;
+  color: #c1c1c1;
+  margin-bottom: 0;
 }
 
 #apartments_hotel select {
-    font-weight: 300;
-    font-size: 15px;
-    color: #999999;
+  font-weight: 300;
+  font-size: 15px;
+  color: #999999;
 }
 
 #cal_apar hr {
-    margin: 7px 0 !important;
+  margin: 7px 0 !important;
 }
 
 #cal_apar select {
-    -webkit-appearance: none;
-    appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 #cal_apar .form-select {
-    background-image: none;
+  background-image: none;
 }
 
 #cal_apar .nice-select {
-    border-radius: 10px;
-    border: 1px solid #D8D8D8;
-    line-height: 26px;
-    font-size: 11px;
-    box-shadow: none;
-
+  border-radius: 10px;
+  border: 1px solid #d8d8d8;
+  line-height: 26px;
+  font-size: 11px;
+  box-shadow: none;
 }
 
 #cal_apar .nice-select .list {
-    box-shadow: 0 0 0 1px rgb(2 62 138);
+  box-shadow: 0 0 0 1px rgb(2 62 138);
 }
 
 #cal_apar .nice-select .list,
 #cal_apar .nice-select .option:hover,
 #cal_apar .nice-select .option.focus,
 #cal_apar .nice-select .option.selected.focus {
-    background-color: #023E8A;
+  background-color: #023e8a;
 }
 
 #cal_apar .nice-select .option,
 #cal_apar .nice-select .option.selected {
-    font-size: 11px;
-    font-weight: 300;
-    color: #fff;
+  font-size: 11px;
+  font-weight: 300;
+  color: #fff;
 }
 
 #cal_apar input::placeholder {
-    color: #D8D8D8;
-    font-size: 11px;
-    font-weight: 300;
-    padding: 10px;
-
+  color: #d8d8d8;
+  font-size: 11px;
+  font-weight: 300;
+  padding: 10px;
 }
 
 #cal_apar input[type="textarea"]#name {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 #cal_apar input[type="textarea"]::placeholder {
-    /* color: black; */
-    font-size: 11px;
-    font-weight: 500;
+  /* color: black; */
+  font-size: 11px;
+  font-weight: 500;
 }
 
 #cal_apar .form-select:focus,
@@ -1371,455 +1455,443 @@ footer a {
 #cal_apar input:focus,
 #cal_apar input:active,
 #cal_apar input:focus-within {
-    outline: none;
-    border: 1px solid #023E8A !important;
-    box-shadow: none !important;
+  outline: none;
+  border: 1px solid #023e8a !important;
+  box-shadow: none !important;
 }
 
 #cal_apar #apartments_hotel .card {
-    border: 1px solid #023E8A;
+  border: 1px solid #023e8a;
 }
 
 #cal_apar #apartments_hotel .form-select:focus,
 #cal_apar #apartments_hotel .form-select:focus {
-    border: 0 !important;
+  border: 0 !important;
 }
 
 #cal_apar .daterangepicker .calendar-table .prev {
-    background-image: url(../img/Arrow\ 2.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 15px;
+  background-image: url(../img/Arrow\ 2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 15px;
 }
 
 #cal_apar .daterangepicker .calendar-table .next {
-    background-image: url(../img/Arrow\ 1.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 10px;
-    right: 15px;
+  background-image: url(../img/Arrow\ 1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+  right: 15px;
 }
 
 #cal_apar .select2 {
-    border: 0px !important;
-    border-bottom: 1px solid #999999 !important;
-    border-radius: unset;
+  border: 0px !important;
+  border-bottom: 1px solid #999999 !important;
+  border-radius: unset;
 }
 
 #cal_apar .select2 .current {
-    /* color: #999999 !important; */
+  /* color: #999999 !important; */
 }
 
 #cal_apar .select2 .current,
 #cal_apar .select2 .list .option {
-    font-size: 15px !important;
-    font-weight: 300 !important;
+  font-size: 15px !important;
+  font-weight: 300 !important;
 }
 
 #cal_apar.select2 .list {
-    left: -70%;
-    width: 172%;
+  left: -70%;
+  width: 172%;
 }
-
-
-
 
 /*============End Apartments===================*/
 
 /*======Single Apartment======*/
 .gmap_canvas {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 #swiss_star_tower .swiss_title {
-    font-size: 50px;
-    font-weight: 400;
-    color: #023E8A;
+  font-size: 50px;
+  font-weight: 400;
+  color: #023e8a;
 }
 
 #swiss_star_tower .swiss_para {
-    color: #D8D8D8;
-    font-size: 25px;
+  color: #d8d8d8;
+  font-size: 25px;
 }
 
 #swiss_star_tower .swiss_para .fa-map-marker {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 #swiss_star_tower .buttons .btn {
-    background-color: #fff;
-    color: #5A5A5A;
-    text-transform: uppercase;
-    border: 1px solid #023E8A;
-    margin-right: 20px;
-    font-size: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+  background-color: #fff;
+  color: #5a5a5a;
+  text-transform: uppercase;
+  border: 1px solid #023e8a;
+  margin-right: 20px;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #swiss_star_tower .responsive1 img {
-    height: 100%;
-    max-width: 650px;
-    object-fit: cover;
-    border-radius: 50px;
+  height: 100%;
+  max-width: 650px;
+  object-fit: cover;
+  border-radius: 50px;
 }
 
 #swiss_star_tower .buttons {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 #swiss_star_tower .col-md-4 {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 #swiss_star_tower .col-md-8 {
-    padding-right: 50px;
+  padding-right: 50px;
 }
 
 #swiss_star_tower .prices {
-    border: 1px solid #023E8A;
-    border-radius: 20px;
-    background-color: #023E8A;
-    padding: 20px 50px;
-    color: #fff;
-    margin-bottom: 20px;
-    -webkit-box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
-    box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
+  border: 1px solid #023e8a;
+  border-radius: 20px;
+  background-color: #023e8a;
+  padding: 20px 50px;
+  color: #fff;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
 }
 
 #swiss_star_tower .form {
-    border: 1px solid #023E8A;
-    border-radius: 20px;
-    background-color: #023E8A;
-    padding: 30px 50px;
-    color: #fff;
-    margin-bottom: 20px;
-    -webkit-box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
-    box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
+  border: 1px solid #023e8a;
+  border-radius: 20px;
+  background-color: #023e8a;
+  padding: 30px 50px;
+  color: #fff;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
 }
 
 #swiss_star_tower .form .calendar {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 #swiss_star_tower .form .calendar:nth-child(2) {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #swiss_star_tower .form .form-check-label.als-gast-buchen {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #cal_apartments select::-ms-expand {
-    display: none;
+  display: none;
 }
 
 #cal_apartments #swiss_star_tower .navbar .container-fluid {
-    border-bottom: 2px solid #D8D8D8;
-    padding: 0 !important;
-    margin-bottom: 20px
+  border-bottom: 2px solid #d8d8d8;
+  padding: 0 !important;
+  margin-bottom: 20px;
 }
 
 #cal_apartments .ui-spinner a.ui-spinner-button {
-    display: none;
+  display: none;
 }
 
 #swiss_star_tower .form .calendar .fa {
-    position: absolute;
-    color: #fff;
+  position: absolute;
+  color: #fff;
 }
 
 #swiss_star_tower .form .calendar .form-control {
-    padding-left: 30px;
-    padding-top: 0 !important;
-    color: #fff;
-    background: none;
-    border: none;
-    border-bottom: 2px solid #F6FAFF;
-    border-radius: unset;
+  padding-left: 30px;
+  padding-top: 0 !important;
+  color: #fff;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #f6faff;
+  border-radius: unset;
 }
 
 #swiss_star_tower .form .btn {
-    background: #F6FAFF;
-    color: #023E8A;
-    border-radius: 10px;
-    /* margin-bottom: 40px; */
-    width: 100%;
+  background: #f6faff;
+  color: #023e8a;
+  border-radius: 10px;
+  /* margin-bottom: 40px; */
+  width: 100%;
 }
 
 #swiss_star_tower .form .btn .fa-check {
-    background: #023E8A;
-    border: 1px solid;
-    border-radius: 50%;
-    padding: 5px;
-    margin-left: 5px;
-    font-size: 18px;
-    color: white;
-
+  background: #023e8a;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 5px;
+  font-size: 18px;
+  color: white;
 }
 
 #swiss_star_tower #details .star {
-    display: flex;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 
 #swiss_star_tower #details .star .star-1 {
-    border-radius: 50%;
-    border: 4px solid #F1BD6C;
-    padding: 5px;
-    margin-right: 5px;
+  border-radius: 50%;
+  border: 4px solid #f1bd6c;
+  padding: 5px;
+  margin-right: 5px;
 }
 
 #swiss_star_tower #details .star .star-1 .fa-star {
-    font-size: 20px;
-    padding-left: 5px;
+  font-size: 20px;
+  padding-left: 5px;
 }
 
 #swiss_star_tower #details .star .p1 {
-    margin-bottom: 0;
-    font-weight: 500;
-    font-size: 15px;
-    color: #F1BD6C;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 15px;
+  color: #f1bd6c;
 }
 
 #swiss_star_tower #details .star .p2 {
-    margin-bottom: 0;
-    font-weight: 300;
-    font-size: 12px;
-    color: #F6FAFF;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 12px;
+  color: #f6faff;
 }
 
 #swiss_star_tower .container-fluid button {
-    margin-bottom: 1.1rem !important;
+  margin-bottom: 1.1rem !important;
 }
 
 #details .col-6 {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 #details .left-col {
-    padding-left: 160px;
+  padding-left: 160px;
 }
 
 #details img,
 #details .fa {
-    width: 30px;
-    /* padding-right: 20px; */
-    color: #9F9F9F;
-    padding-right: 10px;
+  width: 30px;
+  /* padding-right: 20px; */
+  color: #9f9f9f;
+  padding-right: 10px;
 }
 
 #details span {
-    font-size: 20px;
-    font-weight: 400;
-    color: #292929;
+  font-size: 20px;
+  font-weight: 400;
+  color: #292929;
 }
 
 .pt-100 {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .pb-100 {
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
-
 .verfügbare_apartments {
-    border: 1px solid #023E8A;
-    border-radius: 25px;
-    -webkit-box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
-    box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
-    margin-bottom: 50px;
-    flex-flow: wrap;
+  border: 1px solid #023e8a;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
+  margin-bottom: 50px;
+  flex-flow: wrap;
 }
 
 .verfügbare_apartments img {
-    width: 342px;
-    object-fit: cover;
-    height: 100%;
-    border-radius: 18px;
+  width: 342px;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 18px;
 }
 
 .verfügbare_apartments .btn {
-    float: right;
-    background: #023E8A;
-    color: #F6FAFF;
-    font-size: 14px;
-    margin-top: 65px;
-    border-radius: 10px !important;
+  float: right;
+  background: #023e8a;
+  color: #f6faff;
+  font-size: 14px;
+  margin-top: 65px;
+  border-radius: 10px !important;
 }
 
 .verfügbare_apartments .first {
-    padding-right: 54px;
+  padding-right: 54px;
 }
-
 
 .verfügbare_apartments .studio {
-    padding-top: 29px;
+  padding-top: 29px;
 }
 
-
 .verfügbare_apartments .second .s_title {
-    font-size: 25px;
-    font-weight: 500;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .verfügbare_apartments .second .s_para {
-    font-size: 18px;
-    font-weight: 300;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .verfügbare_apartments .nacht {
-    padding-top: 90px;
+  padding-top: 90px;
 }
 
 .verfügbare_apartments .nacht p {
-    font-weight: 400;
-    font-size: 25px;
+  font-weight: 400;
+  font-size: 25px;
 }
 
 .verfügbare_apartments .third {
-    padding: 29px 44px 0 44px;
+  padding: 29px 44px 0 44px;
 }
 
 .verfügbare_apartments .third p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .lokation {
-    height: 500px;
+  height: 500px;
 }
 
 #in_der_nahe .restaurants {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 #in_der_nahe .restaurants p {
-    font-size: 20px;
-    margin-bottom: 0px;
-    color: #5A5A5A;
-    font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: #5a5a5a;
+  font-weight: 400;
 }
 
 #in_der_nahe .restaurants span {
-    color: #D8D8D8;
+  color: #d8d8d8;
 }
 
-
 .fa-star {
-    color: #F1BD6C;
+  color: #f1bd6c;
 }
 
 .fa-star-o {
-    color: #D8D8D8;
+  color: #d8d8d8;
 }
 
 #bewertungen h2 {
-    font-size: 20px;
-    color: #5A5A5A;
-    font-weight: 400;
+  font-size: 20px;
+  color: #5a5a5a;
+  font-weight: 400;
 }
 
 #bewertungen span {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .box_review {
-    width: 30px;
-    height: 30px;
-    background-color: #023E8A;
-    border-radius: 5px;
-    margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #023e8a;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
 .box_review img {
-    padding: 0 0 3px 7px;
+  padding: 0 0 3px 7px;
 }
 
 #bewertungen .testimonials {
-    border: 1px solid #fff;
-    border-radius: 20px;
-    padding: 10px;
-    -webkit-box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
-    box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
-    margin-bottom: 50px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px;
+  -webkit-box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
+  margin-bottom: 50px;
 }
 
 #bewertungen .weitere {
-    float: right;
-    padding-bottom: 200px;
+  float: right;
+  padding-bottom: 200px;
 }
 
 #bewertungen .weitere a {
-    font-size: 20px;
-    font-weight: 400;
-    color: #5A5A5A;
+  font-size: 20px;
+  font-weight: 400;
+  color: #5a5a5a;
 }
 
-
 /*=====End Sing Apartment=========*/
-
-
 
 /*TODO: Checkout*/
 /*=====Checkout=========*/
 #zahlungsinformationen .h3 {
-    font-weight: 400;
-    font-size: 50px;
-    color: #292929;
+  font-weight: 400;
+  font-size: 50px;
+  color: #292929;
 }
 
 #zahlungsinformationen .active {
-    width: 65%;
-    background: #023E8A;
-    height: 5px;
-    margin: auto;
-    margin-top: 5px;
-    border-radius: 66px
+  width: 65%;
+  background: #023e8a;
+  height: 5px;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 66px;
 }
 
 #zahlungsinformationen .checkout {
-    background: #F9F9F9;
-    border-radius: 50px;
-    -webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 10px 20px -15px rgba(0, 0, 0, 0.7);
+  background: #f9f9f9;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 10px 20px -15px rgba(0, 0, 0, 0.7);
 }
 
 #zahlungsinformationen .checkout button {
-    background-color: #023E8A;
-    color: #f9f9f9;
-    padding: 25px;
-    border-radius: 20px;
+  background-color: #023e8a;
+  color: #f9f9f9;
+  padding: 25px;
+  border-radius: 20px;
 }
 
 #zahlungsinformationen label {
-    font-weight: 500;
-    font-size: 20px;
-    color: #555555;
+  font-weight: 500;
+  font-size: 20px;
+  color: #555555;
 }
 
 #zahlungsinformationen p {
-    font-weight: 500;
-    font-size: 15px;
-    color: #555555;
+  font-weight: 500;
+  font-size: 15px;
+  color: #555555;
 }
 
 .border-box-1 {
-    border: 1px solid #023E8A;
+  border: 1px solid #023e8a;
 }
 
 .border-radius-30 {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 .bg_ {
-    background: #E5E5E5;
-    border-radius: 20px;
+  background: #e5e5e5;
+  border-radius: 20px;
 }
 
 #checkout .m-b-20 {
-    margin-bottom: 20px !important;
+  margin-bottom: 20px !important;
 }
 
 /*=====End Checkout=========*/
@@ -1828,105 +1900,102 @@ footer a {
 /*=========Login=========*/
 
 #login h3 #register h3 {
-    font-weight: 400;
-    font-size: 30px;
-    color: #292929;
+  font-weight: 400;
+  font-size: 30px;
+  color: #292929;
 }
 
 #login h4,
 #register h4 {
-    font-weight: 300;
-    font-size: 25px;
-    color: #292929;
+  font-weight: 300;
+  font-size: 25px;
+  color: #292929;
 }
 
 #login p,
 #register p {
-    font-weight: 300;
-    font-size: 18px;
-    color: #292929;
+  font-weight: 300;
+  font-size: 18px;
+  color: #292929;
 }
 
 #login img,
 #register img {
-    height: 780px;
-    width: auto;
-    object-fit: cover;
+  height: 780px;
+  width: auto;
+  object-fit: cover;
 }
 
 #login .modal-dialog,
 #register .modal-dialog {
-    margin-top: 50px;
-    padding: 100px;
+  margin-top: 50px;
+  padding: 100px;
 }
 
-
 .ui-widget-header {
-    background: transparent;
-    border: 0;
-    color: #FFFFFF;
-    font-weight: bold;
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 #login-register .ui-state-active {
-    border: 0;
-    background: #f9f9f9 !important;
-    border-radius: 30px;
+  border: 0;
+  background: #f9f9f9 !important;
+  border-radius: 30px;
 }
 
 #login-register .ui-state-active a {
-    color: #023E8A !important;
+  color: #023e8a !important;
 }
 
 #login-register .ui-state-default {
-    border: 0;
-    background: none;
-    border-radius: 30px;
-
+  border: 0;
+  background: none;
+  border-radius: 30px;
 }
 
 #login-register .ui-state-default a {
-    color: #fff;
+  color: #fff;
 }
 
 #login-register {
-    font-size: 14px;
-    width: 80%;
-    margin: auto;
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
 }
 
 #login-register .btn-close,
 #apartment_details .btn-close,
 #review_app .btn-close {
-    background-color: #f9f9f9 !important;
-    font-size: 20px;
+  background-color: #f9f9f9 !important;
+  font-size: 20px;
 }
 
 .img_text {
-    font-size: 25px;
-    font-family: 'Montserrat';
-    position: absolute;
-    bottom: 90px;
-    right: 70px;
-    color: #FFFFFF;
+  font-size: 25px;
+  font-family: "Montserrat";
+  position: absolute;
+  bottom: 90px;
+  right: 70px;
+  color: #ffffff;
 }
 
 .img_text span {
-    font-size: 25px !important;
-    color: #FFFFFF !important;
+  font-size: 25px !important;
+  color: #ffffff !important;
 }
-
 
 /*=====End Login=========*/
 #weitere {
-    float: right;
-    padding-right: 210px;
-    padding-bottom: 300px;
+  float: right;
+  padding-right: 210px;
+  padding-bottom: 300px;
 }
 
 #weitere a {
-    font-size: 20px;
-    color: #5A5A5A;
+  font-size: 20px;
+  color: #5a5a5a;
 }
 
 /*=====End Single Apartment=========*/
@@ -1934,266 +2003,260 @@ footer a {
 /*=====Buchungsbestätigung Apartment=========*/
 
 #buchungsbestätigung .col-md-8 {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 #buchungsbestätigung .card {
-    /* border-radius: 25px; */
-    border: none;
+  /* border-radius: 25px; */
+  border: none;
 }
 
 #buchungsbestätigung h1,
 #review_page h1 {
-    padding-bottom: 10px;
-    color: #023E8A;
-    font-size: 50px;
-    font-weight: 400;
-
+  padding-bottom: 10px;
+  color: #023e8a;
+  font-size: 50px;
+  font-weight: 400;
 }
 
 #buchungsbestätigung .card .p1 {
-    position: absolute;
-    right: -18px;
-    top: -4px;
+  position: absolute;
+  right: -18px;
+  top: -4px;
 }
 
 #buchungsbestätigung .card .p2 {
-    position: absolute;
-    right: -18px;
-    top: 11px;
-    color: #f9f9f9;
+  position: absolute;
+  right: -18px;
+  top: 11px;
+  color: #f9f9f9;
 }
 
 #buchungsbestätigung .card div {
-
-    font-size: 13px;
+  font-size: 13px;
 }
 
 #buchungsbestätigung .card-img-top {
-    height: auto;
-    width: 100%;
-    object-fit: cover;
-    /* border-radius: 20px; */
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  /* border-radius: 20px; */
 }
 
 #buchungsbestätigung .card-title {
-    font-weight: 800;
-    font-size: 20px;
-    color: #023E8A;
+  font-weight: 800;
+  font-size: 20px;
+  color: #023e8a;
 }
 
 #buchungsbestätigung .card-text {
-    font-weight: 300;
-    font-size: 15px;
-    color: #292929;
+  font-weight: 300;
+  font-size: 15px;
+  color: #292929;
 }
 
 #buchungsbestätigung span {
-    font-weight: 400;
-    font-size: 16px;
-    color: #292929;
-    padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #292929;
+  padding-bottom: 10px;
 }
 
 #buchungsbestätigung span.toggler-icon {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 #buchungsbestätigung .card-feature {
-    width: 20px;
-    height: auto;
-    margin-right: 10px !important;
+  width: 20px;
+  height: auto;
+  margin-right: 10px !important;
 }
 
 #buchungsbestätigung .mb-3 p {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #023E8A;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #023e8a;
 }
 
 #buchungsbestätigung .mb-3 .row p {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #555555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #555555;
 }
 
 #buchungsbestätigung .mb-3 .row p span {
-    font-family: Montserrat;
-    font-size: 25px;
-    font-weight: 800;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #222222;
-
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
 }
 
 #buchungsbestätigung1 .btn {
-    background: #023E8A;
-    border-end-end-radius: 25px;
-    border-end-start-radius: 25px;
-    font-weight: 400;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 15px;
-    color: #D8E9FF;
-    /* width:750px; */
+  background: #023e8a;
+  border-end-end-radius: 25px;
+  border-end-start-radius: 25px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: #d8e9ff;
+  /* width:750px; */
 }
 
 #buchungsbestätigung .jetzt_button {
-    margin-bottom: 20px;
-    background: #023E8A;
-    font-weight: 400;
-    font-size: 16px;
-    color: #F6FAFF;
-    /* float: right; */
-    padding: 15px 50px;
-    border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 10px -9px rgba(0, 0, 0, 0.7);
-    box-shadow: 10px 10px 10px -9px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+  background: #023e8a;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f6faff;
+  /* float: right; */
+  padding: 15px 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 10px -9px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 10px 10px -9px rgba(0, 0, 0, 0.7);
 }
 
 #buchungsbestätigung .form-control {
-    border: none;
-    border-bottom: 1px solid #B7B7B7;
-    background-color: #F6F6F6;
+  border: none;
+  border-bottom: 1px solid #b7b7b7;
+  background-color: #f6f6f6;
 }
 
 #buchungsbestätigung label {
-    font-size: 20px;
-    color: #555555;
-    font-weight: 500;
-
+  font-size: 20px;
+  color: #555555;
+  font-weight: 500;
 }
 
 #buchungsbestätigung .form-check label {
-    font-weight: 300;
-    font-size: 15px;
+  font-weight: 300;
+  font-size: 15px;
 }
 
-#buchungsbestätigung .form-check-input[type=checkbox] {
-    border: 1px solid #023E8A;
+#buchungsbestätigung .form-check-input[type="checkbox"] {
+  border: 1px solid #023e8a;
 }
 
 #buchungsbestätigung hr {
-    margin: 8px 0 !important;
+  margin: 8px 0 !important;
 }
 
 #buchungsbestätigung .form-select {
-    background-image: url("../img/Polygon\ 116.png");
+  background-image: url("../img/Polygon\ 116.png");
 }
 
 /*=====End Buchungsbestätigung Apartment=========*/
 
 .active-details {
-    border-top: 6px solid #023E8A;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  border-top: 6px solid #023e8a;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 /*=====User Buchungen =========*/
 
 #buchungen .favoriten {
-    box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
-    border-radius: 20px;
-    padding: 30px 0 30px 30px;
-    font-size: 20px;
-    margin: 10px 0;
-    color: #023E8A;
-    font-weight: 400;
+  box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
+  border-radius: 20px;
+  padding: 30px 0 30px 30px;
+  font-size: 20px;
+  margin: 10px 0;
+  color: #023e8a;
+  font-weight: 400;
 }
 
 #buchungen .favoriten img {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 #buchungen .empfohlen h1 {
-    font-size: 25px;
-    padding-top: 60px;
-    color: #292929;
+  font-size: 25px;
+  padding-top: 60px;
+  color: #292929;
 }
 
 #buchungen .apartment {
-    box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
-    border-radius: 20px;
-    padding: 30px 40px 30px 40px;
-    margin: 10px 0;
+  box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
+  border-radius: 20px;
+  padding: 30px 40px 30px 40px;
+  margin: 10px 0;
 }
 
 #buchungen .apartment_1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F9F9F9;
-    border-radius: 10px;
-    padding: 20px 15px;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px 15px;
+  margin-bottom: 10px;
 }
 
 #buchungen .apartment_1 img {
-    height: 65%;
-    width: 50%;
+  height: 65%;
+  width: 50%;
 }
 
 #buchungen .apartment_1 h3 {
-    font-size: 25px;
-    margin-bottom: 0 !important;
-    font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 0 !important;
+  font-weight: 400;
 }
 
 #buchungen .apartment_1 p {
-    font-size: 15px;
-    color: #292929;
-    font-weight: 300;
+  font-size: 15px;
+  color: #292929;
+  font-weight: 300;
 }
 
-
 #buchungen .col-md-8 h1 {
-    padding-bottom: 10px;
-    font-size: 50px;
-    color: #292929;
-    font-weight: 700;
+  padding-bottom: 10px;
+  font-size: 50px;
+  color: #292929;
+  font-weight: 700;
 }
 
 #buchungen .buchungsnummer {
-    border: 1px solid #00A553;
-    box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
-    border-radius: 20px;
-    padding: 30px 0 0px 30px;
-    margin: 10px 0;
-    margin-bottom: 30px;
+  border: 1px solid #00a553;
+  box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
+  border-radius: 20px;
+  padding: 30px 0 0px 30px;
+  margin: 10px 0;
+  margin-bottom: 30px;
 }
 
 #buchungen .buchungsnummer_1 {
-    border: 1px solid #C10000;
-    box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
-    border-radius: 20px;
-    padding: 30px 0 0px 30px;
-    margin: 10px 0;
-    margin-bottom: 30px;
+  border: 1px solid #c10000;
+  box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
+  border-radius: 20px;
+  padding: 30px 0 0px 30px;
+  margin: 10px 0;
+  margin-bottom: 30px;
 }
 
 #buchungen .buchungsnummer h1,
 #buchungen .buchungsnummer_1 h1 {
-    font-size: 35px;
-    font-weight: 600;
-    color: #292929;
+  font-size: 35px;
+  font-weight: 600;
+  color: #292929;
 }
 
-
 #buchungen .box {
-    background-color: #023E8A;
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
+  background-color: #023e8a;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
 }
 
 /*=====End User Buchungen=========*/
@@ -2201,224 +2264,221 @@ footer a {
 /*=====Einstellunngen=========*/
 
 #einstellungen .form-control {
-    border: none;
-    border-bottom: 1px solid #B7B7B7;
-    background-color: #F6F6F6;
+  border: none;
+  border-bottom: 1px solid #b7b7b7;
+  background-color: #f6f6f6;
 }
 
 #einstellungen label {
-    font-size: 20px;
-    color: #555555;
-    font-weight: 500;
+  font-size: 20px;
+  color: #555555;
+  font-weight: 500;
 }
 
 #einstellungen p {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FF0000;
-    padding-top: 50px;
-    ;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff0000;
+  padding-top: 50px;
 }
 
 #einstellungen #Hochladen {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 #einstellungen #formFile {
-    background-color: indigo;
-    color: white;
-    padding: 0.5rem;
-    font-family: sans-serif;
-    border-radius: 0.3rem;
-    cursor: pointer;
-    margin-top: 1rem;
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
 }
 
 /*=====End Einstellungen=========*/
 
 /*=====Apartment Details=========*/
 #apa_details .apa {
-    border: 1px solid #023E8A;
-    border-radius: 30px;
-    padding: 50px;
-    -webkit-box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
-    box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
+  border: 1px solid #023e8a;
+  border-radius: 30px;
+  padding: 50px;
+  -webkit-box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 20px 50px -40px rgba(0, 0, 0, 0.7);
 }
 
 #apa_details .apa h3 {
-    font-weight: 500;
-    font-size: 25px;
-    color: #292929;
+  font-weight: 500;
+  font-size: 25px;
+  color: #292929;
 }
 
 #apa_details .apa p {
-    font-weight: 300;
-    font-size: 18px;
-    color: #5A5A5A;
+  font-weight: 300;
+  font-size: 18px;
+  color: #5a5a5a;
 }
 
 #apa_details .apa h2 {
-    font-weight: 400;
-    font-size: 40px;
-    color: #023E8A;
-    padding-top: 50px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #023e8a;
+  padding-top: 50px;
 }
 
 #apa_details .apa_text {
-    padding-left: 100px;
-    font-weight: 300;
-    font-size: 18px;
-    color: #5A5A5A;
+  padding-left: 100px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #5a5a5a;
 }
 
 #apa_details .apa .col-md-8 .col-md-4 {
-    padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
 #apa_details .apa .col-md-8 .col-md-4 p {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 #dashbord_user hr {
-    margin: 7px 0 !important;
+  margin: 7px 0 !important;
 }
 
 /*=====End Apartment Details=========*/
 
 /*=========Review Page===========*/
 #review_page {
-    padding: 50px;
+  padding: 50px;
 }
 
 #review_page h1 {
-    border-bottom: 2px solid #D8D8D8;
-    margin-bottom: 44px;
+  border-bottom: 2px solid #d8d8d8;
+  margin-bottom: 44px;
 }
 
 #review_page .app_room {
-    font-size: 30px;
-    color: #023E8A;
-    font-weight: 300;
-    padding-bottom: 50px;
+  font-size: 30px;
+  color: #023e8a;
+  font-weight: 300;
+  padding-bottom: 50px;
 }
 
 #review_page textarea {
-    background: #FFFFFF;
-    border: 1px solid #707070;
-    box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #707070;
+  box-sizing: border-box;
 }
 
 /*=========Review Page===========*/
 
 /***********After Registration********/
 .after_registry {
-    margin-bottom: 150px;
-    padding: 80px;
-    border-radius: 50px;
-    box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
+  margin-bottom: 150px;
+  padding: 80px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
 }
 
 .after_registry h3 {
-    padding-bottom: 70px;
-    font-size: 30px;
-    font-weight: 400;
+  padding-bottom: 70px;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 #after_registry #header ul li:last-child {
-    background-color: #ffffff !important;
-
+  background-color: #ffffff !important;
 }
 
 #after_registry #header ul li:last-child a {
-    color: #023E8A !important;
+  color: #023e8a !important;
 }
 
 #after_registry .form-label {
-    color: #292929;
-    font-weight: 400;
+  color: #292929;
+  font-weight: 400;
 }
 
 #after_registry .form-control {
-    border: 1px solid #707070;
+  border: 1px solid #707070;
 }
 
 /*TODO: All*/
 /*===================*/
 .mt-35 {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 
 .my-30 {
-    margin-top: 20px;
-    margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .mt-120 {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .mt-150 {
-    margin-top: 150px !important;
+  margin-top: 150px !important;
 }
 
 .pt-150 {
-    padding-top: 150px !important;
+  padding-top: 150px !important;
 }
 
 .pxy-20 {
-    padding: 20px;
+  padding: 20px;
 }
 
 .h3 {
-    font-weight: 400;
-    font-size: 50px;
-    color: #292929;
+  font-weight: 400;
+  font-size: 50px;
+  color: #292929;
 }
 
 .h4 {
-    font-weight: 400;
-    font-size: 35px;
-    color: #292929;
+  font-weight: 400;
+  font-size: 35px;
+  color: #292929;
 }
 
 .p {
-    font-weight: 300;
-    font-size: 20px;
-    color: #292929;
+  font-weight: 300;
+  font-size: 20px;
+  color: #292929;
 }
 
 .w-30 {
-    width: 30%;
+  width: 30%;
 }
 
 .bg_primary {
-    background-color: #023e8a;
+  background-color: #023e8a;
 }
 
 .bg_secondary {
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 .color_primary {
-    color: #023e8a;
+  color: #023e8a;
 }
 
 .color_secondary {
-    color: #f9f9f9;
+  color: #f9f9f9;
 }
 
 .border-radius-80 {
-    border-radius: 50px;
+  border-radius: 50px;
 }
 
 .form-control:focus,
@@ -2430,19 +2490,19 @@ button:focus #cal_apartments button:focus,
 #cal_apartments .ui-widget input:focus,
 #cal_apartments .ui-widget input:active,
 #cal_apartments .ui-widget input:active {
-    outline: none !important;
-    box-shadow: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .form-check-input:checked {
-    /* background-color: #023E8A; */
-    border-color: unset !important
+  /* background-color: #023E8A; */
+  border-color: unset !important;
 }
 
 .form-check-input:focus {
-    outline: none;
-    border: 0;
-    box-shadow: none;
+  outline: none;
+  border: 0;
+  box-shadow: none;
 }
 
 /************Check In-Check Out************/
@@ -2453,93 +2513,92 @@ button:focus #cal_apartments button:focus,
 #cal_apar .calendar-table,
 #cal_apartments .daterangepicker td.off,
 #cal_apar .daterangepicker td.off {
-    font-family: 'Montserrat';
-    background-color: #023E8A;
-    border: 0 !important;
-    border-radius: 8px 8px 8px 8px;
-
+  font-family: "Montserrat";
+  background-color: #023e8a;
+  border: 0 !important;
+  border-radius: 8px 8px 8px 8px;
 }
 
 #cal_apartments .calendar-table .table-condensed tr:nth-child(2) th,
 #cal_apar .calendar-table .table-condensed tr:nth-child(2) th {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 #cal_apartments .calendar-table,
 #cal_apar .calendar-table {
-    padding: 20px;
+  padding: 20px;
 }
 
 #cal_apartments .calendar-table .month,
 #cal_apar .calendar-table .month {
-    line-height: 10px;
-    text-align: end;
+  line-height: 10px;
+  text-align: end;
 }
 
 #cal_apartments .daterangepicker .drp-calendar.right,
 #cal_apar .daterangepicker .drp-calendar.right,
 #cal_apartments .daterangepicker .drp-calendar.left,
 #cal_apar .daterangepicker .drp-calendar.left {
-    padding: 20px 10px;
+  padding: 20px 10px;
 }
 
 #cal_apartments .daterangepicker .drp-calendar.right .month,
 #cal_apar .daterangepicker .drp-calendar.right .month {
-    position: absolute;
-    right: 20px;
+  position: absolute;
+  right: 20px;
 }
 
 #cal_apartments .daterangepicker .drp-calendar.left .month,
 #cal_apar .daterangepicker .drp-calendar.left .month {
-    position: absolute;
-    left: 180px;
+  position: absolute;
+  left: 180px;
 }
 
 #cal_apartments .calendar-table thead,
 #cal_apar .calendar-table thead {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 #cal_apartments .calendar-table th,
 #cal_apar .calendar-table th {
-    font-size: 15px;
-    font-weight: 400;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 #cal_apartments .daterangepicker td.off,
 #cal_apar .daterangepicker td.off,
 #cal_apartments .daterangepicker td.disabled,
 #cal_apar .daterangepicker td.disabled {
-    color: #B0B0B0;
-    text-decoration: none !important;
-    font-size: 15px;
-    font-weight: 400;
-    border-radius: 0;
+  color: #b0b0b0;
+  text-decoration: none !important;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 0;
 }
 
 #cal_apartments .calendar-table .available,
 #cal_apar .calendar-table .available {
-    color: #BEFFDF;
-    font-size: 15px;
-    font-weight: 400;
+  color: #beffdf;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 #cal_apartments .daterangepicker td.in-range,
 #cal_apar .daterangepicker td.in-range {
-    background-color: #104c9a;
+  background-color: #104c9a;
 }
 
 #cal_apartments .daterangepicker td.available:hover,
 #cal_apar .daterangepicker td.available:hover {
-    background-color: #104c9a;
+  background-color: #104c9a;
 }
 
 #cal_apartments .daterangepicker td.active,
 #cal_apar .daterangepicker td.active {
-    color: #2dec8e !important;
-    background-color: #104c9a;
-    font-size: 15px;
-    font-weight: 400;
+  color: #2dec8e !important;
+  background-color: #104c9a;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 #cal_apartments .daterangepicker.opensright:before,
@@ -2550,330 +2609,329 @@ button:focus #cal_apartments button:focus,
 #cal_apar .daterangepicker.opensleft:before,
 #cal_apartments .daterangepicker.opensleft:after,
 #cal_apar .daterangepicker.opensleft:after {
-    display: none;
+  display: none;
 }
 
 #cal_apartments .daterangepicker .calendar-table .prev span,
 #cal_apar .daterangepicker .calendar-table .prev span,
 #cal_apartments .daterangepicker .calendar-table .next span,
 #cal_apar .daterangepicker .calendar-table .next span {
-    display: none;
+  display: none;
 }
 
 #cal_apartments .daterangepicker td.available:hover,
 #cal_apar .daterangepicker td.available:hover,
 #cal_apartments .daterangepicker th.available:hover,
 #cal_apar .daterangepicker th.available:hover {
-    background-color: #023E8A;
+  background-color: #023e8a;
 }
 
 #cal_apartments .daterangepicker .calendar-table .prev {
-    background-image: url('../img/Arrow\ 2.png');
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 15px;
+  background-image: url("../img/Arrow\ 2.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 15px;
 }
 
 #cal_apartments .daterangepicker .calendar-table .next {
-    background-image: url('../img/Arrow\ 1.png');
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 10px;
-    right: 20px;
+  background-image: url("../img/Arrow\ 1.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+  right: 20px;
 }
 
 /************End Check In-Check Out************/
 
-#section_first>.content>.container #header #navbarNav ul .nav-item p.user-name {
-    color: #fff;
+#section_first
+  > .content
+  > .container
+  #header
+  #navbarNav
+  ul
+  .nav-item
+  p.user-name {
+  color: #fff;
 }
 
 #section h3 {
-    font-weight: 800 !important;
+  font-weight: 800 !important;
 }
 
 #checkout #zahlungsinformationen .container .card.rounded-card {
-    border-radius: 1rem !important;
-    border: 1px solid #023E8A;
+  border-radius: 1rem !important;
+  border: 1px solid #023e8a;
 }
 
-
 #checkout #zahlungsinformationen .container .card.rounded-card img {
-    height: 1.75rem;
+  height: 1.75rem;
 }
 
 #checkout #zahlungsinformationen .container .card.rounded-card.active {
-    background-color: transparent;
-    border-width: 3px;
-    width: unset;
-    height: unset;
-    padding: 0;
-    margin: 0;
+  background-color: transparent;
+  border-width: 3px;
+  width: unset;
+  height: unset;
+  padding: 0;
+  margin: 0;
 }
 
 #checkout #zahlungsinformationen .container button {
-    border-radius: 1rem !important;
-    /* height: 30px; */
-    width: 100%;
-    padding: 1rem;
+  border-radius: 1rem !important;
+  /* height: 30px; */
+  width: 100%;
+  padding: 1rem;
 }
 
 #cal_apartments #ui-datepicker-div {
-    background-color: #023E8A;
-    color: #fff;
-
+  background-color: #023e8a;
+  color: #fff;
 }
 
 #cal_apartments #ui-datepicker-div select {
-    background-color: #023E8A;
-    color: #fff;
-    border: none !important;
+  background-color: #023e8a;
+  color: #fff;
+  border: none !important;
 }
 
 #tab-registrieren .form-check label a {
-    color: #023E8A;
+  color: #023e8a;
 }
 
 .icon-show.fa-filter:before {
-    content: "\f0b0";
+  content: "\f0b0";
 }
 
 .icon-show.fa-filter:before {
-    content: "\f00d";
+  content: "\f00d";
 }
-
 
 @media only screen and (max-width: 1500px) {
-    .modal-content.bg-transparent {
-        transform: scale(0.7);
-        margin-top: -80px;
-    }
+  .modal-content.bg-transparent {
+    transform: scale(0.7);
+    margin-top: -80px;
+  }
 
-    #header>.container {
-        transform: scale(0.8);
-    }
+  #header > .container {
+    transform: scale(0.8);
+  }
 
-    #section_first img {
-        height: 800px;
-    }
+  #section_first img {
+    height: 800px;
+  }
 
-    #section_first .section_content {
-        transform: scale(0.75);
-        /* padding-bottom: 35px; */
-        /* top: 80px; */
-        padding-bottom: 0 !important;
-    }
+  #section_first .section_content {
+    transform: scale(0.75);
+    /* padding-bottom: 35px; */
+    /* top: 80px; */
+    padding-bottom: 0 !important;
+  }
 
-    #section_first .content {
-        height: 82%;
-    }
+  #section_first .content {
+    height: 82%;
+  }
 
-    #section_first .bg_gradient {
-        margin-top: -16px !important;
-    }
+  #section_first .bg_gradient {
+    margin-top: -16px !important;
+  }
 
-    .autocomplete-items {
-        position: absolute;
-        z-index: 99;
-        top: calc(100% - 10px);
-        left: 12px;
-        width: calc(25% + 63px);
-        padding-top: 15px;
-        padding-bottom: 25px;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-        background-color: #f9f9f9;
-    }
+  .autocomplete-items {
+    position: absolute;
+    z-index: 99;
+    top: calc(100% - 10px);
+    left: 12px;
+    width: calc(25% + 63px);
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #f9f9f9;
+  }
 
-    #right_div {
-        z-index: 100;
-        height: 50px;
-        width: 40px;
-        position: absolute;
-        top: calc(100% - 55px);
-        left: 12px;
-        background-color: #f9f9f9;
-    }
+  #right_div {
+    z-index: 100;
+    height: 50px;
+    width: 40px;
+    position: absolute;
+    top: calc(100% - 55px);
+    left: 12px;
+    background-color: #f9f9f9;
+  }
 
-    #ui-datepicker-div {
-        transform: scale(0.75);
-        margin-top: -50px;
-        margin-left: -50px;
-    }
+  #ui-datepicker-div {
+    transform: scale(0.75);
+    margin-top: -50px;
+    margin-left: -50px;
+  }
 
-    #login-register {
-        width: 100%;
-    }
+  #login-register {
+    width: 100%;
+  }
 
-    #login-register .container {
-        transform: scale(0.9)
-    }
+  #login-register .container {
+    transform: scale(0.9);
+  }
 
-    section:not(#section_first):not(#apartments_hotel):not(#Moderne_Apartment):not(#swiss_star_tower) {
-        transform: scale(0.8)
-    }
+  section:not(#section_first):not(#apartments_hotel):not(#Moderne_Apartment):not(#swiss_star_tower) {
+    transform: scale(0.8);
+  }
 
-    section#Moderne_Apartment {
-        height: 500px !important;
-    }
+  section#Moderne_Apartment {
+    height: 500px !important;
+  }
 
-    #Moderne_Apartment .moderne-content {
-        border: 5px solid #023E8A;
-        border-radius: 25px;
-        background: rgba(249, 249, 249, 0.9);
-        width: 600px;
-    }
-    #Moderne_Apartment .moderne-content h4 {
-        font-weight: 300;
-        font-size: 25px;
-        color: #023E8A;
-    }
-    
-    #Moderne_Apartment .moderne-content h5 {
-        font-weight: 200;
-        font-size: 20px;
-        color: #023E8A;
-    }
-    
-    #Moderne_Apartment .moderne-content button {
-        background: #023E8A;
-        color: rgba(249, 249, 249);
-        border-radius: 15px;
-        padding: 10px 20px;
-    }
+  #Moderne_Apartment .moderne-content {
+    border: 5px solid #023e8a;
+    border-radius: 25px;
+    background: rgba(249, 249, 249, 0.9);
+    width: 600px;
+  }
+  #Moderne_Apartment .moderne-content h4 {
+    font-weight: 300;
+    font-size: 25px;
+    color: #023e8a;
+  }
 
-    section#swiss_star_tower .container {
-        transform: scale(0.8);
-    }
+  #Moderne_Apartment .moderne-content h5 {
+    font-weight: 200;
+    font-size: 20px;
+    color: #023e8a;
+  }
 
-    /* section#apartments {
+  #Moderne_Apartment .moderne-content button {
+    background: #023e8a;
+    color: rgba(249, 249, 249);
+    border-radius: 15px;
+    padding: 10px 20px;
+  }
+
+  section#swiss_star_tower .container {
+    transform: scale(0.8);
+  }
+
+  /* section#apartments {
         margin-top: -100px;
     } */
 
-    .footer-content {
-        transform: scale(0.8)
-    }
+  .footer-content {
+    transform: scale(0.8);
+  }
 
-    .pt-150 {
-        padding-top: 0 !important;
-    }
+  .pt-150 {
+    padding-top: 0 !important;
+  }
 
-    section:not(#section_first) {
-        padding-top: 0 !important;
-    }
+  section:not(#section_first) {
+    padding-top: 0 !important;
+  }
 
-    section#apartments_hotel {
-        padding-top: 230px !important;
-    }
+  section#apartments_hotel {
+    padding-top: 230px !important;
+  }
 
-    #section_first .bg_gradient div {
-        margin-top: 174.7px;
-        /* height: 150px;
+  #section_first .bg_gradient div {
+    margin-top: 174.7px;
+    /* height: 150px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) -150px, #FAFAFA 150px);
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FAFAFA 90.2%); */
-    }
+  }
 
-    section#apartments {
-        margin-top: -60px;
-    }
+  section#apartments {
+    margin-top: -60px;
+  }
 
-    section#bewertungen {
-        margin-top: -100px !important;
-    }
+  section#bewertungen {
+    margin-top: -100px !important;
+  }
 
-    section#in_der_nahe {
-        margin-top: -80px;
-    }
+  section#in_der_nahe {
+    margin-top: -80px;
+  }
 
-    section#buchungsbestätigung1 {
-        margin-top: 160px;
-    }
+  section#buchungsbestätigung1 {
+    margin-top: 160px;
+  }
 
-    #apartments_hotel .container {
-        width: 90%
-    }
+  #apartments_hotel .container {
+    width: 90%;
+  }
 
-    #apartments_hotel > .container > h3,
-    #apartments_hotel > .container > p {
-        transform: scale(0.8)
-    }
+  #apartments_hotel > .container > h3,
+  #apartments_hotel > .container > p {
+    transform: scale(0.8);
+  }
 
-    #section_first .bg_gradient div {
-        margin-top: 159.7px;
-    }
+  #section_first .bg_gradient div {
+    margin-top: 159.7px;
+  }
 
-    section#buchungen {
-        margin-top: -2px !important;
-    }
+  section#buchungen {
+    margin-top: -2px !important;
+  }
 
-    #section_first .section_content {
-        padding-top: 47rem;
-    }
-
+  #section_first .section_content {
+    padding-top: 47rem;
+  }
 }
 
 @media only screen and (max-width: 992px) {
-    #section_first .section_content {
-        padding-bottom: 500px !important;
-    }
+  #section_first .section_content {
+    padding-bottom: 500px !important;
+  }
 
-    #section_first .section_content form>div {
-        position: relative;
-        top: 250px;
-    }
+  #section_first .section_content form > div {
+    position: relative;
+    top: 250px;
+  }
 
-    #section_first .bg_gradient div {
-        margin-top: 55px;
-        /* height: 150px;
+  #section_first .bg_gradient div {
+    margin-top: 55px;
+    /* height: 150px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) -150px, #FAFAFA 150px);
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FAFAFA 90.2%); */
-    }
+  }
 
-    #section_first .bg_gradient {
-        /* margin-top: 159px !important; */
-        background-color: #023E8A;
-    }
+  #section_first .bg_gradient {
+    /* margin-top: 159px !important; */
+    background-color: #023e8a;
+  }
 
-    #header.top-fixed:not(.home-header) {
-        background-color: #fff;
-    }
+  #header.top-fixed:not(.home-header) {
+    background-color: #fff;
+  }
 
-    /* section#apartments {
+  /* section#apartments {
         margin-top: -180px;
     } */
 
-    #section_first img {
-        height: 900px;
-    }
+  #section_first img {
+    height: 900px;
+  }
 
-    #apartments_hotel .container.pt-150 {
-        padding-top: 0 !important;
-    }
+  #apartments_hotel .container.pt-150 {
+    padding-top: 0 !important;
+  }
 
-    section#apartments_hotel {
-        padding-top: 90px !important;
-    }
+  section#apartments_hotel {
+    padding-top: 90px !important;
+  }
 
-    #section_first .section_content ul.list-group {
-        display: none;
-    }
+  #section_first .section_content ul.list-group {
+    display: none;
+  }
 
-    #section_first .section_content {
-        padding-top: 10rem;
-    }
+  #section_first .section_content {
+    padding-top: 10rem;
+  }
 
-    #section_first .bg_gradient {
-        padding-top: 12.8rem;
+  #section_first .bg_gradient {
+    padding-top: 12.8rem;
+  }
 
-    }
-
-    #apartments_hotel {
-        margin-top: 2rem;
-    }
-
+  #apartments_hotel {
+    margin-top: 2rem;
+  }
 }
-
-
 
 /* @media (min-device-width: 768px) and (max-device-width: 991px) {
     #section_first .section_content {
@@ -2885,496 +2943,484 @@ button:focus #cal_apartments button:focus,
     }
 } */
 
-
 @media only screen and (max-width: 768px) {
-    /* #section_first .section_content {
+  /* #section_first .section_content {
         padding-bottom: 450px !important;
     } */
 
-    #section_first .section_content form>div {
-        position: relative;
-        top: 250px;
-    }
+  #section_first .section_content form > div {
+    position: relative;
+    top: 250px;
+  }
 
-    #section_first .section_content form .d-flex {
-        margin-top: 150px;
-    }
+  #section_first .section_content form .d-flex {
+    margin-top: 150px;
+  }
 
-    #section_first .section_content .list-group {
-        display: block;
-        margin-top: 25px;
-        width: 100%;
-    }
+  #section_first .section_content .list-group {
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+  }
 
-    #section_first .section_content ul.list-group {
-        display: none;
-    }
+  #section_first .section_content ul.list-group {
+    display: none;
+  }
 
-    #section_first img {
-        height: 900px;
-    }
+  #section_first img {
+    height: 900px;
+  }
 
-    #buchungsbestätigung1 .col-sm-12 .card {
-        width: 100% !important;
-    }
+  #buchungsbestätigung1 .col-sm-12 .card {
+    width: 100% !important;
+  }
 
-    #apartments {
-        margin-top: -290px !important;
-    }
+  #apartments {
+    margin-top: -290px !important;
+  }
 
-    #apartments.small-margin-top {
-        margin-top: -260px !important;
-        transition: margin-top .3s ease-out;
-    }
-
+  #apartments.small-margin-top {
+    margin-top: -260px !important;
+    transition: margin-top 0.3s ease-out;
+  }
 }
 
 @media only screen and (min-width: 1500px) {
-    section#apartments {
-        padding-top: 60px;
-    }
+  section#apartments {
+    padding-top: 60px;
+  }
 
-    #section_first img {
-        height: 100%;
-    }
+  #section_first img {
+    height: 100%;
+  }
 
-    #section_first .section_content {
-        padding-top: 47rem;
-    }
-
+  #section_first .section_content {
+    padding-top: 47rem;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
-    #apartments .form .calendar .card-body {
-        background-color: #023E8A;
-        padding: 20px 20px;
-        margin-left: -270px;
-        margin-top: 45px;
-        width: 90%;
-    }
+  #apartments .form .calendar .card-body {
+    background-color: #023e8a;
+    padding: 20px 20px;
+    margin-left: -270px;
+    margin-top: 45px;
+    width: 90%;
+  }
 }
 
-
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #apartments .form .calendar .card-body {
+    background-color: #023e8a;
+    padding: 20px 20px;
+    margin-left: -192px !important;
+    margin-top: 45px;
+    width: 90%;
+  }
 
-    #apartments .form .calendar .card-body {
-        background-color: #023E8A;
-        padding: 20px 20px;
-        margin-left: -192px !important;
-        margin-top: 45px;
-        width: 90%;
-    }
-
-    #apartments_hotel .container.pt-150 {
-        padding-top: 0 !important;
-    }
+  #apartments_hotel .container.pt-150 {
+    padding-top: 0 !important;
+  }
 }
 
 .navbar-toggler {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    bottom: 10px;
-    transition: .5s ease-in-out;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  bottom: 10px;
+  transition: 0.5s ease-in-out;
 }
 
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    border: 0;
-    position: relative;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  position: relative;
 }
 
 .navbar-toggler span {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .toggler-icon {
-    display: block;
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    background: #fff;
-    border-radius: 1px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
 }
 
 .navbar-toggler.collapsed .icon-on-scroll {
-    background-color: #023E8A;
+  background-color: #023e8a;
 }
 
 .navbar-toggler .icon-on-scroll {
-    background-color: #023e8a;
+  background-color: #023e8a;
 }
 
 .navbar-toggler .toggler-icon:not(.icon-on-scroll) {
-    background-color: #fff;
+  background-color: #fff;
 }
 
-
-.navbar-collapse.show li a{
-    color: #fff;
+.navbar-collapse.show li a {
+  color: #fff;
 }
 
 .middle-bar {
-    margin-top: 0px;
-    left: -2px
+  margin-top: 0px;
+  left: -2px;
 }
-
 
 /* State when the navbar is collapsed */
 
 .navbar-toggler.collapsed .top-bar {
-    position: absolute;
-    top: 0px;
-    transform: rotate(0deg);
+  position: absolute;
+  top: 0px;
+  transform: rotate(0deg);
 }
 
 .navbar-toggler.collapsed .middle-bar {
-    opacity: 1;
-    position: absolute;
-    top: 10px;
-    filter: alpha(opacity=100);
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  filter: alpha(opacity=100);
 }
 
 .navbar-toggler.collapsed .bottom-bar {
-    position: absolute;
-    top: 20px;
-    transform: rotate(0deg);
+  position: absolute;
+  top: 20px;
+  transform: rotate(0deg);
 }
 
 /* when navigation is clicked */
 
 .navbar-toggler .top-bar {
-    top: inherit;
-    transform: rotate(135deg);
+  top: inherit;
+  transform: rotate(135deg);
 }
 
 .navbar-toggler .middle-bar {
-    opacity: 0;
-    top: inherit;
-    filter: alpha(opacity=0);
+  opacity: 0;
+  top: inherit;
+  filter: alpha(opacity=0);
 }
 
 .navbar-toggler .bottom-bar {
-    top: inherit;
-    transform: rotate(-135deg);
+  top: inherit;
+  transform: rotate(-135deg);
 }
 
 .navbar-toggler.icon-on-scroll {
-    background-color: #fff;
+  background-color: #fff;
 }
-
 
 /********End After Registry*****/
 /*TODO: 1399*/
 @media only screen and (max-width: 1399px) {
-    body {
-        font-size: 18px;
-    }
+  body {
+    font-size: 18px;
+  }
 
-    .favourite {
-        position: absolute;
-        right: 8%;
-        top: 7%;
-    }
+  .favourite {
+    position: absolute;
+    right: 8%;
+    top: 7%;
+  }
 
-    #apartments_hotel .responsive {
-        padding-left: 35px;
-    }
+  #apartments_hotel .responsive {
+    padding-left: 35px;
+  }
 
-    .verfügbare_apartments .btn {
-        margin-top: -3px;
-    }
+  .verfügbare_apartments .btn {
+    margin-top: -3px;
+  }
 
-    #apartments_hotel .card-feature {
-        width: 15px;
-        height: auto;
-        margin-right: 1px !important;
-        object-fit: contain;
+  #apartments_hotel .card-feature {
+    width: 15px;
+    height: auto;
+    margin-right: 1px !important;
+    object-fit: contain;
+  }
 
-    }
-
-    #apartments_hotel span,
-    #apartments_hotel sup {
-        font-size: 10px;
-    }
+  #apartments_hotel span,
+  #apartments_hotel sup {
+    font-size: 10px;
+  }
 }
 
 /*TODO: min 1400*/
 @media only screen and (min-width: 1400px) {
-    #section_first .section_content h1 {
-        font-size: 60px;
-    }
+  #section_first .section_content h1 {
+    font-size: 60px;
+  }
 
-    #section_first .section_content h2 {
-        font-size: 30px;
-    }
+  #section_first .section_content h2 {
+    font-size: 30px;
+  }
 
-    #section_first ul li a,
-    #header li a {
-        font-size: 16px;
-    }
+  #section_first ul li a,
+  #header li a {
+    font-size: 16px;
+  }
 
-    .slick-next {
-        margin-right: 5px !important;
-    }
+  .slick-next {
+    margin-right: 5px !important;
+  }
 
-    .slick-prev {
-        margin-left: -30px !important;
-    }
+  .slick-prev {
+    margin-left: -30px !important;
+  }
 
-    .apartment-items {
-        width: calc(62% + 68px);
-    }
+  .apartment-items {
+    width: calc(62% + 68px);
+  }
 
-    #swiss_star_tower .form .calendar .card-body {
-        background-color: #023E8A;
-        padding: 20px 48px;
-        margin-left: -297px;
-        margin-top: 45px;
-    }
+  #swiss_star_tower .form .calendar .card-body {
+    background-color: #023e8a;
+    padding: 20px 48px;
+    margin-left: -297px;
+    margin-top: 45px;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
-    #section_first .section_content h2 {
-        font-weight: 300;
-        font-size: 1.8vw;
-    }
+  #section_first .section_content h2 {
+    font-weight: 300;
+    font-size: 1.8vw;
+  }
 
-    #section_first .section_content h1 {
-        font-weight: 400;
-        font-size: 4.6vw;
-    }
+  #section_first .section_content h1 {
+    font-weight: 400;
+    font-size: 4.6vw;
+  }
 
-    #apartments_hotel .card-text {
-        font-weight: 300;
-        font-size: 12px;
-        color: #292929;
-    }
+  #apartments_hotel .card-text {
+    font-weight: 300;
+    font-size: 12px;
+    color: #292929;
+  }
 
-    .verfügbare_apartments .nacht {
-        padding-top: 60px;
-    }
+  .verfügbare_apartments .nacht {
+    padding-top: 60px;
+  }
 
-    #swiss_star_tower .form .calendar .card-body {
-        margin-left: -238px;
-    }
+  #swiss_star_tower .form .calendar .card-body {
+    margin-left: -238px;
+  }
 
-    /* .img_text {
+  /* .img_text {
         right: 150px;
     } */
 }
 
 /*TODO: 1199*/
 @media only screen and (max-width: 1199px) {
-    #section_first .section_content form .d-flex {
-        margin-top: 10px;
-    }
+  #section_first .section_content form .d-flex {
+    margin-top: 10px;
+  }
 
-    #section_first .section_content form .btn {
-        padding-top: 10px;
-    }
+  #section_first .section_content form .btn {
+    padding-top: 10px;
+  }
 
-    #section_first .section_content h2 {
-        font-weight: 300;
-        font-size: 20px;
-    }
+  #section_first .section_content h2 {
+    font-weight: 300;
+    font-size: 20px;
+  }
 
-    #section_first ul li a,
-    #header li a {
-        font-size: 15px;
-    }
+  #section_first ul li a,
+  #header li a {
+    font-size: 15px;
+  }
 
-    #section_first .section_content h1 {
-        font-weight: 400;
-        font-size: 58px;
-    }
+  #section_first .section_content h1 {
+    font-weight: 400;
+    font-size: 58px;
+  }
 
-    #apartments_hotel .responsive {
-        padding-left: 30px;
-    }
+  #apartments_hotel .responsive {
+    padding-left: 30px;
+  }
 
-    #apartments_hotel .card-feature {
-        margin-right: 0px !important;
-        width: 12px;
-        object-fit: contain;
+  #apartments_hotel .card-feature {
+    margin-right: 0px !important;
+    width: 12px;
+    object-fit: contain;
+  }
 
-    }
+  #apartments_hotel span,
+  #apartments_hotel sup {
+    font-size: 8px !important;
+  }
 
-    #apartments_hotel span,
-    #apartments_hotel sup {
-        font-size: 8px !important;
-    }
+  #index_page #apartments_hotel span,
+  #index_page #apartments_hotel sup {
+    font-size: 12px !important;
+  }
 
-    #index_page #apartments_hotel span,
-    #index_page #apartments_hotel sup {
-        font-size: 12px !important;
-    }
+  #index_page #apartments_hotel .card-feature {
+    margin-right: 6px !important;
+    width: 18px;
+    object-fit: contain;
+  }
 
-    #index_page #apartments_hotel .card-feature {
-        margin-right: 6px !important;
-        width: 18px;
-        object-fit: contain;
+  #apartments_hotel .card-text {
+    font-size: 10px !important;
+  }
 
-    }
+  .favourite {
+    padding-left: 163px;
+  }
 
-    #apartments_hotel .card-text {
-        font-size: 10px !important;
-    }
+  #apartments_hotel .select2 .current,
+  #apartments_hotel .select2 .list .option {
+    font-size: 15px !important;
+    font-weight: 300 !important;
+  }
 
-    .favourite {
-        padding-left: 163px;
-    }
+  #deine_favoriten .card {
+    width: 100% !important;
+    padding-right: 0;
+    padding-left: 0;
+  }
 
-    #apartments_hotel .select2 .current,
-    #apartments_hotel .select2 .list .option {
-        font-size: 15px !important;
-        font-weight: 300 !important;
-    }
+  #section_first .section_content form label {
+    font-size: 20px !important;
+  }
 
-    #deine_favoriten .card {
-        width: 100% !important;
-        padding-right: 0;
-        padding-left: 0;
-    }
+  #section_first .section_content form input {
+    font-size: 18px !important;
+  }
 
-    #section_first .section_content form label {
-        font-size: 20px !important;
-    }
+  #section_first .section_content form .location {
+    width: 23%;
+    margin-left: auto;
+  }
 
-    #section_first .section_content form input {
-        font-size: 18px !important;
-    }
+  #section_first .section_content form .check-in {
+    width: 17%;
+  }
 
-    #section_first .section_content form .location {
-        width: 23%;
-        margin-left: auto;
-    }
+  #section_first .section_content form .check-out {
+    width: 17%;
+  }
 
-    #section_first .section_content form .check-in {
-        width: 17%;
-    }
+  #section_first .section_content form .gaste {
+    width: 12%;
+  }
 
-    #section_first .section_content form .check-out {
-        width: 17%;
-    }
+  .ps-0,
+  .pe-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 
-    #section_first .section_content form .gaste {
-        width: 12%;
-    }
+  .slick-next {
+    margin-right: -15px !important;
+  }
 
-    .ps-0,
-    .pe-0 {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
+  .slick-prev {
+    margin-left: -20px !important;
+  }
 
-    .slick-next {
-        margin-right: -15px !important;
-    }
+  #buchungen .favoriten {
+    font-size: 18px;
+  }
 
-    .slick-prev {
-        margin-left: -20px !important;
-    }
+  #zahlungsinformationen label {
+    font-size: 16px;
+  }
 
-    #buchungen .favoriten {
-        font-size: 18px;
-    }
+  #zahlungsinformationen p {
+    font-size: 13px;
+  }
 
-    #zahlungsinformationen label {
-        font-size: 16px;
-    }
+  .px-15-1199 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
 
-    #zahlungsinformationen p {
-        font-size: 13px;
-    }
+  .px-0-1199 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 
-    .px-15-1199 {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
+  #details span {
+    font-size: 18px;
+  }
 
-    .px-0-1199 {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
+  #swiss_star_tower .form,
+  #swiss_star_tower .prices {
+    padding: 20px;
+  }
 
-    #details span {
-        font-size: 18px;
-    }
+  #swiss_star_tower .form .calendar .card-body {
+    margin-left: -279px;
+  }
 
-    #swiss_star_tower .form,
-    #swiss_star_tower .prices {
-        padding: 20px;
-    }
+  .verfügbare_apartments .third,
+  .verfügbare_apartments .studio {
+    padding-top: 16px;
+  }
 
-    #swiss_star_tower .form .calendar .card-body {
-        margin-left: -279px;
-    }
+  .verfügbare_apartments .third p {
+    font-size: 14px;
+  }
 
-    .verfügbare_apartments .third,
-    .verfügbare_apartments .studio {
-        padding-top: 16px;
-    }
+  .verfügbare_apartments .studio .s_title {
+    font-size: 19px;
+  }
 
-    .verfügbare_apartments .third p {
-        font-size: 14px;
-    }
+  .verfügbare_apartments .studio .s_para {
+    font-size: 15px;
+  }
 
-    .verfügbare_apartments .studio .s_title {
-        font-size: 19px;
-    }
+  .verfügbare_apartments .nacht {
+    padding-top: 50px;
+  }
 
-    .verfügbare_apartments .studio .s_para {
-        font-size: 15px;
-    }
+  .verfügbare_apartments .btn {
+    margin-top: 0px;
+    font-size: 11px;
+  }
 
-    .verfügbare_apartments .nacht {
-        padding-top: 50px;
-    }
+  #buchungsbestätigung span {
+    font-size: 12px;
+  }
 
-    .verfügbare_apartments .btn {
-        margin-top: 0px;
-        font-size: 11px;
-    }
+  #buchungsbestätigung .card-feature {
+    margin-left: 0 !important;
+  }
 
-    #buchungsbestätigung span {
-        font-size: 12px;
-    }
+  .img_text {
+    right: 30px;
+  }
 
-    #buchungsbestätigung .card-feature {
-        margin-left: 0 !important;
-    }
-
-    .img_text {
-        right: 30px;
-    }
-
-    .apartment-items {
-        width: calc(69% + 69px);
-    }
+  .apartment-items {
+    width: calc(69% + 69px);
+  }
 }
 
 /*TODO: min 1200*/
 @media only screen and (max-width: 1200px) {
+  .pt-150 {
+    padding-top: 150px !important;
+  }
 
-    .pt-150 {
-        padding-top: 150px !important;
-    }
+  #buchungen .apartment_1 h3 {
+    font-size: 21px;
+  }
 
-    #buchungen .apartment_1 h3 {
-        font-size: 21px;
-    }
-
-    /* #checkout #zahlungsinformationen .container .card.rounded-card {
+  /* #checkout #zahlungsinformationen .container .card.rounded-card {
         border-radius: 1rem !important;
         border: 1px solid #023E8A;
     }
@@ -3396,1224 +3442,1276 @@ button:focus #cal_apartments button:focus,
     #checkout #zahlungsinformationen .container button {
         border-radius: 1rem !important;
         /* height: 30px; */
-        /* width: 100%; */
-        /* padding: 1rem; */
-    /* } */ 
+  /* width: 100%; */
+  /* padding: 1rem; */
+  /* } */
 }
 
 /*TODO: 1023*/
 @media only screen and (max-width: 1023px) {
-    #apartments_hotel .responsive {
-        padding-left: 110px;
-    }
+  #apartments_hotel .responsive {
+    padding-left: 110px;
+  }
 
-    .slick-next,
-    .slick-prev {
-        margin-right: 0 !important;
-        margin-left: 0 !important;
-    }
+  .slick-next,
+  .slick-prev {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
 
-    #buchungsbestätigung span {
-        font-size: 8px;
-    }
+  #buchungsbestätigung span {
+    font-size: 8px;
+  }
 
-    #buchungsbestätigung .card {
-        width: 100% !important;
+  #buchungsbestätigung .card {
+    width: 100% !important;
+  }
 
-    }
-
-    #section_first .section_content form .gaste .card-body {
-        width: 275px !important;
-    }
+  #section_first .section_content form .gaste .card-body {
+    width: 275px !important;
+  }
 }
 
 /*TODO: 992*/
 @media only screen and (max-width: 992px) {
+  #header .nav-item.register-button-nav {
+    background-color: #023e8a;
+    /* margin-right: 355px; */
+    position: relative;
+    left: -15px;
+    padding-left: 20px;
+  }
 
-    #header .nav-item.register-button-nav {
-        background-color: #023E8A;
-        /* margin-right: 355px; */
-        position: relative;
-        left: -15px;
-        padding-left: 20px;
-    }
+  #header .nav-item.register-button {
+    background-color: #fff;
+    /* margin-right: 355px; */
+    position: relative;
+    left: -15px;
+    padding-left: 20px;
+  }
 
-    #header .nav-item.register-button {
-        background-color: #fff;
-        /* margin-right: 355px; */
-        position: relative;
-        left: -15px;
-        padding-left: 20px;
-    }
+  #apartments_hotel .responsive {
+    padding-left: 24px;
+  }
 
-    #apartments_hotel .responsive {
-        padding-left: 24px;
-    }
+  #apartments_hotel {
+    padding-left: 0px;
+  }
 
-    #apartments_hotel {
-        padding-left: 0px;
-    }
+  #apartments #apartments_hotel {
+    padding-left: 9px;
+  }
 
-    #apartments #apartments_hotel {
-        padding-left: 9px;
-    }
+  #apartments_hotel .card-feature {
+    width: 20px;
+    height: auto;
+    margin-right: 10px !important;
+    object-fit: contain;
+  }
 
-    #apartments_hotel .card-feature {
-        width: 20px;
-        height: auto;
-        margin-right: 10px !important;
-        object-fit: contain;
+  #apartments_hotel span,
+  #apartments_hotel sup {
+    font-size: 11px !important;
+  }
 
-    }
+  #apartments_hotel .card-text {
+    font-size: 15px !important;
+  }
 
-    #apartments_hotel span,
-    #apartments_hotel sup {
-        font-size: 11px !important;
-    }
+  .favourite {
+    position: absolute;
+    right: 8%;
+    top: 0;
+  }
 
-    #apartments_hotel .card-text {
-        font-size: 15px !important;
-    }
-
-    .favourite {
-        position: absolute;
-        right: 8%;
-        top: 0;
-    }
-
-    /* #apartments .card {
+  /* #apartments .card {
         width: 95% !important;
         margin: auto;
     } */
 
-    #apartments_hotel .card-img-top {
-        width: 100.01%;
-    }
+  #apartments_hotel .card-img-top {
+    width: 100.01%;
+  }
 
-    #deine_favoriten #apartments_hotel .card .star {
-        top: 29%;
-    }
+  #deine_favoriten #apartments_hotel .card .star {
+    top: 29%;
+  }
 
-    .h1 {
-        font-size: 60px !important;
-    }
+  .h1 {
+    font-size: 60px !important;
+  }
 
-    #section_first .section_content h1 {
-        font-size: 44px !important;
-    }
+  #section_first .section_content h1 {
+    font-size: 44px !important;
+  }
 
-    .h2 {
-        font-size: 25px !important;
-    }
+  .h2 {
+    font-size: 25px !important;
+  }
 
-    #section_first {
-        /* height: calc(1200px - 150px); */
-        height: 800px !important
-    }
+  #section_first {
+    /* height: calc(1200px - 150px); */
+    height: 800px !important;
+  }
 
-    #section_first .section_content .list-group-item {
-        font-size: 15px;
-    }
+  #section_first .section_content .list-group-item {
+    font-size: 15px;
+  }
 
-    .slick-next {
-        margin-right: -10px !important;
-    }
+  .slick-next {
+    margin-right: -10px !important;
+  }
 
-    .slick-prev {
-        margin-left: -20px !important;
-    }
+  .slick-prev {
+    margin-left: -20px !important;
+  }
 
-    #section_first .d-flex {
-        flex-direction: column;
-        justify-content: center;
-    }
+  #section_first .d-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    #section_first .section_content {
-        padding-bottom: 600px;
-    }
+  #section_first .section_content {
+    padding-bottom: 600px;
+  }
 
-    #section_first .section_content form .location,
-    #section_first .section_content form .check-in,
-    #section_first .section_content form .check-out,
-    #section_first .section_content form .gaste {
-        width: 80%;
-        margin: auto !important;
-    }
+  #section_first .section_content form .location,
+  #section_first .section_content form .check-in,
+  #section_first .section_content form .check-out,
+  #section_first .section_content form .gaste {
+    width: 80%;
+    margin: auto !important;
+  }
 
-    #section_first .section_content form .gaste .collapse {
-        width: 100%;
-    }
+  #section_first .section_content form .gaste .collapse {
+    width: 100%;
+  }
 
-    #section_first .section_content form .gaste .card {
-        width: 76% !important;
-    }
+  #section_first .section_content form .gaste .card {
+    width: 76% !important;
+  }
 
-    #section_first form .gaste .card .d-flex {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  #section_first form .gaste .card .d-flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    #section_first .section_content form label {
-        margin-right: auto;
-    }
+  #section_first .section_content form label {
+    margin-right: auto;
+  }
 
-    #section_first .section_content form .btn,
-    #section_first .section_content form .btn button {
-        width: 100%;
-        border-radius: 80px;
-        height: 70px;
-        margin-bottom: 40px;
-    }
+  #section_first .section_content form .btn,
+  #section_first .section_content form .btn button {
+    width: 100%;
+    border-radius: 80px;
+    height: 70px;
+    margin-bottom: 40px;
+  }
 
-    #swiss_star_tower .form .calendar .ui-widget-content {
-        width: 60px;
-    }
+  #swiss_star_tower .form .calendar .ui-widget-content {
+    width: 60px;
+  }
 
-    #swiss_star_tower .form .calendar .card-body {
-        margin-left: -216px;
-    }
+  #swiss_star_tower .form .calendar .card-body {
+    margin-left: -216px;
+  }
 
-    #section_first .d-block-1023 {
-        position: absolute !important;
-        top: calc(880px - 450px);
-        background-color: #f9f9f9;
-        width: 90%;
-        padding: 30px 20px !important;
-        border-radius: 50px;
-    }
+  #section_first .d-block-1023 {
+    position: absolute !important;
+    top: calc(880px - 450px);
+    background-color: #f9f9f9;
+    width: 90%;
+    padding: 30px 20px !important;
+    border-radius: 50px;
+  }
 
-    .px-0-992 {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
+  .px-0-992 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 
-    .d-block-992 {
-        display: block;
-    }
+  .d-block-992 {
+    display: block;
+  }
 
-    .d-none-992 {
-        display: none;
-    }
+  .d-none-992 {
+    display: none;
+  }
 
-    .footer-content h4 {
-        font-size: 30px;
-    }
+  .footer-content h4 {
+    font-size: 30px;
+  }
 
-    .footer-content p {
-        font-size: 15px;
-    }
+  .footer-content p {
+    font-size: 15px;
+  }
 
-    footer .social,
-    .footer-content p {
-        text-align: center;
-    }
+  footer .social,
+  .footer-content p {
+    text-align: center;
+  }
 
-    footer .social a {
-        font-size: 30px;
-        padding: 5px;
-    }
+  footer .social a {
+    font-size: 30px;
+    padding: 5px;
+  }
 
-    #details span {
-        font-size: 13px;
-    }
+  #details span {
+    font-size: 13px;
+  }
 
-    #details .permbajtja,
-    #buchungsbestätigung .card-text {
-        font-size: 13px;
-    }
+  #details .permbajtja,
+  #buchungsbestätigung .card-text {
+    font-size: 13px;
+  }
 
-    #buchungen .empfohlen h1 {
-        font-size: 20px;
-    }
+  #buchungen .empfohlen h1 {
+    font-size: 20px;
+  }
 
-    #buchungen #apartments_hotel .card-text {
-        font-size: 11px !important;
-    }
+  #buchungen #apartments_hotel .card-text {
+    font-size: 11px !important;
+  }
 
-    #buchungen #apartments_hotel span,
-    #buchungen #apartments_hotel sup {
-        font-size: 7px !important;
-    }
+  #buchungen #apartments_hotel span,
+  #buchungen #apartments_hotel sup {
+    font-size: 7px !important;
+  }
 
-    #buchungen #apartments_hotel .card-feature {
-        width: 12px !important;
-        margin-right: 1px !important;
-        object-fit: contain;
-    }
+  #buchungen #apartments_hotel .card-feature {
+    width: 12px !important;
+    margin-right: 1px !important;
+    object-fit: contain;
+  }
 
-    #buchungen #apartments_hotel h3,
-    #buchungen .col-md-8 h1 {
-        font-size: 48px;
-        padding-left: 0px;
-    }
+  #buchungen #apartments_hotel h3,
+  #buchungen .col-md-8 h1 {
+    font-size: 48px;
+    padding-left: 0px;
+  }
 
-    #buchungen .col-md-8 .buchungsnummer h1,
-    #buchungen .col-md-8 .buchungsnummer_1 h1 {
-        font-size: 36px;
-    }
+  #buchungen .col-md-8 .buchungsnummer h1,
+  #buchungen .col-md-8 .buchungsnummer_1 h1 {
+    font-size: 36px;
+  }
 
-    #buchungsbestätigung h1 {
-        font-size: 36px;
-    }
+  #buchungsbestätigung h1 {
+    font-size: 36px;
+  }
 
-    #buchungsbestätigung label {
-        font-size: 17px;
-    }
+  #buchungsbestätigung label {
+    font-size: 17px;
+  }
 
-    #buchungsbestätigung .card-feature {
-        width: 15px;
-        margin-right: 0 !important;
-    }
+  #buchungsbestätigung .card-feature {
+    width: 15px;
+    margin-right: 0 !important;
+  }
 
-    .verfügbare_apartments .third p {
-        font-size: 10px;
-    }
+  .verfügbare_apartments .third p {
+    font-size: 10px;
+  }
 
-    .verfügbare_apartments .studio .s_title,
-    .verfügbare_apartments .nacht p {
-        font-size: 11px;
-    }
+  .verfügbare_apartments .studio .s_title,
+  .verfügbare_apartments .nacht p {
+    font-size: 11px;
+  }
 
-    .verfügbare_apartments .studio .s_para {
-        font-size: 9px;
-    }
+  .verfügbare_apartments .studio .s_para {
+    font-size: 9px;
+  }
 
-    .verfügbare_apartments .btn {
-        font-size: 8px;
-    }
+  .verfügbare_apartments .btn {
+    font-size: 8px;
+  }
 
-    .verfügbare_apartments .nacht {
-        padding-top: 25px;
-    }
+  .verfügbare_apartments .nacht {
+    padding-top: 25px;
+  }
 
-    .verfügbare_apartments .third {
-        padding: 16px 10px 0 10px;
-    }
+  .verfügbare_apartments .third {
+    padding: 16px 10px 0 10px;
+  }
 
-    .pb-10 {
-        padding-bottom: 10px;
-    }
+  .pb-10 {
+    padding-bottom: 10px;
+  }
 
-    #apa_details .apa p {
-        font-size: 15px;
-    }
+  #apa_details .apa p {
+    font-size: 15px;
+  }
 
-    #apa_details .apa h2 {
-        font-size: 32px;
-        padding-top: 80px;
-    }
+  #apa_details .apa h2 {
+    font-size: 32px;
+    padding-top: 80px;
+  }
 
-    #apa_details .apa h3 {
-        font-weight: 600;
-        font-size: 15px;
-    }
+  #apa_details .apa h3 {
+    font-weight: 600;
+    font-size: 15px;
+  }
 
-    .autocomplete-items {
-        width: calc(80% + 63px);
-        top: calc(54% - 170px);
+  .autocomplete-items {
+    width: calc(80% + 63px);
+    top: calc(54% - 170px);
+  }
 
-    }
+  #section_first .section_content form .gaste .card-body {
+    padding: 20px 10px;
+  }
 
-    #section_first .section_content form .gaste .card-body {
-        padding: 20px 10px;
-    }
+  .nice-select .list {
+    box-shadow: 0 0 0 2px rgb(2 62 138) !important;
+  }
 
-    .nice-select .list {
-        box-shadow: 0 0 0 2px rgb(2 62 138) !important;
-    }
+  .apartment-items {
+    top: calc(11% + 58px);
+    width: calc(68% + 69px);
+  }
 
-    .apartment-items {
-        top: calc(11% + 58px);
-        width: calc(68% + 69px);
-    }
+  #login-register .container {
+    padding-bottom: 3rem;
+  }
 
-    #login-register .container {
-        padding-bottom: 3rem;
-    }
+  #apartments {
+    margin-top: -170px !important;
+  }
 
-    
-    #apartments {
-        margin-top: -170px !important;
-    }
+  #apartments.small-margin-top {
+    margin-top: -240px !important;
+    transition: margin-top 0.3s ease-out;
+  }
 
-    #apartments.small-margin-top {
-        margin-top: -240px !important;
-        transition: margin-top .3s ease-out;
-    }
-
-    #index_page #apartments_hotel {
-        margin-top: 12rem;
-    }
+  #index_page #apartments_hotel {
+    margin-top: 12rem;
+  }
 }
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
-    .favourite {
-        position: absolute;
-        padding-left: 285px;
-        padding-top: 23px;
-    }
+  .favourite {
+    position: absolute;
+    padding-left: 285px;
+    padding-top: 23px;
+  }
 
-    #buchungen .apartment_1 h3 {
-        font-size: 12px;
-    }
+  #buchungen .apartment_1 h3 {
+    font-size: 12px;
+  }
 
-    #swiss_star_tower .form-control {
-        font-size: 13px;
-    }
+  #swiss_star_tower .form-control {
+    font-size: 13px;
+  }
 
-    #buchungen .apartment_1 p {
-        font-size: 8px;
-    }
+  #buchungen .apartment_1 p {
+    font-size: 8px;
+  }
 
-    #buchungen .box {
-        width: 25px;
-        height: 25px;
-    }
+  #buchungen .box {
+    width: 25px;
+    height: 25px;
+  }
 
-    #buchungen .apartment_1 img {
-        height: 50%;
-        width: 35% !important;
-    }
+  #buchungen .apartment_1 img {
+    height: 50%;
+    width: 35% !important;
+  }
 
-    #buchungen .favoriten p {
-        font-size: 13px;
-    }
+  #buchungen .favoriten p {
+    font-size: 13px;
+  }
 
-    #buchungsbestätigung .form-check label {
-        font-size: 12px;
-    }
+  #buchungsbestätigung .form-check label {
+    font-size: 12px;
+  }
 
-    #buchungen .col-md-8 .buch_title {
-        font-size: 44px;
-    }
+  #buchungen .col-md-8 .buch_title {
+    font-size: 44px;
+  }
 
-    #section_first .section_content {
-        top: 15vh !important;
-    }
+  #section_first .section_content {
+    top: 15vh !important;
+  }
 
-    #section_first .section_content form .gaste .card-body {
-        flex-direction: row-reverse !important;
-        margin-left: -650px !important;
-    }
+  #section_first .section_content form .gaste .card-body {
+    flex-direction: row-reverse !important;
+    margin-left: -650px !important;
+  }
 }
 
 /*TODO: 768*/
 @media only screen and (max-width: 768px) {
-    .favourite {
-        position: absolute;
-        padding-top: 23px;
-    }
+  .favourite {
+    position: absolute;
+    padding-top: 23px;
+  }
 
-    #apartments_hotel {
-        padding: 0 9px;
-    }
+  #apartments_hotel {
+    padding: 0 9px;
+  }
 
-    #apartments_hotel h3 {
-        font-size: 35px;
-        margin-top: 50px;
-    }
+  #apartments_hotel h3 {
+    font-size: 35px;
+    margin-top: 50px;
+  }
 
-    #apartments_hotel .responsive {
-        padding-left: 110px;
-    }
+  #apartments_hotel .responsive {
+    padding-left: 110px;
+  }
 
-    .favourite {
-        right: 10%;
-    }
+  .favourite {
+    right: 10%;
+  }
 
-    .h1 {
-        font-size: 35px !important;
-    }
+  .h1 {
+    font-size: 35px !important;
+  }
 
-    .h2 {
-        font-size: 20px !important;
-    }
+  .h2 {
+    font-size: 20px !important;
+  }
 
-    #section_first .section_content h1 {
-        font-size: 32px !important;
-    }
+  #section_first .section_content h1 {
+    font-size: 32px !important;
+  }
 
-    #section_first .section_content h2 {
-        font-size: 18px !important;
-    }
+  #section_first .section_content h2 {
+    font-size: 18px !important;
+  }
 
-    #section_first .section_content {
-        top: 15vh !important;
-        padding-bottom: 500px;
-    }
+  #section_first .section_content {
+    top: 15vh !important;
+    padding-bottom: 500px;
+  }
 
-    #section_first .d-block-1023 {
-        top: calc(969px - 450px);
-    }
+  #section_first .d-block-1023 {
+    top: calc(969px - 450px);
+  }
 
-    #swiss_star_tower .form .calendar .card-body {
-        left: 43%;
-    }
+  #swiss_star_tower .form .calendar .card-body {
+    left: 43%;
+  }
 
-    #section_first .section_content .list-group {
-        display: block;
-        margin-top: 4px;
-        width: 100%;
-    }
+  #section_first .section_content .list-group {
+    display: block;
+    margin-top: 4px;
+    width: 100%;
+  }
 
-    .px-60-768 {
-        padding: 0 60px !important;
-    }
+  .px-60-768 {
+    padding: 0 60px !important;
+  }
 
-    #section_first .section_content .list-group-item {
-        margin-top: 4px;
-        text-align: center;
-        font-size: 18px;
-    }
+  #section_first .section_content .list-group-item {
+    margin-top: 4px;
+    text-align: center;
+    font-size: 18px;
+  }
 
-    #zahlungsinformationen .h3 {
-        font-size: 35px;
-    }
+  #zahlungsinformationen .h3 {
+    font-size: 35px;
+  }
 
-    #login h3,
-    #register h3 {
-        font-size: 25px;
-    }
+  #login h3,
+  #register h3 {
+    font-size: 25px;
+  }
 
-    #login h4,
-    #register h4 {
-        font-size: 20px;
-    }
+  #login h4,
+  #register h4 {
+    font-size: 20px;
+  }
 
-    #login p,
-    #register p {
-        font-size: 16px;
-    }
+  #login p,
+  #register p {
+    font-size: 16px;
+  }
 
-    .d-block-768 {
-        display: block !important;
-    }
+  .d-block-768 {
+    display: block !important;
+  }
 
-    .p-0-768 {
-        padding: 0 !important;
-    }
+  .p-0-768 {
+    padding: 0 !important;
+  }
 
-    .px-10-768 {
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-    }
+  .px-10-768 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
 
-    .pt-90-768 {
-        padding-top: 90px !important;
-    }
+  .pt-90-768 {
+    padding-top: 90px !important;
+  }
 
-    .W-100-768 {
-        width: 100% !important;
-        text-align: center;
-    }
+  .W-100-768 {
+    width: 100% !important;
+    text-align: center;
+  }
 
-    .footer-content h4 {
-        padding-top: 40px;
-        padding-bottom: 0px !important;
-    }
+  .footer-content h4 {
+    padding-top: 40px;
+    padding-bottom: 0px !important;
+  }
 
-    #details span {
-        font-size: 20px;
-        font-weight: 400;
-        color: #292929;
-    }
+  #details span {
+    font-size: 20px;
+    font-weight: 400;
+    color: #292929;
+  }
 
-    #buchungen .col-md-8 {
-        padding-left: 10px;
-    }
+  #buchungen .col-md-8 {
+    padding-left: 10px;
+  }
 
-    #buchungsbestätigung span {
-        font-size: 12px;
-    }
+  #buchungsbestätigung span {
+    font-size: 12px;
+  }
 
-    #buchungsbestätigung .card {
-        width: 276px !important;
-        margin: auto;
-        margin-bottom: 50px;
-    }
+  #buchungsbestätigung .card {
+    width: 276px !important;
+    margin: auto;
+    margin-bottom: 50px;
+  }
 
-    #buchungsbestätigung .col-md-8 {
-        padding-left: 10px;
-    }
+  #buchungsbestätigung .col-md-8 {
+    padding-left: 10px;
+  }
 
-    #buchungen .buchungsnummer,
-    #buchungen .buchungsnummer_1 {
-        padding: 20px 0 0 10px;
-    }
+  #buchungen .buchungsnummer,
+  #buchungen .buchungsnummer_1 {
+    padding: 20px 0 0 10px;
+  }
 
-    #buchungen #apartments_hotel .card-title {
-        font-size: 17px;
-    }
+  #buchungen #apartments_hotel .card-title {
+    font-size: 17px;
+  }
 
-    #buchungen #apartments_hotel .card-text {
-        font-size: 15px !important;
-    }
+  #buchungen #apartments_hotel .card-text {
+    font-size: 15px !important;
+  }
 
-    #buchungen #apartments_hotel span,
-    #buchungen #apartments_hotel sup {
-        font-size: 11px !important;
-    }
+  #buchungen #apartments_hotel span,
+  #buchungen #apartments_hotel sup {
+    font-size: 11px !important;
+  }
 
-    #buchungen #apartments_hotel .card-feature {
-        width: 14px;
-        margin-left: 5px !important;
-        object-fit: contain;
-    }
+  #buchungen #apartments_hotel .card-feature {
+    width: 14px;
+    margin-left: 5px !important;
+    object-fit: contain;
+  }
 
-    .verfügbare_apartments .first {
-        padding-right: 0px;
-    }
+  .verfügbare_apartments .first {
+    padding-right: 0px;
+  }
 
-    .verfügbare_apartments {
-        margin: 0 1px 10px 1px;
-        margin-bottom: 50px;
-    }
+  .verfügbare_apartments {
+    margin: 0 1px 10px 1px;
+    margin-bottom: 50px;
+  }
 
-    .verfügbare_apartments {
-        border-radius: 35px;
-    }
+  .verfügbare_apartments {
+    border-radius: 35px;
+  }
 
-    .verfügbare_apartments .studio .s_title,
-    .verfügbare_apartments .nacht p {
-        font-size: 24px;
-    }
+  .verfügbare_apartments .studio .s_title,
+  .verfügbare_apartments .nacht p {
+    font-size: 24px;
+  }
 
-    .verfügbare_apartments .studio .s_para {
-        font-size: 18px;
-    }
+  .verfügbare_apartments .studio .s_para {
+    font-size: 18px;
+  }
 
-    .verfügbare_apartments .third p {
-        font-size: 18px;
-    }
+  .verfügbare_apartments .third p {
+    font-size: 18px;
+  }
 
-    .verfügbare_apartments .btn {
-        font-size: 14px;
-    }
+  .verfügbare_apartments .btn {
+    font-size: 14px;
+  }
 
-    .verfügbare_apartments .second {
-        padding-left: 0;
-        text-align: center;
-    }
+  .verfügbare_apartments .second {
+    padding-left: 0;
+    text-align: center;
+  }
 
-    .verfügbare_apartments .btn {
-        margin-top: 0;
-        margin-bottom: 20px;
-    }
+  .verfügbare_apartments .btn {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 
-    .verfügbare_apartments .nacht {
-        padding-top: 10px;
-    }
+  .verfügbare_apartments .nacht {
+    padding-top: 10px;
+  }
 
-    #apa_details .apa {
-        padding: 20px;
-        margin: 0 1px;
-        border: 0px;
-        box-shadow: none;
-        -webkit-box-shadow: none;
-    }
+  #apa_details .apa {
+    padding: 20px;
+    margin: 0 1px;
+    border: 0px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
 
-    #apa_details .apa .max_per {
-        font-size: 18px;
-        text-align: center;
+  #apa_details .apa .max_per {
+    font-size: 18px;
+    text-align: center;
+  }
 
-    }
+  #apa_details .apa p {
+    text-align: justify;
+  }
 
-    #apa_details .apa p {
-        text-align: justify;
-    }
+  #apa_details .apa h2 {
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: center;
+  }
 
-    #apa_details .apa h2 {
-        font-size: 40px;
-        padding-top: 10px;
-        text-align: center;
-    }
+  #apa_details .apa h3 {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+  }
 
-    #apa_details .apa h3 {
-        font-weight: 500;
-        font-size: 25px;
-        text-align: center;
-    }
+  .autocomplete-items {
+    top: calc(54% - 170px);
+    left: 12px;
+    width: calc(75% + 63px);
+  }
 
-    .autocomplete-items {
+  #section_first .section_content form div {
+    color: #292929;
+    font-weight: 500;
+    font-size: 25px;
+  }
 
-        top: calc(54% - 170px);
-        left: 12px;
-        width: calc(75% + 63px);
+  .autocomplete-items div {
+    padding-left: 50px;
+  }
 
-    }
+  #swiss_star_tower .form-control {
+    font-size: 16px;
+  }
 
-    #section_first .section_content form div {
-        color: #292929;
-        font-weight: 500;
-        font-size: 25px;
-    }
+  #apartments .card,
+  #deine_favoriten .card {
+    width: 267px !important;
+    margin: auto;
+  }
 
-    .autocomplete-items div {
-        padding-left: 50px;
-    }
+  #deine_favoriten #apartments_hotel .card .star {
+    top: 35%;
+  }
 
-    #swiss_star_tower .form-control {
-        font-size: 16px;
-    }
+  #login-register {
+    width: 100%;
+  }
 
-    #apartments .card,
-    #deine_favoriten .card {
-        width: 267px !important;
-        margin: auto;
-    }
-
-    #deine_favoriten #apartments_hotel .card .star {
-        top: 35%;
-    }
-
-    #login-register {
-        width: 100%;
-    }
-
-    section#apartments {
-        margin-top: -350px;
-    }
+  section#apartments {
+    margin-top: -350px;
+  }
 }
 
 /*TODO:576*/
 @media only screen and (max-width: 576px) {
-    #apartments_hotel .responsive {
-        padding-left: 24%;
-    }
+  #apartments_hotel .responsive {
+    padding-left: 24%;
+  }
 
-    #apartments_hotel .d-sm-flex {
-        padding-left: 15px;
-    }
+  #apartments_hotel .d-sm-flex {
+    padding-left: 15px;
+  }
 
-    .slick-next,
-    .slick-prev {
-        margin-left: 20px !important;
-        margin-right: 15px !important;
-    }
+  .slick-next,
+  .slick-prev {
+    margin-left: 20px !important;
+    margin-right: 15px !important;
+  }
 
+  section_first .section_content .container {
+    padding: 0 !important;
+    margin: 0;
+  }
 
-    section_first .section_content .container {
-        padding: 0 !important;
-        margin: 0;
-    }
+  #section_first .section_content h1 {
+    font-size: 26px !important;
+  }
 
-    #section_first .section_content h1 {
-        font-size: 26px !important;
-    }
+  #section_first .section_content h2 {
+    font-size: 15px !important;
+  }
 
-    #section_first .section_content h2 {
-        font-size: 15px !important;
-    }
+  #section_first img {
+    height: 103vh;
+  }
 
-    #section_first img {
-        height: 103vh;
-    }
-
-    /* #index_page #ui-datepicker-div {
+  /* #index_page #ui-datepicker-div {
         left: 135px;
         z-index: 1;
         width: 70% !important;
     } */
 
-    #zahlungsinformationen .h3 {
-        font-size: 30px;
-    }
+  #zahlungsinformationen .h3 {
+    font-size: 30px;
+  }
 
-    #zahlungsinformationen .icon {
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
-    }
+  #zahlungsinformationen .icon {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
 
-    #zahlungsinformationen .icon img {
-        width: 80%;
-        height: auto;
-    }
+  #zahlungsinformationen .icon img {
+    width: 80%;
+    height: auto;
+  }
 
-    .px-20-576 {
-        padding: 0 20px;
-    }
+  .px-20-576 {
+    padding: 0 20px;
+  }
 
-    .px-10-576 {
-        padding: 0 10px;
-    }
+  .px-10-576 {
+    padding: 0 10px;
+  }
 
-    .px-10-576-i {
-        padding: 0 10px !important;
-    }
+  .px-10-576-i {
+    padding: 0 10px !important;
+  }
 
-    #buchungsbestätigung h1 {
-        font-size: 30px;
-    }
+  #buchungsbestätigung h1 {
+    font-size: 30px;
+  }
 
-    #in_der_nahe .restaurants p {
-        font-size: 15px;
-    }
+  #in_der_nahe .restaurants p {
+    font-size: 15px;
+  }
 
-    #bewertungen .rew {
-        flex-flow: column;
-    }
+  #bewertungen .rew {
+    flex-flow: column;
+  }
 
-    #bewertungen .weitere a {
-        font-size: 15px;
-    }
+  #bewertungen .weitere a {
+    font-size: 15px;
+  }
 
-    #swiss_star_tower .swiss_title {
-        font-size: 40px;
-    }
+  #swiss_star_tower .swiss_title {
+    font-size: 40px;
+  }
 
-    #buchungen .col-md-8 .buch_title {
-        font-size: 38px;
-        padding-top: 60px;
-    }
+  #buchungen .col-md-8 .buch_title {
+    font-size: 38px;
+    padding-top: 60px;
+  }
 
-    #review_page h1 {
-        font-size: 32px;
-    }
+  #review_page h1 {
+    font-size: 32px;
+  }
 
-    #review_page .app_room {
-        font-size: 16px;
-    }
+  #review_page .app_room {
+    font-size: 16px;
+  }
 
-    .res_name p {
-        font-size: 15px !important;
-        padding-right: 10px !important;
-    }
+  .res_name p {
+    font-size: 15px !important;
+    padding-right: 10px !important;
+  }
 
-    .stars {
-        font-size: 15px !important;
-    }
+  .stars {
+    font-size: 15px !important;
+  }
 
-    #review_page {
-        padding: 50px 20px;
-    }
+  #review_page {
+    padding: 50px 20px;
+  }
 
-    #review_page textarea {
-        height: 100px;
-    }
+  #review_page textarea {
+    height: 100px;
+  }
 
-    #review_page button {
-        font-size: 14px !important;
-    }
+  #review_page button {
+    font-size: 14px !important;
+  }
 
-    #swiss_star_tower .form .calendar .card-body {
-        left: 43%;
-    }
+  #swiss_star_tower .form .calendar .card-body {
+    left: 43%;
+  }
 
-    #index_page #ui-datepicker-div {
-        left: 37.2656px !important;
-    }
+  #index_page #ui-datepicker-div {
+    left: 37.2656px !important;
+  }
 
-    #cal_apartments .daterangepicker {
-        left: 12px !important;
-        width: auto;
-    }
+  #cal_apartments .daterangepicker {
+    left: 12px !important;
+    width: auto;
+  }
 
-    #cal_apartments .daterangepicker .drp-calendar.left .month {
-        position: absolute;
-        right: 20px;
-    }
+  #cal_apartments .daterangepicker .drp-calendar.left .month {
+    position: absolute;
+    right: 20px;
+  }
 
-    #cal_apartments .daterangepicker .drp-calendar {
-        max-width: 100%;
-    }
+  #cal_apartments .daterangepicker .drp-calendar {
+    max-width: 100%;
+  }
 
-    #cal_apar .daterangepicker {
-        left: 36px !important;
-        width: 83%;
-    }
+  #cal_apar .daterangepicker {
+    left: 36px !important;
+    width: 83%;
+  }
 
-    #cal_apar .daterangepicker .drp-calendar.right,
-    #cal_apar .daterangepicker .drp-calendar.left {
-        width: 100%;
-    }
+  #cal_apar .daterangepicker .drp-calendar.right,
+  #cal_apar .daterangepicker .drp-calendar.left {
+    width: 100%;
+  }
 
-    #cal_apar .daterangepicker .drp-calendar.left .month {
-        position: absolute;
-        right: 20px;
-    }
+  #cal_apar .daterangepicker .drp-calendar.left .month {
+    position: absolute;
+    right: 20px;
+  }
 
-    #cal_apar .daterangepicker .drp-calendar {
-        max-width: 100%;
-    }
+  #cal_apar .daterangepicker .drp-calendar {
+    max-width: 100%;
+  }
 
-    #after_registry .after_registry {
-        padding: 50px 20px;
-    }
+  #after_registry .after_registry {
+    padding: 50px 20px;
+  }
 
-    #login-register {
-        width: 100%;
-    }
+  #login-register {
+    width: 100%;
+  }
 
-    #login-register .container {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-
+  #login-register .container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 575px) {
-    .pl-10-575 {
-        padding-left: 10px;
-    }
+  .pl-10-575 {
+    padding-left: 10px;
+  }
 
-    #Unser_Service .br-5 {
-        border-left: 5px solid #023E8A;
-        padding-left: 30px;
-        padding-right: 100px;
-    }
+  #Unser_Service .br-5 {
+    border-left: 5px solid #023e8a;
+    padding-left: 30px;
+    padding-right: 100px;
+  }
 
-    #buchungsbestätigung1 .col-xs-12 {
-        width: 100% !important;
-    }
-    
-    #section_first img {
-        height: 900px;
-    }
+  #buchungsbestätigung1 .col-xs-12 {
+    width: 100% !important;
+  }
 
-    body#index_page #ui-datepicker-div {
-        width: 85% !important;
-        left: 86px !important;
-    }
+  #section_first img {
+    height: 900px;
+  }
 
-    #index_page #apartments_hotel span, #index_page #apartments_hotel sup {
-        font-size: 9px !important;
-    }
+  body#index_page #ui-datepicker-div {
+    width: 85% !important;
+    left: 86px !important;
+  }
 
-    @media only screen and (max-width: 768px) {
-        /* #section_first .section_content {
+  #index_page #apartments_hotel span,
+  #index_page #apartments_hotel sup {
+    font-size: 9px !important;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* #section_first .section_content {
             padding-bottom: 450px !important;
         } */
-    
-        #section_first .section_content form>div {
-            position: relative;
-            top: 250px;
-        }
-    
-        #section_first .section_content form .d-flex {
-            margin-top: 150px;
-        }
-    
-        #section_first .section_content .list-group {
-            display: block;
-            margin-top: 25px;
-            width: 100%;
-        }
-    
-        #section_first .section_content ul.list-group {
-            display: none;
-        }
-    
-        #section_first img {
-            height: 900px;
-        }
-    
-        #buchungsbestätigung1 .col-sm-12 .card {
-            width: 100% !important;
-        }
-    
-        #apartments {
-            margin-top: -460px !important;
-        }
-    
-        #apartments.small-margin-top {
-            margin-top: -560px !important;
-            transition: margin-top .3s ease-out;
-        }
-    
+
+    #section_first .section_content form > div {
+      position: relative;
+      top: 250px;
     }
+
+    #section_first .section_content form .d-flex {
+      margin-top: 150px;
+    }
+
+    #section_first .section_content .list-group {
+      display: block;
+      margin-top: 25px;
+      width: 100%;
+    }
+
+    #section_first .section_content ul.list-group {
+      display: none;
+    }
+
+    #section_first img {
+      height: 900px;
+    }
+
+    #buchungsbestätigung1 .col-sm-12 .card {
+      width: 100% !important;
+    }
+
+    #apartments {
+      margin-top: -460px !important;
+    }
+
+    #apartments.small-margin-top {
+      margin-top: -560px !important;
+      transition: margin-top 0.3s ease-out;
+    }
+  }
 }
 
 @media only screen and (max-width: 475px) {
-    #apartments_hotel .responsive {
-        padding-left: 19%;
-    }
+  #apartments_hotel .responsive {
+    padding-left: 19%;
+  }
 }
 
 @media only screen and (max-width: 450px) {
-    #apartments_hotel .responsive {
-        padding-left: 10%;
-    }
+  #apartments_hotel .responsive {
+    padding-left: 10%;
+  }
 
-    #swiss_star_tower .form .calendar .card-body {
-        left: 63%;
-    }
+  #swiss_star_tower .form .calendar .card-body {
+    left: 63%;
+  }
 }
 
 @media only screen and (max-width: 375px) {
-    #index_page #ui-datepicker-div {
-        left: 26.2656px !important;
-    }
+  #index_page #ui-datepicker-div {
+    left: 26.2656px !important;
+  }
 }
 
 #header:not(.home-header) {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 @media only screen and (max-width: 768px) {
+  #apartments {
+    margin-top: -350px !important;
+  }
 
-    #apartments {
-        margin-top: -350px !important;
-    }
+  #apartments.small-margin-top {
+    margin-top: -420px !important;
+    transition: margin-top 0.3s ease-out;
+  }
 
-    #apartments.small-margin-top {
-        margin-top: -420px !important;
-        transition: margin-top .3s ease-out;
-    }
+  #swiss_star_tower #details {
+    margin-top: -100px;
+  }
 
-    
-    #swiss_star_tower #details {
-        margin-top: -100px;
-    }
-    
-    section#lokation.container.pt-100 {
-        margin-top: -90px !important;
-    }
+  section#lokation.container.pt-100 {
+    margin-top: -90px !important;
+  }
 
-    section#buchungsbestätigung1 {
-        margin-top: 40px;
-    }
+  section#buchungsbestätigung1 {
+    margin-top: 40px;
+  }
 
-    footer.pt-150 {
-        padding-top: 0 !important;
-    }
+  footer.pt-150 {
+    padding-top: 0 !important;
+  }
 
-    footer .footer-content {
-        padding-bottom: 0 !important;
-    }
+  footer .footer-content {
+    padding-bottom: 0 !important;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  #apartments .form .calendar .card-body {
+    flex-direction: row-reverse !important;
+    justify-content: space-between;
+    margin-left: -670px !important;
+    width: 96%;
+  }
 
-    #apartments .form .calendar .card-body {
-        flex-direction: row-reverse !important;
-        justify-content: space-between;
-        margin-left: -670px !important;
-        width: 96%;
-    }
-
-    #apartments .form .calendar .card-body .d-flex.bbtn {
-        margin-right: 40px;
-    }
+  #apartments .form .calendar .card-body .d-flex.bbtn {
+    margin-right: 40px;
+  }
 }
-
 
 @media only screen and (min-width: 575px) and (max-width: 768px) {
+  #apartments .form .calendar .ui-widget-content {
+    background-color: #023e8a;
+    color: #fff;
+    width: 20px;
+  }
 
-    #apartments .form .calendar .ui-widget-content {
-        background-color: #023E8A;
-        color: #fff;
-        width: 20px;
-    }
+  #apartments .form .calendar .card-body {
+    flex-direction: row-reverse !important;
+    justify-content: flex-end;
+    margin-left: -500px !important;
+    width: 100% !important;
+  }
 
-    #apartments .form .calendar .card-body {
-        flex-direction: row-reverse !important;
-        justify-content: flex-end;
-        margin-left: -500px !important;
-        width: 100% !important;
-    }
+  #apartments .form .calendar .card-body .d-flex.bbtn {
+    margin-right: 40px;
+  }
 
-    #apartments .form .calendar .card-body .d-flex.bbtn {
-        margin-right: 40px;
-    }
-
-    section#Unser_Service {
-        height: 95rem !important
-    }
+  section#Unser_Service {
+    height: 95rem !important;
+  }
 }
 
-
 @media only screen and (max-width: 575px) {
-    
-    #apartments {
-        margin-top: -400px !important;
-    }
+  #apartments {
+    margin-top: -400px !important;
+  }
 
-    #apartments.small-margin-top {
-        margin-top: -500px !important;
-        transition: margin-top .3s ease-out;
-    }
+  #apartments.small-margin-top {
+    margin-top: -500px !important;
+    transition: margin-top 0.3s ease-out;
+  }
 
-    #section_first .section_content form {
-        margin-top: -200px;
-    }
+  #section_first .section_content form {
+    margin-top: -200px;
+  }
 
-    #section_first .section_content {
-        top: -10vh !important;
-    }
+  #section_first .section_content {
+    top: -10vh !important;
+  }
 
-    #section_first .section_content form .gaste .card-body {
-        height: 260px;
-    }
+  #section_first .section_content form .gaste .card-body {
+    height: 260px;
+  }
 
-    #section_first .section_content form .gaste .card-body .d-flex {
-        margin-top: 10px !important;
-        /* justify-content: space-between !important; */
-    }
+  #section_first .section_content form .gaste .card-body .d-flex {
+    margin-top: 10px !important;
+    /* justify-content: space-between !important; */
+  }
 
-    #apartments .form .calendar .card-body {
-        flex-direction: column !important;
-        justify-content: center;
-        margin-left: -93% !important;
-        width: 93% !important;
-    }
+  #apartments .form .calendar .card-body {
+    flex-direction: column !important;
+    justify-content: center;
+    margin-left: -93% !important;
+    width: 93% !important;
+  }
 
-    #apartments .form .calendar .card-body .hr {
-        height: 2px !important;
-        background-color: #fff !important;
-    }
+  #apartments .form .calendar .card-body .hr {
+    height: 2px !important;
+    background-color: #fff !important;
+  }
 
-    /* #apartments .form .calendar .card-body .d-flex.bbtn {
+  /* #apartments .form .calendar .card-body .d-flex.bbtn {
         margin-right: 40px;
     }  */
 
-    section#Unser_Service {
-        height: 102rem !important;
-        margin-top: -80px;
-    }
+  section#Unser_Service {
+    height: 102rem !important;
+    margin-top: -80px;
+  }
 
-    #apartments_hotel span, #apartments_hotel sup {
-        font-size: 10px !important;
-    }
+  #apartments_hotel span,
+  #apartments_hotel sup {
+    font-size: 10px !important;
+  }
 
-    #anzahl_personen #card_test.card div {
-        justify-content: space-between !important;
-        align-items: center;
-    }
+  #anzahl_personen #card_test.card div {
+    justify-content: space-between !important;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    
-    section#Unser_Service {
-        height: 110rem !important;
-        margin-top: -80px;
-    }
+  section#Unser_Service {
+    height: 110rem !important;
+    margin-top: -80px;
+  }
 
-    #tab-login .d-flex,
-    #tab-registrieren .d-flex {
-        flex-direction: column;
-    }
+  #tab-login .d-flex,
+  #tab-registrieren .d-flex {
+    flex-direction: column;
+  }
 
-    #apartments_hotel .card-text {
-        font-size: 13px !important;
-    }
+  #apartments_hotel .card-text {
+    font-size: 13px !important;
+  }
 
-    #apartments_hotel .card {
-        width: 16rem !important;
-    }
+  #apartments_hotel .card {
+    width: 16rem !important;
+  }
 
-    #index_page #apartments_hotel span, #index_page #apartments_hotel sup {
-        font-size: 9px !important;
-    }
+  #index_page #apartments_hotel span,
+  #index_page #apartments_hotel sup {
+    font-size: 9px !important;
+  }
 
-    #apartments .form .calendar .card-body {
-        flex-direction: column !important;
-        justify-content: center;
-        margin-left: -91% !important;
-        width: 91% !important;
-    }
+  #apartments .form .calendar .card-body {
+    flex-direction: column !important;
+    justify-content: center;
+    margin-left: -91% !important;
+    width: 91% !important;
+  }
 }
-
 
 @media only screen and (max-width: 450px) {
-    
-    section#Unser_Service {
-        height: 117rem !important;
-        margin-top: -80px;
-    }
+  section#Unser_Service {
+    height: 117rem !important;
+    margin-top: -80px;
+  }
 }
-
 
 @media only screen and (max-width: 400px) {
-    
-    section#Unser_Service {
-        height: 125rem !important;
-        margin-top: -80px;
-    }
+  section#Unser_Service {
+    height: 125rem !important;
+    margin-top: -80px;
+  }
 
-    #apartments_hotel .card-text {
-        font-size: 11px !important;
-    }
+  #apartments_hotel .card-text {
+    font-size: 11px !important;
+  }
 
-    #apartments_hotel .card {
-        width: 270px !important;
-    }
+  #apartments_hotel .card {
+    width: 270px !important;
+  }
 
-    #index_page #apartments_hotel span, #index_page #apartments_hotel sup {
-        font-size: 9px !important;
-    }
+  #index_page #apartments_hotel span,
+  #index_page #apartments_hotel sup {
+    font-size: 9px !important;
+  }
 }
 
-input[type=number]::-webkit-outer-spin-button,
-input[type=number]::-webkit-inner-spin-button {
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
-@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
-    body#cal_apartments {
-        margin-bottom: 45rem !important;
-    }
-
-    #cal_apartments .form {
-        width: 100% !important;
-    }
-
-    #section_first .section_content form .gaste .card-body {
-        left: 45rem;
-    }
-
-    div.footer-content {
-        padding-bottom: 40rem !important;
-    }
-
-    .py-5 {
-        padding-bottom: 0 !important
-    }
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation: portrait) {
+  body#cal_apartments {
+    margin-bottom: 45rem !important;
   }
 
-  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-    body#cal_apartments {
-        margin-bottom: 45rem !important;
-    }
-
-    #cal_apartments .form {
-        width: 100% !important;
-    }
-
-    #section_first .section_content form .gaste .card-body {
-        left: 45.5rem;
-    }
-
-    #apartments_hotel .card-text {
-        font-size: 13px !important;
-    }
-
-    #apartments_hotel .card {
-        width: 16rem !important;
-    }
-
-    #index_page #apartments_hotel span, #index_page #apartments_hotel sup {
-        font-size: 9px !important;
-    }
-    
-    div.footer-content {
-        padding-bottom: 20rem !important;
-    }
-
-    section#Unser_Service {
-        height: 75rem !important;
-    }
+  #cal_apartments .form {
+    width: 100% !important;
   }
 
-  .ui-icon, .ui-widget-content .ui-icon, .ui-datepicker-prev span.ui-icon, .ui-datepicker-next span.ui-icon, .ui-datepicker-next {
-      display: flex !important;
+  #section_first .section_content form .gaste .card-body {
+    left: 45rem;
   }
 
-  .ui-widget-header .ui-icon {
-
+  div.footer-content {
+    padding-bottom: 40rem !important;
   }
+
+  .py-5 {
+    padding-bottom: 0 !important;
+  }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  body#cal_apartments {
+    margin-bottom: 45rem !important;
+  }
+
+  #cal_apartments .form {
+    width: 100% !important;
+  }
+
+  #section_first .section_content form .gaste .card-body {
+    left: 45.5rem;
+  }
+
+  #apartments_hotel .card-text {
+    font-size: 13px !important;
+  }
+
+  #apartments_hotel .card {
+    width: 16rem !important;
+  }
+
+  #index_page #apartments_hotel span,
+  #index_page #apartments_hotel sup {
+    font-size: 9px !important;
+  }
+
+  div.footer-content {
+    padding-bottom: 20rem !important;
+  }
+
+  section#Unser_Service {
+    height: 75rem !important;
+  }
+}
+
+.ui-icon,
+.ui-widget-content .ui-icon,
+.ui-datepicker-prev span.ui-icon,
+.ui-datepicker-next span.ui-icon,
+.ui-datepicker-next {
+  display: flex !important;
+}
+
+.ui-widget-header .ui-icon {
+}
+
+/* Loading indicator */
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: rgba(0, 0, 0, 0.7); */
+  /* display: none; */
+}
+
+.loading-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8px;
+  color: #023e8a;
+  font-weight: 600;
+}
+
+@keyframes ldio-v7mev5jxgj {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.ldio-v7mev5jxgj div {
+  position: absolute;
+  animation: ldio-v7mev5jxgj 1s linear infinite;
+  width: 80px;
+  height: 80px;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4.9px 0 0 #023e8a;
+  transform-origin: 40px 42.45px;
+}
+.loadingio-spinner-eclipse-hvcyi36khhp {
+  width: 81px;
+  height: 81px;
+  display: inline-block;
+  overflow: hidden;
+}
+.ldio-v7mev5jxgj {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.81);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-v7mev5jxgj div {
+  box-sizing: content-box;
+}
