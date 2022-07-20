@@ -648,6 +648,7 @@ sup {
   top: calc(100% - 220px);
   left: 12px;
   background-color: #f9f9f9;
+  display: none;
 }
 
 .autocomplete-items {
@@ -661,6 +662,7 @@ sup {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   background-color: #f9f9f9;
+  display: none;
 }
 
 .autocomplete-items div {
@@ -1417,6 +1419,28 @@ footer a {
 
 #cal_apar .nice-select .list {
   box-shadow: 0 0 0 1px rgb(2 62 138);
+  width: 100%;
+  max-height: 12.5rem;
+  height: 12.5rem;
+  overflow-y: auto;
+}
+
+#cal_apar .nice-select .list::-webkit-scrollbar {
+  width: 0.5em;
+  border-radius: 10px;
+}
+
+#cal_apar .nice-select .list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#cal_apar .nice-select .list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#cal_apar .nice-select .list li:hover,
+#cal_apar .nice-select .list li:focus {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 #cal_apar .nice-select .list,
@@ -1485,9 +1509,17 @@ footer a {
 }
 
 #cal_apar .select2 {
-  border: 0px !important;
-  border-bottom: 1px solid #999999 !important;
-  border-radius: unset;
+  margin-top: 10px;
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 10px;
+  font-weight: 300;
+  color: #d8d8d8;
+  opacity: 1;
+  border: 1px solid #023e8a;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
 }
 
 #cal_apar .select2 .current {
@@ -2421,6 +2453,10 @@ footer a {
 .my-30 {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+#apartments_hotel .my-30 {
+  margin-bottom: 2.5rem;
 }
 
 .mt-120 {
@@ -4454,11 +4490,11 @@ button:focus #cal_apartments button:focus,
 
 @media only screen and (max-width: 575px) {
   #apartments {
-    margin-top: -400px !important;
+    margin-top: -380px !important;
   }
 
   #apartments.small-margin-top {
-    margin-top: -500px !important;
+    margin-top: -400px !important;
     transition: margin-top 0.3s ease-out;
   }
 
@@ -4663,7 +4699,7 @@ input[type="number"] {
   justify-content: center;
   align-items: center;
   /* background: rgba(0, 0, 0, 0.7); */
-  /* display: none; */
+  display: none;
 }
 
 .loading-logo {

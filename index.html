@@ -21,6 +21,7 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!-- <link href="css/cards.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="js/nice.select/css/nice-select.css" />
 
 
 </head>
@@ -125,7 +126,7 @@
                         <h1 class="fw-bold h1">in der ganzen Schweiz</h1>
                         <h2 class="h2">Entdecken Sie jetzt über 1'000 Apartments</h2>
                         <h2 class="h2">für Ihren nächsten Aufenthalt in der schönen Schweiz!</h2>
-                        <ul class="list-group list-group-horizontal px-60-768 mt-35">
+                        <!-- <ul class="list-group list-group-horizontal px-60-768 mt-35">
                             <li class="list-group-item" role="button" id="zurich" onClick="selectLocation(this.id)">
                                 Zürich
                             </li>
@@ -141,7 +142,7 @@
                             <li class="list-group-item" role="button" id="ticino" onClick="selectLocation(this.id)">
                                 Ticino
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
 
                     <form action="apartments.html">
@@ -149,8 +150,24 @@
                             <div class="location d-flex flex-column">
                                 <label class="">Lokation</label>
                                 <div class="form-group w-100">
-                                    <input class="form-control" id="location" type="text" autocomplete="off"
-                                        name="location" placeholder="Wo möchtest du hin?">
+                                  <div class="form-group w-100">
+                                    <input
+                                      class="form-control home-location-select"
+                                      id="location home-location-select"
+                                      type="text"
+                                      autocomplete="off"
+                                      name="location"
+                                      placeholder="Wo möchtest du hin?"
+                                      readonly
+                                    />
+                                    <div id="locationautocomplete-list" class="autocomplete-items">
+                                      <div>Zürich (Kanton)<input type="hidden" value="Zürich (Kanton)" /></div>
+                                      <div>Bern (Kanton)<input type="hidden" value="Bern (Kanton)" /></div>
+                                      <div>Luzern (Kanton)<input type="hidden" value="Luzern (Kanton)" /></div>
+                                      <div>Uri (Kanton)<input type="hidden" value="Uri (Kanton)" /></div>
+                                    </div>
+                                    <div id="right_div"></div>
+                                  </div>
                                 </div>
                             </div>
                             <div class="check-in d-flex flex-column">

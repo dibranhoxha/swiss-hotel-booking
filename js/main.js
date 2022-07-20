@@ -539,8 +539,6 @@ $(document).ready(function () {
     var just_check_in = $("#just_check_in")
     var check_in_out = $("#check_in_out")
     var label = $(".label-check-in")
-    console.log(just_check_in)
-    console.log(check_in_out)
     if(checked) {
         label.text("Check in")
         just_check_in.show();
