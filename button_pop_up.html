@@ -23,6 +23,8 @@
 
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/nice.select/css/nice-select.css" />
+
     <style>
         #header ul li:last-child{
             background-color: #ffffff!important;
@@ -301,61 +303,277 @@
                                     <h3>Kontaktdaten</h3>
                                     <p>Bitte geben Sie Ihre Kontakt daten an.</p>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Vorname</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
-                
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Andrede</label>
+                                            <!-- <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off"> -->
+                                            <select
+                                                name="preisa_bsteigend"
+                                                id="mySelect"
+                                                class="form-select select2"
+                                                style="
+                                                border-bottom: 1px solid #999999 !important;
+                                                border-radius: unset;
+                                                width: 100%;
+                                                "
+                                            >
+                                                <option
+                                                    value="0"
+                                                    style="
+                                                        background-color: #023e8a;
+                                                        font-size: 11px;
+                                                        color: white;
+                                                        font-weight: 300;
+                                                    "
+                                                    >
+                                                    Herr
+                                                    </option>
+                                                    <option
+                                                    value="0"
+                                                    style="
+                                                    background-color: #023e8a;
+                                                    font-size: 11px;
+                                                    color: white;
+                                                    font-weight: 300;
+                                                    "
+                                                >
+                                                    Frau
+                                                </option>
+                                         </select>
+                                        </div>
+                                        <!-- <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Vorname</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
+                    
+                                        </div> -->
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Vorname</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
+                    
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Nachname</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
+                    
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Nachname</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
-                
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">E-Mail Adresse</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Ausweiss ID</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Telefonnummer</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Telefonnummer</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
-                
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Adresse / Strasse</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
+                    
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">E-Mail Adresse</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
-                
+                                    <div class="col-md-2">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Ort</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
+                    
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="mb-3 ">
-                                        <h4>Ausweisdokument</h4>
-                                        <button type="button" class="btn"
-                                            style=" background-color: #023E8A; color: #F9F9F9; padding: 13px 63px;">Hochladen</button>
-                                            <br> 
+                                    <div class="col-md-2">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">PLZ</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
+                    
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Geburtstag</label>
-                                        <input type="text" class="form-control"placeholder="dd.mm.jjjj" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
-                
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Adresse / Strasse</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
-                
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">PLZ</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  autocomplete="off">
-                
+                                    <div class="col-md-3">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Land</label>
+                                            <select
+                                                name="preisa_bsteigend"
+                                                id="mySelect"
+                                                class="form-select select2"
+                                                style="
+                                                border-bottom: 1px solid #999999 !important;
+                                                border-radius: unset;
+                                                width: 100%;
+                                                "
+                                            >
+                                                <option
+                                                    value="0"
+                                                    style="
+                                                        background-color: #023e8a;
+                                                        font-size: 11px;
+                                                        color: white;
+                                                        font-weight: 300;
+                                                    "
+                                                    >
+                                                    Schweiz
+                                                    </option>
+                                                    <option
+                                                    value="0"
+                                                    style="
+                                                    background-color: #023e8a;
+                                                    font-size: 11px;
+                                                    color: white;
+                                                    font-weight: 300;
+                                                    "
+                                                >
+                                                    Deutchland
+                                                </option>
+                                                <option
+                                                    value="0"
+                                                    style="
+                                                        background-color: #023e8a;
+                                                        font-size: 11px;
+                                                        color: white;
+                                                        font-weight: 300;
+                                                    "
+                                                    >
+                                                    Schweiz
+                                                    </option>
+                                                    <option
+                                                    value="0"
+                                                    style="
+                                                    background-color: #023e8a;
+                                                    font-size: 11px;
+                                                    color: white;
+                                                    font-weight: 300;
+                                                    "
+                                                >
+                                                    Deutchland
+                                                </option>
+                                                <option
+                                                    value="0"
+                                                    style="
+                                                        background-color: #023e8a;
+                                                        font-size: 11px;
+                                                        color: white;
+                                                        font-weight: 300;
+                                                    "
+                                                    >
+                                                    Schweiz
+                                                    </option>
+                                                    <option
+                                                    value="0"
+                                                    style="
+                                                    background-color: #023e8a;
+                                                    font-size: 11px;
+                                                    color: white;
+                                                    font-weight: 300;
+                                                    "
+                                                >
+                                                    Deutchland
+                                                </option>
+                                                <option
+                                                    value="0"
+                                                    style="
+                                                        background-color: #023e8a;
+                                                        font-size: 11px;
+                                                        color: white;
+                                                        font-weight: 300;
+                                                    "
+                                                    >
+                                                    Schweiz
+                                                    </option>
+                                                    <option
+                                                    value="0"
+                                                    style="
+                                                    background-color: #023e8a;
+                                                    font-size: 11px;
+                                                    color: white;
+                                                    font-weight: 300;
+                                                    "
+                                                >
+                                                    Deutchland
+                                                </option>
+                                                <option
+                                                    value="0"
+                                                    style="
+                                                        background-color: #023e8a;
+                                                        font-size: 11px;
+                                                        color: white;
+                                                        font-weight: 300;
+                                                    "
+                                                    >
+                                                    Schweiz
+                                                    </option>
+                                                    <option
+                                                    value="0"
+                                                    style="
+                                                    background-color: #023e8a;
+                                                    font-size: 11px;
+                                                    color: white;
+                                                    font-weight: 300;
+                                                    "
+                                                >
+                                                    Deutchland
+                                                </option>
+                                                <option
+                                                    value="0"
+                                                    style="
+                                                        background-color: #023e8a;
+                                                        font-size: 11px;
+                                                        color: white;
+                                                        font-weight: 300;
+                                                    "
+                                                    >
+                                                    Schweiz
+                                                    </option>
+                                                    <option
+                                                    value="0"
+                                                    style="
+                                                    background-color: #023e8a;
+                                                    font-size: 11px;
+                                                    color: white;
+                                                    font-weight: 300;
+                                                    "
+                                                >
+                                                    Deutchland
+                                                </option>
+                                                <option
+                                                    value="0"
+                                                    style="
+                                                        background-color: #023e8a;
+                                                        font-size: 11px;
+                                                        color: white;
+                                                        font-weight: 300;
+                                                    "
+                                                    >
+                                                    Schweiz
+                                                    </option>
+                                                    <option
+                                                    value="0"
+                                                    style="
+                                                    background-color: #023e8a;
+                                                    font-size: 11px;
+                                                    color: white;
+                                                    font-weight: 300;
+                                                    "
+                                                >
+                                                    Deutchland
+                                                </option>
+                                         </select>
+                                        </div>
                                     </div>
                                 </div>
                   
