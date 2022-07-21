@@ -2821,6 +2821,74 @@ button:focus #cal_apartments button:focus,
   border-radius: 10px;
 }
 
+/* Loading indicator */
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: rgba(0, 0, 0, 0.7); */
+  /* display: none; */
+}
+
+.loading-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8px;
+  color: #023e8a;
+  font-weight: 600;
+}
+
+@keyframes ldio-v7mev5jxgj {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.ldio-v7mev5jxgj div {
+  position: absolute;
+  animation: ldio-v7mev5jxgj 1s linear infinite;
+  width: 80px;
+  height: 80px;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4.9px 0 0 #023e8a;
+  transform-origin: 40px 42.45px;
+}
+.loadingio-spinner-eclipse-hvcyi36khhp {
+  width: 81px;
+  height: 81px;
+  display: inline-block;
+  overflow: hidden;
+}
+.ldio-v7mev5jxgj {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.81);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-v7mev5jxgj div {
+  box-sizing: content-box;
+}
+
+
 @media only screen and (max-width: 1500px) {
   .modal-content.bg-transparent {
     transform: scale(0.7);
@@ -3917,6 +3985,32 @@ button:focus #cal_apartments button:focus,
   #index_page #apartments_hotel {
     margin-top: 12rem;
   }
+
+  /* Loading indicator */
+
+.loading-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7px;
+  color: #023e8a;
+  font-weight: 600;
+}
+
+.ldio-v7mev5jxgj div {
+  position: absolute;
+  animation: ldio-v7mev5jxgj 1s linear infinite;
+  width: 70px;
+  height: 70px;
+  top: 15px;
+  left: 15px;
+  border-radius: 50%;
+  box-shadow: 0 4.8px 0 0 #023e8a;
+  transform-origin: 35px 37.4px;
+}
+
+
 }
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
@@ -4546,6 +4640,31 @@ button:focus #cal_apartments button:focus,
   footer .footer-content {
     padding-bottom: 0 !important;
   }
+
+    /* Loading indicator */
+
+.loading-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7px;
+  color: #023e8a;
+  font-weight: 600;
+}
+
+.ldio-v7mev5jxgj div {
+  position: absolute;
+  animation: ldio-v7mev5jxgj 1s linear infinite;
+  width: 64px;
+  height: 64px;
+  top: 18px;
+  left: 18px;
+  border-radius: 50%;
+  box-shadow: 0 4.5px 0 0 #023e8a;
+  transform-origin: 32px 34.25px;
+}
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -4640,6 +4759,28 @@ button:focus #cal_apartments button:focus,
   #anzahl_personen #card_test.card div {
     justify-content: space-between !important;
     align-items: center;
+  }
+
+  .loading-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6px;
+    color: #023e8a;
+    font-weight: 600;
+  }
+  
+  .ldio-v7mev5jxgj div {
+    position: absolute;
+    animation: ldio-v7mev5jxgj 1s linear infinite;
+    width: 58px;
+    height: 58px;
+    top: 21px;
+    left: 21px;
+    border-radius: 50%;
+    box-shadow: 0 4.2px 0 0 #023e8a;
+    transform-origin: 29px 31.1px;
   }
 }
 
@@ -4781,69 +4922,3 @@ input[type="number"] {
 .ui-widget-header .ui-icon {
 }
 
-/* Loading indicator */
-
-#overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background: rgba(0, 0, 0, 0.7); */
-  display: none;
-}
-
-.loading-logo {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 8px;
-  color: #023e8a;
-  font-weight: 600;
-}
-
-@keyframes ldio-v7mev5jxgj {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.ldio-v7mev5jxgj div {
-  position: absolute;
-  animation: ldio-v7mev5jxgj 1s linear infinite;
-  width: 80px;
-  height: 80px;
-  top: 10px;
-  left: 10px;
-  border-radius: 50%;
-  box-shadow: 0 4.9px 0 0 #023e8a;
-  transform-origin: 40px 42.45px;
-}
-.loadingio-spinner-eclipse-hvcyi36khhp {
-  width: 81px;
-  height: 81px;
-  display: inline-block;
-  overflow: hidden;
-}
-.ldio-v7mev5jxgj {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transform: translateZ(0) scale(0.81);
-  backface-visibility: hidden;
-  transform-origin: 0 0; /* see note above */
-}
-.ldio-v7mev5jxgj div {
-  box-sizing: content-box;
-}
