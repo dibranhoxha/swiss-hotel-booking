@@ -2742,6 +2742,85 @@ button:focus #cal_apartments button:focus,
   content: "\f00d";
 }
 
+#apartments-empfohlen h1 {
+  font-size: 20px;
+  padding-top: 60px;
+  color: #292929;
+}
+
+#apartments-empfohlen .apartment {
+  box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
+  border-radius: 20px;
+  padding: 20px 15px 20px 15px;
+  margin: 10px 0;
+}
+
+#apartments-empfohlen .apartment_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin-bottom: 10px;
+}
+
+#apartments-empfohlen .apartment_1 img {
+  height: 65%;
+  width: 50%;
+}
+
+#apartments-empfohlen .apartment_1 h3 {
+  font-size: 20px;
+  margin-bottom: 0 !important;
+  font-weight: 400;
+}
+
+#apartments-empfohlen .apartment_1 p {
+  font-size: 12px;
+  color: #292929;
+  font-weight: 300;
+}
+
+#apartments-empfohlen .col-md-8 h1 {
+  padding-bottom: 10px;
+  font-size: 30px;
+  color: #292929;
+  font-weight: 700;
+}
+
+#apartments-empfohlen .buchungsnummer {
+  border: 1px solid #00a553;
+  box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
+  border-radius: 20px;
+  padding: 30px 0 0px 30px;
+  margin: 10px 0;
+  margin-bottom: 30px;
+}
+
+#apartments-empfohlen .buchungsnummer_1 {
+  border: 1px solid #c10000;
+  box-shadow: 0px 0px 12px 3px rgba(199, 198, 198, 0.7);
+  border-radius: 20px;
+  padding: 30px 0 0px 30px;
+  margin: 10px 0;
+  margin-bottom: 30px;
+}
+
+#apartments-empfohlen .buchungsnummer h1,
+#apartments-empfohlen .buchungsnummer_1 h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #292929;
+}
+
+#apartments-empfohlen .box {
+  background-color: #023e8a;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
 @media only screen and (max-width: 1500px) {
   .modal-content.bg-transparent {
     transform: scale(0.7);
@@ -2780,8 +2859,25 @@ button:focus #cal_apartments button:focus,
     padding-top: 15px;
     padding-bottom: 25px;
     border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 0;
     background-color: #f9f9f9;
+    max-height: 16rem;
+    height: 16rem;
+    overflow-y: auto;
+  }
+
+  .autocomplete-items::-webkit-scrollbar {
+    width: 0.3em;
+    border-radius: 10px;
+  }
+
+  .autocomplete-items::-webkit-scrollbar-track {
+    background: #fff;
+  }
+
+  .autocomplete-items::-webkit-scrollbar-thumb {
+    /* background: #023e8a; */
+    background-color: rgba(0, 0, 0, 0.1);
   }
 
   #right_div {
