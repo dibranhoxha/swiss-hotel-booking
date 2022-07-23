@@ -2888,6 +2888,22 @@ button:focus #cal_apartments button:focus,
   box-sizing: content-box;
 }
 
+.autocomplete-items {
+  position: absolute;
+  z-index: 99;
+  top: calc(100% - 10px);
+  left: 12px;
+  width: calc(25% + 63px);
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 0;
+  background-color: #f9f9f9;
+  max-height: 16rem;
+  height: 16rem;
+  overflow-y: auto;
+}
+
 
 @media only screen and (max-width: 1500px) {
   .modal-content.bg-transparent {
@@ -2916,22 +2932,6 @@ button:focus #cal_apartments button:focus,
 
   #section_first .bg_gradient {
     margin-top: -16px !important;
-  }
-
-  .autocomplete-items {
-    position: absolute;
-    z-index: 99;
-    top: calc(100% - 10px);
-    left: 12px;
-    width: calc(25% + 63px);
-    padding-top: 15px;
-    padding-bottom: 25px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 0;
-    background-color: #f9f9f9;
-    max-height: 16rem;
-    height: 16rem;
-    overflow-y: auto;
   }
 
   .autocomplete-items::-webkit-scrollbar {
