@@ -2904,9 +2904,7 @@ button:focus #cal_apartments button:focus,
   overflow-y: auto;
 }
 
-
 @media only screen and (max-width: 1500px) {
-
   .autocomplete-items {
     position: absolute;
     z-index: 99;
@@ -4005,29 +4003,31 @@ button:focus #cal_apartments button:focus,
 
   /* Loading indicator */
 
-.loading-logo {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 7px;
-  color: #023e8a;
-  font-weight: 600;
-}
+  .loading-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7px;
+    color: #023e8a;
+    font-weight: 600;
+  }
 
-.ldio-v7mev5jxgj div {
-  position: absolute;
-  animation: ldio-v7mev5jxgj 1s linear infinite;
-  width: 70px;
-  height: 70px;
-  top: 15px;
-  left: 15px;
-  border-radius: 50%;
-  box-shadow: 0 4.8px 0 0 #023e8a;
-  transform-origin: 35px 37.4px;
-}
+  .ldio-v7mev5jxgj div {
+    position: absolute;
+    animation: ldio-v7mev5jxgj 1s linear infinite;
+    width: 70px;
+    height: 70px;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+    box-shadow: 0 4.8px 0 0 #023e8a;
+    transform-origin: 35px 37.4px;
+  }
 
-
+  #right_div {
+    display: none !important;
+  }
 }
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
@@ -4658,30 +4658,29 @@ button:focus #cal_apartments button:focus,
     padding-bottom: 0 !important;
   }
 
-    /* Loading indicator */
+  /* Loading indicator */
 
-.loading-logo {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 7px;
-  color: #023e8a;
-  font-weight: 600;
-}
+  .loading-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7px;
+    color: #023e8a;
+    font-weight: 600;
+  }
 
-.ldio-v7mev5jxgj div {
-  position: absolute;
-  animation: ldio-v7mev5jxgj 1s linear infinite;
-  width: 64px;
-  height: 64px;
-  top: 18px;
-  left: 18px;
-  border-radius: 50%;
-  box-shadow: 0 4.5px 0 0 #023e8a;
-  transform-origin: 32px 34.25px;
-}
-
+  .ldio-v7mev5jxgj div {
+    position: absolute;
+    animation: ldio-v7mev5jxgj 1s linear infinite;
+    width: 64px;
+    height: 64px;
+    top: 18px;
+    left: 18px;
+    border-radius: 50%;
+    box-shadow: 0 4.5px 0 0 #023e8a;
+    transform-origin: 32px 34.25px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -4787,7 +4786,7 @@ button:focus #cal_apartments button:focus,
     color: #023e8a;
     font-weight: 600;
   }
-  
+
   .ldio-v7mev5jxgj div {
     position: absolute;
     animation: ldio-v7mev5jxgj 1s linear infinite;
@@ -4934,8 +4933,5 @@ input[type="number"] {
 .ui-datepicker-next span.ui-icon,
 .ui-datepicker-next {
   display: flex !important;
-}
-
-.ui-widget-header .ui-icon {
 }
 
